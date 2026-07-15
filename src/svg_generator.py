@@ -113,7 +113,7 @@ def generate_svg(stats, theme='dark'):
     total_ascii_height = len([l for l in ascii_lines if l.strip()]) * line_height
     separator_y = ascii_start_y + total_ascii_height + 20
     
-    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="550" viewBox="0 0 1100 550">
+    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="750" viewBox="0 0 1100 750">
     <!-- ===== تعریف الگوی گرید ===== -->
     <defs>
         <pattern id="grid-small" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -126,9 +126,9 @@ def generate_svg(stats, theme='dark'):
     </defs>
     
     <!-- ===== پس‌زمینه با گرید ===== -->
-    <rect width="1100" height="550" fill="{colors['bg']}" rx="14" ry="14"/>
-    <rect width="1100" height="550" fill="url(#grid-large)" rx="14" ry="14"/>
-    <rect width="1100" height="550" fill="none" stroke="{colors['border']}" stroke-width="1.5" rx="14" ry="14"/>
+    <rect width="1100" height="750" fill="{colors['bg']}" rx="14" ry="14"/>
+    <rect width="1100" height="750" fill="url(#grid-large)" rx="14" ry="14"/>
+    <rect width="1100" height="750" fill="none" stroke="{colors['border']}" stroke-width="1.5" rx="14" ry="14"/>
     
     <style>
         text {{ 
@@ -265,7 +265,7 @@ def generate_svg(stats, theme='dark'):
     <text x="580" y="510" class="value"> {REALLIFE_HOBBIES}</text>
 
         <!-- خط جداکننده افقی -->
-    <line x1="450" y1="530" x2="1060" y2="410" class="separator"/>
+    <line x1="450" y1="530" x2="1060" y2="530" class="separator"/>
     
     <!-- ===== CONTACT ===== -->
     <text x="500" y="555" class="section-title">
@@ -285,9 +285,9 @@ def generate_svg(stats, theme='dark'):
     <text x="635" y="655" class="value"> {INSTAGRAM}</text>
     
     <!-- ===== FOOTER ===== -->
-    <line x1="35" y1="450" x2="960" y2="450" class="separator"/>
+    <line x1="35" y1="700" x2="960" y2="700" class="separator"/>
     
-    <text x="35" y="478" class="footer">
+    <text x="35" y="715" class="footer">
         ╰─ Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} 
         <tspan class="accent-text">♥</tspan>
     </text>
