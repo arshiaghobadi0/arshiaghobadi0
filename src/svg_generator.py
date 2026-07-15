@@ -101,7 +101,7 @@ def generate_svg(stats, theme='dark'):
     <!-- ===== HEADER ===== -->
     <text x="35" y="52" class="header">╭─</text>
     <text x="80" y="52" class="header">{USERNAME}</text>
-    <text x="{len(USERNAME)*14 + 110}" y="52" class="header-sub">// Developer</text>
+    <text x="{len(USERNAME)*14 + 130}" y="52" class="header-sub">// Developer</text>
     
     <!-- خط جداکننده -->
     <line x1="35" y1="65" x2="765" y2="65" class="solid-separator"/>
