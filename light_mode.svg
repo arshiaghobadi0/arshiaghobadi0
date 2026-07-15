@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="680" height="480" viewBox="0 0 680 480">
     <!-- پس‌زمینه اصلی -->
     <rect width="680" height="480" fill="#ffffff" rx="14" ry="14"/>
-    <rect width="680" height="480" fill="none" stroke="#30363d" stroke-width="1.5" rx="14" ry="14"/>
+    <rect width="680" height="480" fill="none" stroke="#d0d7de" stroke-width="1.5" rx="14" ry="14"/>
     
     <style>
         text { 
@@ -9,47 +9,47 @@
         }
         .header { 
             font-size: 26px; 
-            fill: #0366d6; 
+            fill: #0969da; 
             font-weight: 700;
             letter-spacing: 0.5px;
         }
         .header-sub { 
             font-size: 14px; 
-            fill: #8b949e; 
+            fill: #57606a; 
         }
         .label { 
             font-size: 14px; 
-            fill: #f0883e; 
+            fill: #d45a0c; 
             font-weight: 500;
         }
         .value { 
             font-size: 14px; 
-            fill: #24292e; 
+            fill: #24292f; 
         }
         .section-title { 
             font-size: 16px; 
-            fill: #8b949e; 
+            fill: #57606a; 
             font-weight: 700;
             letter-spacing: 0.3px;
         }
         .section-icon {
-            fill: #0366d6;
+            fill: #0969da;
         }
         .separator {
-            stroke: #30363d;
+            stroke: #d0d7de;
             stroke-width: 1;
             stroke-dasharray: 4,4;
         }
         .solid-separator {
-            stroke: #30363d;
+            stroke: #d0d7de;
             stroke-width: 1.5;
         }
         .footer {
             font-size: 11px;
-            fill: #8b949e;
+            fill: #57606a;
         }
         .accent-text {
-            fill: #f78166;
+            fill: #cf222e;
         }
     </style>
     
@@ -130,7 +130,7 @@
     <line x1="28" y1="440" x2="652" y2="440" class="separator"/>
     
     <text x="28" y="462" class="footer">
-        ╰─ updated: 2026-07-15 14:48 
+        ╰─ updated: 2026-07-15 14:49 
         <tspan class="accent-text">♥</tspan>
     </text>
     
