@@ -34,8 +34,10 @@ def generate_svg(stats, theme='dark'):
             'accent': '#cf222e',
             'separator': '#d0d7de',
             'border': '#d0d7de',
-            'card_bg': '#f6f8fa'
+            'card_bg': '#f6f8fa',
+            'grid': '#d0d7de'
         }
+        grid_opacity = '0.25'
     else:  # dark (پیش‌فرض)
         colors = {
             'bg': '#0d1117',
@@ -47,12 +49,28 @@ def generate_svg(stats, theme='dark'):
             'accent': '#f78166',
             'separator': '#30363d',
             'border': '#30363d',
-            'card_bg': '#161b22'
+            'card_bg': '#161b22',
+            'grid': '#30363d'
         }
+        grid_opacity = '0.12'
     
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
-    <!-- پس‌زمینه اصلی -->
+    <!-- ===== تعریف الگوی گرید ===== -->
+    <defs>
+        <!-- گرید ریز (۲۰×۲۰) -->
+        <pattern id="grid-small" width="20" height="20" patternUnits="userSpaceOnUse">
+            <path d="M 20 0 L 0 0 0 20" fill="none" stroke="{colors['grid']}" stroke-width="0.5" stroke-opacity="{grid_opacity}"/>
+        </pattern>
+        <!-- گرید درشت (۱۰۰×۱۰۰) با خطوط پررنگ‌تر -->
+        <pattern id="grid-large" width="100" height="100" patternUnits="userSpaceOnUse">
+            <rect width="100" height="100" fill="url(#grid-small)"/>
+            <path d="M 100 0 L 0 0 0 100" fill="none" stroke="{colors['grid']}" stroke-width="1.2" stroke-opacity="{grid_opacity}"/>
+        </pattern>
+    </defs>
+    
+    <!-- ===== پس‌زمینه با گرید ===== -->
     <rect width="1000" height="500" fill="{colors['bg']}" rx="14" ry="14"/>
+    <rect width="1000" height="500" fill="url(#grid-large)" rx="14" ry="14"/>
     <rect width="1000" height="500" fill="none" stroke="{colors['border']}" stroke-width="1.5" rx="14" ry="14"/>
     
     <style>
@@ -111,7 +129,7 @@ def generate_svg(stats, theme='dark'):
     <text x="{len(USERNAME)*14 + 120}" y="52" class="header-sub">// Developer</text>
     
     <!-- خط جداکننده -->
-    <line x1="35" y1="66" x2="765" y2="66" class="solid-separator"/>
+    <line x1="35" y1="66" x2="960" y2="66" class="solid-separator"/>
     
     <!-- ===== SYSTEM (ستون چپ) ===== -->
     <text x="35" y="100" class="section-title">
@@ -151,7 +169,7 @@ def generate_svg(stats, theme='dark'):
     <text x="635" y="180" class="value"> {REAL_LANGS}</text>
     
     <!-- خط جداکننده -->
-    <line x1="35" y1="270" x2="765" y2="270" class="separator"/>
+    <line x1="35" y1="270" x2="960" y2="270" class="separator"/>
     
     <!-- ===== HOBBIES ===== -->
     <text x="35" y="300" class="section-title">
@@ -164,8 +182,8 @@ def generate_svg(stats, theme='dark'):
     <text x="50" y="355" class="label">Hardware: </text>
     <text x="160" y="355" class="value"> {HARDWARE_HOBBIES}</text>
 
-    <text x="50" y="385" class="label">RealLife: </text>
-    <text x="160" y="385" class="value"> {REALLIFE_HOBBIES}</text>
+    <text x="50" y="380" class="label">RealLife: </text>
+    <text x="160" y="380" class="value"> {REALLIFE_HOBBIES}</text>
     
     <!-- ===== CONTACT ===== -->
     <text x="500" y="300" class="section-title">
@@ -178,14 +196,14 @@ def generate_svg(stats, theme='dark'):
     <text x="515" y="355" class="label">Work: </text>
     <text x="635" y="355" class="value"> {EMAIL_WORK}</text>
     
-    <text x="515" y="385" class="label">LinkedIn: </text>
-    <text x="635" y="385" class="value"> {LINKEDIN}</text>
+    <text x="515" y="380" class="label">LinkedIn: </text>
+    <text x="635" y="380" class="value"> {LINKEDIN}</text>
     
-    <text x="515" y="410" class="label">Instagram: </text>
-    <text x="635" y="410" class="value"> {INSTAGRAM}</text>
+    <text x="515" y="405" class="label">Instagram: </text>
+    <text x="635" y="405" class="value"> {INSTAGRAM}</text>
     
     <!-- ===== FOOTER ===== -->
-    <line x1="35" y1="450" x2="765" y2="450" class="separator"/>
+    <line x1="35" y1="450" x2="960" y2="450" class="separator"/>
     
     <text x="35" y="478" class="footer">
         ╰─ Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} 
