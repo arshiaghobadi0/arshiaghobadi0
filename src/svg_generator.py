@@ -107,7 +107,7 @@ xxxxxxxxxxxXXX88888888808000000000000000+=x=--==+xxxXXX888888888XXxxxX800SSS0088
 xxxxxxxxxxxxXX888888888800000000000000008:=Xx-==++xxXXXXXX8888888x++=+x888088Xx++xxx80000000000888888XXxx=XS0X+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS########
 xxxxxxxxxxxxXX888888800800000000000000000+:+=-===+xxXXXXXX888888Xx=-;:;=xXXX+=:,;==x8808000088888888XXxx+X000SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS#######
 xxxxxxxxxxxxXX8888880000000000000000000000S0x+--=+xxxXXXXX888X88Xx=-;:;::---;;-;;-+X888888888888888XXxxx+88#SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS#######
-xxxxxxxxxxxxXX8888888800000000000000000000S##x====++xxXXXXXXXXXXXXx++-;;;;;;;---=xXX888888888888888Xxxx+X0S#SSSSSSSSS0SSSSSSSSSSSSSSSSSSSSSSSSS######S
+xxxxxxxxxxxxXX8888888800000000000000000000S##x====++xxXXXXXXXXXXXXx++-;;;;;;---=xXX888888888888888Xxxx+X0S#SSSSSSSSS0SSSSSSSSSSSSSSSSSSSSSSSSS######S
 xxxxxxxxxxxxXX888888888000000000000000000SS###x===+++xxxXXxXXxx+===;--;-----------===+xX8XX88888XXXxxx+=x8XSSSSSSSSS00SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
 xxxxxxxxxxxxXX888888888800000000000000000SS###@#x===+xxxXxxx+=====+++xxxxxxxXXXxxx++--;;=xXX888XXXxxxX=;=-8SSSSSSSSS00000000SSSSSSSSSSSSSSSSSSSSSSSSSS
 xxxxxxxxxxxxXX888800000000000000000000000SS#####S+==+++xxxx==-=======+++++xXx+++==-=-;;-=+xXXXXXXXxxXXS0SSSSSSSSSS0000000000000S00S0SSSSSSSSSSSSSSSS#S
@@ -163,11 +163,11 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     # ===== تنظیمات عکس ASCII (سمت چپ، فول سایز) =====
     ascii_lines = ascii_art.strip('\n').split('\n')
     
-    # موقعیت عکس در سمت چپ
-    ascii_start_x = 40      # فاصله از لبه چپ
-    ascii_start_y = 95      # شروع از پایین هدر
-    line_height = 12        # فاصله بین خطوط
-    font_size = 4           # سایز فونت
+    # ===== تنظیمات جدید برای جلوگیری از خروج عکس =====
+    ascii_start_x = 20       # فاصله از لبه چپ (کمتر)
+    ascii_start_y = 85       # شروع از بالاتر
+    line_height = 8          # فاصله کمتر بین خطوط
+    font_size = 4.5          # سایز فونت کوچکتر
     
     ascii_elements = ""
     for i, line in enumerate(ascii_lines):
@@ -177,9 +177,12 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     
     # ===== محاسبه ارتفاع برای تعیین خط جداکننده =====
     total_ascii_height = len([l for l in ascii_lines if l.strip()]) * line_height
-    separator_y = ascii_start_y + total_ascii_height + 20
+    separator_y = ascii_start_y + total_ascii_height + 15
     
-    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="750" viewBox="0 0 1100 750">
+    # ===== تنظیم ارتفاع SVG بر اساس عکس =====
+    svg_height = max(750, separator_y + 80)
+    
+    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="{svg_height}" viewBox="0 0 1100 {svg_height}">
     <!-- ===== تعریف الگوی گرید ===== -->
     <defs>
         <pattern id="grid-small" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -192,9 +195,9 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     </defs>
     
     <!-- ===== پس‌زمینه با گرید ===== -->
-    <rect width="1100" height="750" fill="{colors['bg']}" rx="14" ry="14"/>
-    <rect width="1100" height="750" fill="url(#grid-large)" rx="14" ry="14"/>
-    <rect width="1100" height="750" fill="none" stroke="{colors['border']}" stroke-width="1.5" rx="14" ry="14"/>
+    <rect width="1100" height="{svg_height}" fill="{colors['bg']}" rx="14" ry="14"/>
+    <rect width="1100" height="{svg_height}" fill="url(#grid-large)" rx="14" ry="14"/>
+    <rect width="1100" height="{svg_height}" fill="none" stroke="{colors['border']}" stroke-width="1.5" rx="14" ry="14"/>
     
     <style>
         text {{ 
@@ -249,7 +252,7 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
             font-family: 'Cascadia Code', 'Fira Code', monospace;
             white-space: pre;
             opacity: 0.7;
-            letter-spacing: 0.3px;
+            letter-spacing: 0.2px;
         }}
         .vertical-line {{
             stroke: {colors['separator']};
@@ -270,7 +273,7 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
 {ascii_elements}
     
     <!-- ===== خط جداکننده عمودی ===== -->
-    <line x1="420" y1="85" x2="420" y2="{separator_y + 10}" class="vertical-line"/>
+    <line x1="420" y1="85" x2="420" y2="{separator_y}" class="vertical-line"/>
     
     <!-- ===== اطلاعات (سمت راست) ===== -->
     <!-- SYSTEM -->
@@ -330,7 +333,7 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     <text x="470" y="510" class="label">RealLife: </text>
     <text x="580" y="510" class="value"> {REALLIFE_HOBBIES}</text>
 
-        <!-- خط جداکننده افقی -->
+    <!-- خط جداکننده افقی -->
     <line x1="450" y1="530" x2="1060" y2="530" class="separator"/>
     
     <!-- ===== CONTACT ===== -->
@@ -351,9 +354,9 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     <text x="580" y="655" class="value"> {INSTAGRAM}</text>
     
     <!-- ===== FOOTER ===== -->
-    <line x1="35" y1="990" x2="960" y2="700" class="separator"/>
+    <line x1="35" y1="{svg_height - 40}" x2="1060" y2="{svg_height - 40}" class="separator"/>
     
-    <text x="35" y="715" class="footer">
+    <text x="35" y="{svg_height - 15}" class="footer">
         ╰─ Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} 
         <tspan class="accent-text">♥</tspan>
     </text>
