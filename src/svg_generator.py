@@ -45,8 +45,8 @@ def generate_svg(stats, theme='dark'):
     
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
     <!-- پس‌زمینه اصلی -->
-    <rect width="800" height="500" fill="{colors['bg']}" rx="14" ry="14"/>
-    <rect width="800" height="500" fill="none" stroke="{colors['border']}" stroke-width="1.5" rx="14" ry="14"/>
+    <rect width="1000" height="500" fill="{colors['bg']}" rx="14" ry="14"/>
+    <rect width="1000" height="500" fill="none" stroke="{colors['border']}" stroke-width="1.5" rx="14" ry="14"/>
     
     <style>
         text {{ 
