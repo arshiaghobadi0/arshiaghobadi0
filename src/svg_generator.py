@@ -191,9 +191,8 @@ def generate_svg(stats, theme='dark'):
         ╰─ Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} 
         <tspan class="accent-text">♥</tspan>
     </text>
-    
-</svg>'''
-    '''
+
+        
 ππππππ√√√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≈≈≈≈≈≈≈≈∞∞∞∞∞∞∞≈≈≈≈≈≈≈≈∞   
 πππππ√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≈≈≈∞∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
 πππππ√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
@@ -231,6 +230,7 @@ def generate_svg(stats, theme='dark'):
 
 
 
+
     
-    '''
+</svg>'''
     return svg_content
