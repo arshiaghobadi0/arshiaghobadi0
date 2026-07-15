@@ -151,7 +151,7 @@ def generate_svg(stats, theme='dark'):
     <text x="635" y="180" class="value">...... {REAL_LANGS}</text>
     
     <!-- خط جداکننده -->
-    <line x1="35" y1="260" x2="765" y2="260" class="separator"/>
+    <line x1="35" y1="265" x2="765" y2="265" class="separator"/>
     
     <!-- ===== HOBBIES ===== -->
     <text x="35" y="290" class="section-title">
