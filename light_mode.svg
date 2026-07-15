@@ -70,7 +70,7 @@
     <text x="160" y="130" class="value"> Windows 10, Android 14, Linux's</text>
     
     <text x="50" y="155" class="label">Uptime: </text>
-    <text x="160" y="155" class="value"> 18y 11m 15d 15:56:59</text>
+    <text x="160" y="155" class="value"> 18y 11m 15d 15:59:50</text>
 
     <text x="50" y="180" class="label">University: </text> 
     <text x="160" y="180" class="value"> University of Lorestan</text>
@@ -102,15 +102,18 @@
     <line x1="35" y1="270" x2="765" y2="270" class="separator"/>
     
     <!-- ===== HOBBIES ===== -->
-    <text x="35" y="290" class="section-title">
+    <text x="35" y="300" class="section-title">
         <tspan class="section-icon">■</tspan> HOBBIES
     </text>
     
-    <text x="50" y="320" class="label">Software: </text>
-    <text x="160" y="320" class="value"> Operating System, CLI</text>
+    <text x="50" y="330" class="label">Software: </text>
+    <text x="160" y="330" class="value"> Operating System, CLI</text>
     
-    <text x="50" y="345" class="label">Hardware: </text>
-    <text x="160" y="345" class="value"> Make Stuff, Arduino, Raspberry Pi</text>
+    <text x="50" y="355" class="label">Hardware: </text>
+    <text x="160" y="355" class="value"> Make Stuff, Arduino, Raspberry Pi</text>
+
+    <text x="50" y="365" class="label">Hardware: </text>
+    <text x="160" y="365" class="value"> </text>
     
     <!-- ===== CONTACT ===== -->
     <text x="500" y="290" class="section-title">
@@ -133,7 +136,7 @@
     <line x1="35" y1="450" x2="765" y2="450" class="separator"/>
     
     <text x="35" y="478" class="footer">
-        ╰─ Last Updated: 2026-07-15 15:56 
+        ╰─ Last Updated: 2026-07-15 15:59 
         <tspan class="accent-text">♥</tspan>
     </text>
     
