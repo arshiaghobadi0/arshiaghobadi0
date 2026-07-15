@@ -70,7 +70,7 @@
     <text x="160" y="130" class="value"> Windows 10, Android 14, Linux's</text>
     
     <text x="50" y="155" class="label">Uptime: </text>
-    <text x="160" y="155" class="value"> 18y 11m 15d 15:55:09</text>
+    <text x="160" y="155" class="value"> 18y 11m 15d 15:56:59</text>
 
     <text x="50" y="180" class="label">University: </text> 
     <text x="160" y="180" class="value"> University of Lorestan</text>
@@ -99,7 +99,7 @@
     <text x="635" y="180" class="value"> English(A2), Persian</text>
     
     <!-- خط جداکننده -->
-    <line x1="35" y1="265" x2="765" y2="265" class="separator"/>
+    <line x1="35" y1="270" x2="765" y2="270" class="separator"/>
     
     <!-- ===== HOBBIES ===== -->
     <text x="35" y="290" class="section-title">
@@ -113,27 +113,27 @@
     <text x="160" y="345" class="value"> Make Stuff, Arduino, Raspberry Pi</text>
     
     <!-- ===== CONTACT ===== -->
-    <text x="550" y="290" class="section-title">
+    <text x="500" y="290" class="section-title">
         <tspan class="section-icon">■</tspan> CONTACT
     </text>
     
-    <text x="565" y="320" class="label">Personal: </text>
+    <text x="515" y="320" class="label">Personal: </text>
     <text x="635" y="320" class="value"> arshiaghobadi0@gmail.com</text>
     
-    <text x="565" y="345" class="label">Work: </text>
+    <text x="515" y="345" class="label">Work: </text>
     <text x="635" y="345" class="value"> arshiaghobadi0@gmail.com</text>
     
-    <text x="565" y="370" class="label">LinkedIn: </text>
+    <text x="515" y="370" class="label">LinkedIn: </text>
     <text x="635" y="370" class="value"> arshiaghobadi</text>
     
-    <text x="565" y="395" class="label">Instagram: </text>
+    <text x="515" y="395" class="label">Instagram: </text>
     <text x="635" y="395" class="value"> arshiaghobadi0</text>
     
     <!-- ===== FOOTER ===== -->
     <line x1="35" y1="450" x2="765" y2="450" class="separator"/>
     
     <text x="35" y="478" class="footer">
-        ╰─ Last Updated: 2026-07-15 15:55 
+        ╰─ Last Updated: 2026-07-15 15:56 
         <tspan class="accent-text">♥</tspan>
     </text>
     
