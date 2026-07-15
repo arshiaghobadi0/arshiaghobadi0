@@ -111,7 +111,7 @@ def generate_svg(stats, theme='dark'):
     <text x="{len(USERNAME)*14 + 120}" y="52" class="header-sub">// Developer</text>
     
     <!-- خط جداکننده -->
-    <line x1="35" y1="65" x2="765" y2="65" class="solid-separator"/>
+    <line x1="35" y1="67" x2="765" y2="67" class="solid-separator"/>
     
     <!-- ===== SYSTEM (ستون چپ) ===== -->
     <text x="35" y="100" class="section-title">
@@ -127,14 +127,14 @@ def generate_svg(stats, theme='dark'):
     <text x="50" y="180" class="label">University: </text> 
     <text x="190" y="180" class="value">...... {UNIVERSITY}</text>
     
-    <text x="50" y="180" class="label">Host: </text>
-    <text x="190" y="180" class="value">...... {HOST}</text>
+    <text x="50" y="205" class="label">Host: </text>
+    <text x="190" y="205" class="value">...... {HOST}</text>
     
-    <text x="50" y="205" class="label">Kernel: </text>
-    <text x="190" y="205" class="value">...... {KERNEL}</text>
+    <text x="50" y="230" class="label">Kernel: </text>
+    <text x="190" y="230" class="value">...... {KERNEL}</text>
     
-    <text x="50" y="230" class="label">IDE: </text>
-    <text x="190" y="230" class="value">...... {IDE}</text>
+    <text x="50" y="255" class="label">IDE: </text>
+    <text x="190" y="255" class="value">...... {IDE}</text>
     
     <!-- ===== LANGUAGES (ستون راست) ===== -->
     <text x="550" y="100" class="section-title">
