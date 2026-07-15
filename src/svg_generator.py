@@ -127,17 +127,17 @@ def generate_svg(stats, theme='dark'):
     <text x="190" y="230" class="value">...... {IDE}</text>
     
     <!-- ===== LANGUAGES (ستون راست) ===== -->
-    <text x="500" y="100" class="section-title">
+    <text x="550" y="100" class="section-title">
         <tspan class="section-icon">■</tspan> LANGUAGES
     </text>
     
-    <text x="445" y="130" class="label">Programming</text>
+    <text x="565" y="130" class="label">Programming</text>
     <text x="590" y="130" class="value">...... {PROG_LANGS}</text>
     
-    <text x="445" y="155" class="label">Computer</text>
+    <text x="565" y="155" class="label">Computer</text>
     <text x="590" y="155" class="value">...... {COMPUTER_LANGS}</text>
     
-    <text x="445" y="180" class="label">Real</text>
+    <text x="565" y="180" class="label">Real</text>
     <text x="590" y="180" class="value">...... {REAL_LANGS}</text>
     
     <!-- خط جداکننده -->
@@ -155,20 +155,20 @@ def generate_svg(stats, theme='dark'):
     <text x="190" y="345" class="value">...... {HARDWARE_HOBBIES}</text>
     
     <!-- ===== CONTACT ===== -->
-    <text x="430" y="290" class="section-title">
+    <text x="550" y="290" class="section-title">
         <tspan class="section-icon">■</tspan> CONTACT
     </text>
     
-    <text x="445" y="320" class="label">Personal</text>
+    <text x="565" y="320" class="label">Personal</text>
     <text x="590" y="320" class="value">...... {EMAIL_PERSONAL}</text>
     
-    <text x="445" y="345" class="label">Work</text>
+    <text x="565" y="345" class="label">Work</text>
     <text x="590" y="345" class="value">...... {EMAIL_WORK}</text>
     
-    <text x="445" y="370" class="label">LinkedIn</text>
+    <text x="565" y="370" class="label">LinkedIn</text>
     <text x="590" y="370" class="value">...... {LINKEDIN}</text>
     
-    <text x="445" y="395" class="label">Discord</text>
+    <text x="565" y="395" class="label">Discord</text>
     <text x="590" y="395" class="value">...... {DISCORD}</text>
     
     <!-- ===== FOOTER ===== -->
