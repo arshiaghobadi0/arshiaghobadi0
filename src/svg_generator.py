@@ -132,13 +132,13 @@ def generate_svg(stats, theme='dark'):
     </text>
     
     <text x="565" y="130" class="label">Programming</text>
-    <text x="590" y="130" class="value">...... {PROG_LANGS}</text>
+    <text x="635" y="130" class="value">...... {PROG_LANGS}</text>
     
     <text x="565" y="155" class="label">Computer</text>
-    <text x="590" y="155" class="value">...... {COMPUTER_LANGS}</text>
+    <text x="635" y="155" class="value">...... {COMPUTER_LANGS}</text>
     
     <text x="565" y="180" class="label">Real</text>
-    <text x="590" y="180" class="value">...... {REAL_LANGS}</text>
+    <text x="635" y="180" class="value">...... {REAL_LANGS}</text>
     
     <!-- خط جداکننده -->
     <line x1="35" y1="255" x2="765" y2="255" class="separator"/>
@@ -160,16 +160,16 @@ def generate_svg(stats, theme='dark'):
     </text>
     
     <text x="565" y="320" class="label">Personal</text>
-    <text x="590" y="320" class="value">...... {EMAIL_PERSONAL}</text>
+    <text x="635" y="320" class="value">...... {EMAIL_PERSONAL}</text>
     
     <text x="565" y="345" class="label">Work</text>
-    <text x="590" y="345" class="value">...... {EMAIL_WORK}</text>
+    <text x="635" y="345" class="value">...... {EMAIL_WORK}</text>
     
     <text x="565" y="370" class="label">LinkedIn</text>
-    <text x="590" y="370" class="value">...... {LINKEDIN}</text>
+    <text x="635" y="370" class="value">...... {LINKEDIN}</text>
     
-    <text x="565" y="395" class="label">Discord</text>
-    <text x="590" y="395" class="value">...... {DISCORD}</text>
+    <text x="565" y="395" class="label">Instagram</text>
+    <text x="635" y="395" class="value">...... {INSTAGRAM}</text>
     
     <!-- ===== FOOTER ===== -->
     <line x1="35" y1="450" x2="765" y2="450" class="separator"/>
