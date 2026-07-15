@@ -263,23 +263,26 @@ def generate_svg(stats, theme='dark'):
 
     <text x="470" y="510" class="label">RealLife: </text>
     <text x="580" y="510" class="value"> {REALLIFE_HOBBIES}</text>
+
+        <!-- خط جداکننده افقی -->
+    <line x1="450" y1="530" x2="1060" y2="410" class="separator"/>
     
     <!-- ===== CONTACT ===== -->
-    <text x="500" y="300" class="section-title">
+    <text x="500" y="555" class="section-title">
         <tspan class="section-icon">■</tspan> CONTACT
     </text>
     
-    <text x="515" y="330" class="label">Personal: </text>
-    <text x="635" y="330" class="value"> {EMAIL_PERSONAL}</text>
+    <text x="515" y="580" class="label">Personal: </text>
+    <text x="635" y="580" class="value"> {EMAIL_PERSONAL}</text>
     
-    <text x="515" y="355" class="label">Work: </text>
-    <text x="635" y="355" class="value"> {EMAIL_WORK}</text>
+    <text x="515" y="605" class="label">Work: </text>
+    <text x="635" y="605" class="value"> {EMAIL_WORK}</text>
     
-    <text x="515" y="380" class="label">LinkedIn: </text>
-    <text x="635" y="380" class="value"> {LINKEDIN}</text>
+    <text x="515" y="630" class="label">LinkedIn: </text>
+    <text x="635" y="630" class="value"> {LINKEDIN}</text>
     
-    <text x="515" y="405" class="label">Instagram: </text>
-    <text x="635" y="405" class="value"> {INSTAGRAM}</text>
+    <text x="515" y="655" class="label">Instagram: </text>
+    <text x="635" y="655" class="value"> {INSTAGRAM}</text>
     
     <!-- ===== FOOTER ===== -->
     <line x1="35" y1="450" x2="960" y2="450" class="separator"/>
