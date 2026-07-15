@@ -43,7 +43,7 @@ def generate_svg(stats, theme='dark'):
             'card_bg': '#161b22'
         }
     
-    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="680" height="480" viewBox="0 0 680 480">
+    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
     <!-- پس‌زمینه اصلی -->
     <rect width="680" height="480" fill="{colors['bg']}" rx="14" ry="14"/>
     <rect width="680" height="480" fill="none" stroke="{colors['border']}" stroke-width="1.5" rx="14" ry="14"/>
