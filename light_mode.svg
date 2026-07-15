@@ -70,7 +70,7 @@
     <text x="160" y="130" class="value"> Windows 10, Android 14, Linux's</text>
     
     <text x="50" y="155" class="label">Uptime: </text>
-    <text x="160" y="155" class="value"> 18y 11m 15d 16:07:30</text>
+    <text x="160" y="155" class="value"> 18y 11m 15d 16:09:08</text>
 
     <text x="50" y="180" class="label">University: </text> 
     <text x="160" y="180" class="value"> University of Lorestan</text>
@@ -136,7 +136,7 @@
     <line x1="35" y1="450" x2="765" y2="450" class="separator"/>
     
     <text x="35" y="478" class="footer">
-        ╰─ Last Updated: 2026-07-15 16:07 
+        ╰─ Last Updated: 2026-07-15 16:09 
         <tspan class="accent-text">♥</tspan>
     </text>
     
