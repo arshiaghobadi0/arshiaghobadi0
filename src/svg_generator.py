@@ -119,22 +119,22 @@ def generate_svg(stats, theme='dark'):
     </text>
     
     <text x="50" y="130" class="label">OS: </text>
-    <text x="190" y="130" class="value"> {OS}</text>
+    <text x="160" y="130" class="value"> {OS}</text>
     
     <text x="50" y="155" class="label">Uptime: </text>
-    <text x="190" y="155" class="value"> {age}</text>
+    <text x="160" y="155" class="value"> {age}</text>
 
     <text x="50" y="180" class="label">University: </text> 
-    <text x="190" y="180" class="value"> {UNIVERSITY}</text>
+    <text x="160" y="180" class="value"> {UNIVERSITY}</text>
     
     <text x="50" y="205" class="label">Host: </text>
-    <text x="190" y="205" class="value"> {HOST}</text>
+    <text x="160" y="205" class="value"> {HOST}</text>
     
     <text x="50" y="230" class="label">Kernel: </text>
-    <text x="190" y="230" class="value"> {KERNEL}</text>
+    <text x="160" y="230" class="value"> {KERNEL}</text>
     
     <text x="50" y="255" class="label">IDE: </text>
-    <text x="190" y="255" class="value"> {IDE}</text>
+    <text x="160" y="255" class="value"> {IDE}</text>
     
     <!-- ===== LANGUAGES (ستون راست) ===== -->
     <text x="550" y="100" class="section-title">
