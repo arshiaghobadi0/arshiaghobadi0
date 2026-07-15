@@ -82,17 +82,17 @@
     <text x="190" y="230" class="value">...... VIM, VS Code, PyCharm</text>
     
     <!-- ===== LANGUAGES (ستون راست) ===== -->
-    <text x="500" y="100" class="section-title">
+    <text x="550" y="100" class="section-title">
         <tspan class="section-icon">■</tspan> LANGUAGES
     </text>
     
-    <text x="445" y="130" class="label">Programming</text>
+    <text x="565" y="130" class="label">Programming</text>
     <text x="590" y="130" class="value">...... C, C++, C#, Python, JavaScript</text>
     
-    <text x="445" y="155" class="label">Computer</text>
+    <text x="565" y="155" class="label">Computer</text>
     <text x="590" y="155" class="value">...... HTML, CSS, JSON, MARKDOWN, YAML</text>
     
-    <text x="445" y="180" class="label">Real</text>
+    <text x="565" y="180" class="label">Real</text>
     <text x="590" y="180" class="value">...... English(A2), Persian</text>
     
     <!-- خط جداکننده -->
@@ -110,27 +110,27 @@
     <text x="190" y="345" class="value">...... Make Stuff, Arduino, Raspberry Pi</text>
     
     <!-- ===== CONTACT ===== -->
-    <text x="430" y="290" class="section-title">
+    <text x="550" y="290" class="section-title">
         <tspan class="section-icon">■</tspan> CONTACT
     </text>
     
-    <text x="445" y="320" class="label">Personal</text>
+    <text x="565" y="320" class="label">Personal</text>
     <text x="590" y="320" class="value">...... arshiaghobadi0@gmail.com</text>
     
-    <text x="445" y="345" class="label">Work</text>
+    <text x="565" y="345" class="label">Work</text>
     <text x="590" y="345" class="value">...... arshiaghobadi0@gmail.com</text>
     
-    <text x="445" y="370" class="label">LinkedIn</text>
+    <text x="565" y="370" class="label">LinkedIn</text>
     <text x="590" y="370" class="value">...... arshiaghobadi</text>
     
-    <text x="445" y="395" class="label">Discord</text>
+    <text x="565" y="395" class="label">Discord</text>
     <text x="590" y="395" class="value">...... arshiaghobadi0</text>
     
     <!-- ===== FOOTER ===== -->
     <line x1="35" y1="450" x2="765" y2="450" class="separator"/>
     
     <text x="35" y="478" class="footer">
-        ╰─ updated: 2026-07-15 15:09 
+        ╰─ updated: 2026-07-15 15:12 
         <tspan class="accent-text">♥</tspan>
     </text>
     
