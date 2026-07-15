@@ -3,9 +3,16 @@ from dateutil import relativedelta
 from src.config import *
 
 def calculate_age():
-    """محاسبه سن از تاریخ تولد"""
-    diff = relativedelta.relativedelta(datetime.now(), BIRTHDAY)
-    return f"{diff.years}y {diff.months}m {diff.days}d"
+    """محاسبه سن از تاریخ تولد با ساعت، دقیقه و ثانیه"""
+    now = datetime.now()
+    diff = relativedelta.relativedelta(now, BIRTHDAY)
+    
+    total_seconds = int((now - BIRTHDAY).total_seconds())
+    seconds = total_seconds % 60
+    minutes = (total_seconds // 60) % 60
+    hours = (total_seconds // 3600) % 24
+    
+    return f"{diff.years}y {diff.months}m {diff.days}d {hours:02d}:{minutes:02d}:{seconds:02d}"
 
 def generate_svg(stats, theme='dark'):
     """
@@ -116,6 +123,9 @@ def generate_svg(stats, theme='dark'):
     
     <text x="50" y="155" class="label">Uptime: </text>
     <text x="190" y="155" class="value">...... {age}</text>
+
+    <text x="50" y="180" class="label">University: </text> 
+    <text x="190" y="180" class="value">...... {UNIVERSITY}</text>
     
     <text x="50" y="180" class="label">Host: </text>
     <text x="190" y="180" class="value">...... {HOST}</text>
