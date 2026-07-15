@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
     <!-- پس‌زمینه اصلی -->
-    <rect width="800" height="500" fill="#0d1117" rx="14" ry="14"/>
-    <rect width="800" height="500" fill="none" stroke="#30363d" stroke-width="1.5" rx="14" ry="14"/>
+    <rect width="1000" height="500" fill="#0d1117" rx="14" ry="14"/>
+    <rect width="1000" height="500" fill="none" stroke="#30363d" stroke-width="1.5" rx="14" ry="14"/>
     
     <style>
         text { 
@@ -130,7 +130,7 @@
     <line x1="35" y1="450" x2="765" y2="450" class="separator"/>
     
     <text x="35" y="478" class="footer">
-        ╰─ updated: 2026-07-15 14:59 
+        ╰─ updated: 2026-07-15 15:00 
         <tspan class="accent-text">♥</tspan>
     </text>
     
