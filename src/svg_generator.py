@@ -137,17 +137,17 @@ def generate_svg(stats, theme='dark'):
     <text x="160" y="255" class="value"> {IDE}</text>
     
     <!-- ===== LANGUAGES (ستون راست) ===== -->
-    <text x="550" y="100" class="section-title">
+    <text x="500" y="100" class="section-title">
         <tspan class="section-icon">■</tspan> LANGUAGES
     </text>
     
-    <text x="565" y="130" class="label">Programming: </text>
+    <text x="515" y="130" class="label">Programming: </text>
     <text x="635" y="130" class="value"> {PROG_LANGS}</text>
     
-    <text x="565" y="155" class="label">Computer: </text>
+    <text x="515" y="155" class="label">Computer: </text>
     <text x="635" y="155" class="value"> {COMPUTER_LANGS}</text>
     
-    <text x="565" y="180" class="label">Real: </text>
+    <text x="515" y="180" class="label">Real: </text>
     <text x="635" y="180" class="value"> {REAL_LANGS}</text>
     
     <!-- خط جداکننده -->
@@ -159,10 +159,10 @@ def generate_svg(stats, theme='dark'):
     </text>
     
     <text x="50" y="320" class="label">Software: </text>
-    <text x="190" y="320" class="value"> {SOFTWARE_HOBBIES}</text>
+    <text x="160" y="320" class="value"> {SOFTWARE_HOBBIES}</text>
     
     <text x="50" y="345" class="label">Hardware: </text>
-    <text x="190" y="345" class="value"> {HARDWARE_HOBBIES}</text>
+    <text x="160" y="345" class="value"> {HARDWARE_HOBBIES}</text>
     
     <!-- ===== CONTACT ===== -->
     <text x="550" y="290" class="section-title">
