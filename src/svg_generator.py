@@ -111,7 +111,7 @@ def generate_svg(stats, theme='dark'):
     <text x="{len(USERNAME)*14 + 120}" y="52" class="header-sub">// Developer</text>
     
     <!-- خط جداکننده -->
-    <line x1="35" y1="67" x2="765" y2="67" class="solid-separator"/>
+    <line x1="35" y1="66" x2="765" y2="66" class="solid-separator"/>
     
     <!-- ===== SYSTEM (ستون چپ) ===== -->
     <text x="35" y="100" class="section-title">
@@ -151,7 +151,7 @@ def generate_svg(stats, theme='dark'):
     <text x="635" y="180" class="value">...... {REAL_LANGS}</text>
     
     <!-- خط جداکننده -->
-    <line x1="35" y1="255" x2="765" y2="255" class="separator"/>
+    <line x1="35" y1="260" x2="765" y2="260" class="separator"/>
     
     <!-- ===== HOBBIES ===== -->
     <text x="35" y="290" class="section-title">
