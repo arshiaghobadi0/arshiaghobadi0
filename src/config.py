@@ -13,7 +13,7 @@ IDE = "VIM, VS Code, PyCharm"
 
 PROG_LANGS = "C, C++, C#, Python, JavaScript"
 COMPUTER_LANGS = "HTML, CSS, JSON, MARKDOWN, YAML"
-REAL_LANGS = "English(A2), Persian"
+REAL_LANGS = "English (A2), Persian"
 
 SOFTWARE_HOBBIES = "Operating System, CLI"
 HARDWARE_HOBBIES = "Make Stuff, Arduino, Raspberry Pi"
