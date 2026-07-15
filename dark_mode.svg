@@ -86,44 +86,44 @@
     <line x1="40" y1="66" x2="1060" y2="66" class="solid-separator"/>
     
     <!-- ===== ASCII ART (سمت چپ، فول سایز) ===== -->
-    <text x="40" y="95" class="ascii-art" font-size="12">    ππππππ√√√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≈≈≈≈≈≈≈≈∞∞∞∞∞∞∞≈≈≈≈≈≈≈≈∞</text>
-    <text x="40" y="107" class="ascii-art" font-size="12">    πππππ√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≈≈≈∞∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="40" y="119" class="ascii-art" font-size="12">    πππππ√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="40" y="131" class="ascii-art" font-size="12">    πππππ√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞√π       ππ∞≈≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠≠</text>
-    <text x="40" y="143" class="ascii-art" font-size="12">    πππππ√√√√√√√√∞∞∞∞∞∞∞∞∞√π              πππ√√∞≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="40" y="155" class="ascii-art" font-size="12">    πππππ√√√√√√√∞∞∞∞∞≈≈≈π                     π√√≠≠≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="40" y="167" class="ascii-art" font-size="12">    πππππ√√√√√√√∞∞∞∞∞∞                 π      πππ√≠≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="40" y="179" class="ascii-art" font-size="12">    πππππ√√√√√√√√√∞√π                          πππ√≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="40" y="191" class="ascii-art" font-size="12">    πππππ√√√√√√√∞∞π                                 √≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="40" y="203" class="ascii-art" font-size="12">    πππππ√√√√√√√√          π√√√∞∞∞∞∞∞∞∞∞∞∞∞√π        π∞≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="40" y="215" class="ascii-art" font-size="12">    πππππ√√√√√√√π        ππ√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞√        ∞≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="40" y="227" class="ascii-art" font-size="12">    πππππ√√√√∞∞∞√        ππ√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞√√       ππ≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="40" y="239" class="ascii-art" font-size="12">    πππππ√√∞∞∞∞∞∞         π√√√∞∞∞≈≈≈≈≈∞∞∞∞∞∞√π       π∞≈≈≈≈≈≈≈≠≠≠≠≠</text>
-    <text x="40" y="251" class="ascii-art" font-size="12">    πππππ√√∞∞∞∞∞∞π              √√∞∞∞∞√√√√π√√√ππ      √≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="40" y="263" class="ascii-art" font-size="12">    πππππ√√∞∞∞∞∞∞∞                π√ππ         √     π≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="40" y="275" class="ascii-art" font-size="12">    πππππ√√∞∞∞∞∞∞√             π  √∞√   π     π√π    π≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="40" y="287" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞   πππ   ππ√ππ∞∞√√√√πππ  π√√π  √ ∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="40" y="299" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞π  ππ√√√√√√√ππ∞∞√√√√∞∞∞√∞∞∞√√ √∞≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈</text>
-    <text x="40" y="311" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞√π  π√√√√√√π √∞≈∞√π√∞∞∞∞∞√√π√∞∞≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈=</text>
-    <text x="40" y="323" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞ π  π√√√√√π π√∞√ π√∞∞∞∞∞√√π√∞√≈≈∞∞∞≈≈≈∞≈≈≈≈≈≈≈</text>
-    <text x="40" y="335" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞∞  π√√√√√π      π√∞∞∞∞∞√ππ∞≈≈≈∞∞∞∞∞∞∞∞∞∞≈≈≈≈≈</text>
-    <text x="40" y="347" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈  ππππ      π    π√√√ππ  ∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="40" y="359" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈  ππ       πππ  π√πππ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="40" y="371" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈π    πππ ππ  π√√π  ππ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="40" y="383" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈√    ππππ   πππππ   ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="40" y="395" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈∞     ππ√√√√√πππ   π≈∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="40" y="407" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈         π       π√≈∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="40" y="419" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈∞ π             π√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="40" y="431" class="ascii-art" font-size="12">    πππππ√√∞∞∞∞∞∞∞∞∞∞∞≈≈√ππππ           π√√√√√≈√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="40" y="443" class="ascii-art" font-size="12">    πππππ√√∞∞∞∞∞∞∞∞∞√π √π πππππ      πππ√√√∞∞∞√∞≈√∞≈∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="40" y="455" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞√       ππππππππππππ√√√√√√√√∞∞∞∞π πππππ√∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="40" y="467" class="ascii-art" font-size="12">    πππππ√∞∞√π           π√√ππ√√√√√√√√√√√√√∞∞∞∞    π   πππ√√√∞∞≈≈≈≈</text>
-    <text x="40" y="479" class="ascii-art" font-size="12">    ππ√√π                  π√√√√√√√√√√√√√√∞∞π              π πππ√≈≈</text>
-    <text x="40" y="491" class="ascii-art" font-size="12">    π                           π√√ππ√√√                         ππ</text>
+    <text x="40" y="150" class="ascii-art" font-size="12">    ππππππ√√√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≈≈≈≈≈≈≈≈∞∞∞∞∞∞∞≈≈≈≈≈≈≈≈∞</text>
+    <text x="40" y="162" class="ascii-art" font-size="12">    πππππ√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≈≈≈∞∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="174" class="ascii-art" font-size="12">    πππππ√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="186" class="ascii-art" font-size="12">    πππππ√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞√π       ππ∞≈≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠≠</text>
+    <text x="40" y="198" class="ascii-art" font-size="12">    πππππ√√√√√√√√∞∞∞∞∞∞∞∞∞√π              πππ√√∞≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="210" class="ascii-art" font-size="12">    πππππ√√√√√√√∞∞∞∞∞≈≈≈π                     π√√≠≠≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="222" class="ascii-art" font-size="12">    πππππ√√√√√√√∞∞∞∞∞∞                 π      πππ√≠≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="234" class="ascii-art" font-size="12">    πππππ√√√√√√√√√∞√π                          πππ√≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="246" class="ascii-art" font-size="12">    πππππ√√√√√√√∞∞π                                 √≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="258" class="ascii-art" font-size="12">    πππππ√√√√√√√√          π√√√∞∞∞∞∞∞∞∞∞∞∞∞√π        π∞≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="270" class="ascii-art" font-size="12">    πππππ√√√√√√√π        ππ√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞√        ∞≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="282" class="ascii-art" font-size="12">    πππππ√√√√∞∞∞√        ππ√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞√√       ππ≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="294" class="ascii-art" font-size="12">    πππππ√√∞∞∞∞∞∞         π√√√∞∞∞≈≈≈≈≈∞∞∞∞∞∞√π       π∞≈≈≈≈≈≈≈≠≠≠≠≠</text>
+    <text x="40" y="306" class="ascii-art" font-size="12">    πππππ√√∞∞∞∞∞∞π              √√∞∞∞∞√√√√π√√√ππ      √≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="318" class="ascii-art" font-size="12">    πππππ√√∞∞∞∞∞∞∞                π√ππ         √     π≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="330" class="ascii-art" font-size="12">    πππππ√√∞∞∞∞∞∞√             π  √∞√   π     π√π    π≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="342" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞   πππ   ππ√ππ∞∞√√√√πππ  π√√π  √ ∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="354" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞π  ππ√√√√√√√ππ∞∞√√√√∞∞∞√∞∞∞√√ √∞≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈</text>
+    <text x="40" y="366" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞√π  π√√√√√√π √∞≈∞√π√∞∞∞∞∞√√π√∞∞≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈=</text>
+    <text x="40" y="378" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞ π  π√√√√√π π√∞√ π√∞∞∞∞∞√√π√∞√≈≈∞∞∞≈≈≈∞≈≈≈≈≈≈≈</text>
+    <text x="40" y="390" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞∞  π√√√√√π      π√∞∞∞∞∞√ππ∞≈≈≈∞∞∞∞∞∞∞∞∞∞≈≈≈≈≈</text>
+    <text x="40" y="402" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈  ππππ      π    π√√√ππ  ∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="414" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈  ππ       πππ  π√πππ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="426" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈π    πππ ππ  π√√π  ππ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="438" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈√    ππππ   πππππ   ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="450" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈∞     ππ√√√√√πππ   π≈∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="462" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈         π       π√≈∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="474" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈∞ π             π√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="486" class="ascii-art" font-size="12">    πππππ√√∞∞∞∞∞∞∞∞∞∞∞≈≈√ππππ           π√√√√√≈√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="498" class="ascii-art" font-size="12">    πππππ√√∞∞∞∞∞∞∞∞∞√π √π πππππ      πππ√√√∞∞∞√∞≈√∞≈∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="510" class="ascii-art" font-size="12">    πππππ√∞∞∞∞∞∞√       ππππππππππππ√√√√√√√√∞∞∞∞π πππππ√∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="522" class="ascii-art" font-size="12">    πππππ√∞∞√π           π√√ππ√√√√√√√√√√√√√∞∞∞∞    π   πππ√√√∞∞≈≈≈≈</text>
+    <text x="40" y="534" class="ascii-art" font-size="12">    ππ√√π                  π√√√√√√√√√√√√√√∞∞π              π πππ√≈≈</text>
+    <text x="40" y="546" class="ascii-art" font-size="12">    π                           π√√ππ√√√                         ππ</text>
 
     
     <!-- ===== خط جداکننده عمودی ===== -->
-    <line x1="420" y1="85" x2="420" y2="533" class="vertical-line"/>
+    <line x1="420" y1="85" x2="420" y2="588" class="vertical-line"/>
     
     <!-- ===== اطلاعات (سمت راست) ===== -->
     <!-- SYSTEM -->
@@ -135,7 +135,7 @@
     <text x="580" y="130" class="value"> Windows 10, Android 14, Linux's</text>
     
     <text x="470" y="155" class="label">Uptime: </text>
-    <text x="580" y="155" class="value"> 18y 11m 15d 16:47:06</text>
+    <text x="580" y="155" class="value"> 18y 11m 15d 16:49:53</text>
 
     <text x="470" y="180" class="label">University: </text> 
     <text x="580" y="180" class="value"> University of Lorestan</text>
@@ -207,7 +207,7 @@
     <line x1="35" y1="990" x2="960" y2="700" class="separator"/>
     
     <text x="35" y="715" class="footer">
-        ╰─ Last Updated: 2026-07-15 16:47 
+        ╰─ Last Updated: 2026-07-15 16:49 
         <tspan class="accent-text">♥</tspan>
     </text>
     
