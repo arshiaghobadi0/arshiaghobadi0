@@ -164,19 +164,19 @@ def generate_svg(stats, theme='dark'):
     <text x="50" y="355" class="label">Hardware: </text>
     <text x="160" y="355" class="value"> {HARDWARE_HOBBIES}</text>
 
-    <text x="50" y="365" class="label">Hardware: </text>
-    <text x="160" y="365" class="value"> {REALLIFE_HOBBIES}</text>
+    <text x="50" y="370" class="label">RealLife: </text>
+    <text x="160" y="370" class="value"> {REALLIFE_HOBBIES}</text>
     
     <!-- ===== CONTACT ===== -->
-    <text x="500" y="290" class="section-title">
+    <text x="500" y="300" class="section-title">
         <tspan class="section-icon">■</tspan> CONTACT
     </text>
     
-    <text x="515" y="320" class="label">Personal: </text>
-    <text x="635" y="320" class="value"> {EMAIL_PERSONAL}</text>
+    <text x="515" y="330" class="label">Personal: </text>
+    <text x="635" y="330" class="value"> {EMAIL_PERSONAL}</text>
     
-    <text x="515" y="345" class="label">Work: </text>
-    <text x="635" y="345" class="value"> {EMAIL_WORK}</text>
+    <text x="515" y="355" class="label">Work: </text>
+    <text x="635" y="355" class="value"> {EMAIL_WORK}</text>
     
     <text x="515" y="370" class="label">LinkedIn: </text>
     <text x="635" y="370" class="value"> {LINKEDIN}</text>
