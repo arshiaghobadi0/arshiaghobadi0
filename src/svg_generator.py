@@ -101,7 +101,7 @@ def generate_svg(stats, theme='dark'):
     ascii_start_x = 40      # فاصله از لبه چپ
     ascii_start_y = 95      # شروع از پایین هدر
     line_height = 12        # فاصله بین خطوط
-    font_size = 8           # سایز فونت
+    font_size = 12           # سایز فونت
     
     ascii_elements = ""
     for i, line in enumerate(ascii_lines):
@@ -268,24 +268,24 @@ def generate_svg(stats, theme='dark'):
     <line x1="450" y1="530" x2="1060" y2="530" class="separator"/>
     
     <!-- ===== CONTACT ===== -->
-    <text x="500" y="555" class="section-title">
+    <text x="450" y="555" class="section-title">
         <tspan class="section-icon">■</tspan> CONTACT
     </text>
     
-    <text x="515" y="580" class="label">Personal: </text>
-    <text x="635" y="580" class="value"> {EMAIL_PERSONAL}</text>
+    <text x="470" y="580" class="label">Personal: </text>
+    <text x="580" y="580" class="value"> {EMAIL_PERSONAL}</text>
     
-    <text x="515" y="605" class="label">Work: </text>
-    <text x="635" y="605" class="value"> {EMAIL_WORK}</text>
+    <text x="470" y="605" class="label">Work: </text>
+    <text x="580" y="605" class="value"> {EMAIL_WORK}</text>
     
-    <text x="515" y="630" class="label">LinkedIn: </text>
-    <text x="635" y="630" class="value"> {LINKEDIN}</text>
+    <text x="470" y="630" class="label">LinkedIn: </text>
+    <text x="580" y="630" class="value"> {LINKEDIN}</text>
     
-    <text x="515" y="655" class="label">Instagram: </text>
-    <text x="635" y="655" class="value"> {INSTAGRAM}</text>
+    <text x="470" y="655" class="label">Instagram: </text>
+    <text x="580" y="655" class="value"> {INSTAGRAM}</text>
     
     <!-- ===== FOOTER ===== -->
-    <line x1="35" y1="700" x2="960" y2="700" class="separator"/>
+    <line x1="35" y1="990" x2="960" y2="700" class="separator"/>
     
     <text x="35" y="715" class="footer">
         ╰─ Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} 
