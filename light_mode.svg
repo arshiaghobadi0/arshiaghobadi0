@@ -70,7 +70,7 @@
     <text x="160" y="130" class="value"> Windows 10, Android 14, Linux's</text>
     
     <text x="50" y="155" class="label">Uptime: </text>
-    <text x="160" y="155" class="value"> 18y 11m 15d 16:02:58</text>
+    <text x="160" y="155" class="value"> 18y 11m 15d 16:05:41</text>
 
     <text x="50" y="180" class="label">University: </text> 
     <text x="160" y="180" class="value"> University of Lorestan</text>
@@ -112,8 +112,8 @@
     <text x="50" y="355" class="label">Hardware: </text>
     <text x="160" y="355" class="value"> Make Stuff, Arduino, Raspberry Pi</text>
 
-    <text x="50" y="370" class="label">RealLife: </text>
-    <text x="160" y="370" class="value"> </text>
+    <text x="50" y="385" class="label">RealLife: </text>
+    <text x="160" y="385" class="value"> </text>
     
     <!-- ===== CONTACT ===== -->
     <text x="500" y="300" class="section-title">
@@ -126,17 +126,17 @@
     <text x="515" y="355" class="label">Work: </text>
     <text x="635" y="355" class="value"> arshiaghobadi0@gmail.com</text>
     
-    <text x="515" y="370" class="label">LinkedIn: </text>
-    <text x="635" y="370" class="value"> arshiaghobadi</text>
+    <text x="515" y="385" class="label">LinkedIn: </text>
+    <text x="635" y="385" class="value"> arshiaghobadi</text>
     
-    <text x="515" y="395" class="label">Instagram: </text>
-    <text x="635" y="395" class="value"> arshiaghobadi0</text>
+    <text x="515" y="410" class="label">Instagram: </text>
+    <text x="635" y="410" class="value"> arshiaghobadi0</text>
     
     <!-- ===== FOOTER ===== -->
     <line x1="35" y1="450" x2="765" y2="450" class="separator"/>
     
     <text x="35" y="478" class="footer">
-        ╰─ Last Updated: 2026-07-15 16:02 
+        ╰─ Last Updated: 2026-07-15 16:05 
         <tspan class="accent-text">♥</tspan>
     </text>
     
