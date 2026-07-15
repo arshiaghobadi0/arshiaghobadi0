@@ -154,15 +154,18 @@ def generate_svg(stats, theme='dark'):
     <line x1="35" y1="270" x2="765" y2="270" class="separator"/>
     
     <!-- ===== HOBBIES ===== -->
-    <text x="35" y="290" class="section-title">
+    <text x="35" y="300" class="section-title">
         <tspan class="section-icon">■</tspan> HOBBIES
     </text>
     
-    <text x="50" y="320" class="label">Software: </text>
-    <text x="160" y="320" class="value"> {SOFTWARE_HOBBIES}</text>
+    <text x="50" y="330" class="label">Software: </text>
+    <text x="160" y="330" class="value"> {SOFTWARE_HOBBIES}</text>
     
-    <text x="50" y="345" class="label">Hardware: </text>
-    <text x="160" y="345" class="value"> {HARDWARE_HOBBIES}</text>
+    <text x="50" y="355" class="label">Hardware: </text>
+    <text x="160" y="355" class="value"> {HARDWARE_HOBBIES}</text>
+
+    <text x="50" y="365" class="label">Hardware: </text>
+    <text x="160" y="365" class="value"> {REALLIFE_HOBBIES}</text>
     
     <!-- ===== CONTACT ===== -->
     <text x="500" y="290" class="section-title">
