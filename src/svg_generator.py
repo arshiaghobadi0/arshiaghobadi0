@@ -111,19 +111,19 @@ def generate_svg(stats, theme='dark'):
         <tspan class="section-icon">■</tspan> SYSTEM
     </text>
     
-    <text x="50" y="130" class="label">OS</text>
+    <text x="50" y="130" class="label">OS: </text>
     <text x="190" y="130" class="value">...... {OS}</text>
     
-    <text x="50" y="155" class="label">Uptime</text>
+    <text x="50" y="155" class="label">Uptime: </text>
     <text x="190" y="155" class="value">...... {age}</text>
     
-    <text x="50" y="180" class="label">Host</text>
+    <text x="50" y="180" class="label">Host: </text>
     <text x="190" y="180" class="value">...... {HOST}</text>
     
-    <text x="50" y="205" class="label">Kernel</text>
+    <text x="50" y="205" class="label">Kernel: </text>
     <text x="190" y="205" class="value">...... {KERNEL}</text>
     
-    <text x="50" y="230" class="label">IDE</text>
+    <text x="50" y="230" class="label">IDE: </text>
     <text x="190" y="230" class="value">...... {IDE}</text>
     
     <!-- ===== LANGUAGES (ستون راست) ===== -->
@@ -131,13 +131,13 @@ def generate_svg(stats, theme='dark'):
         <tspan class="section-icon">■</tspan> LANGUAGES
     </text>
     
-    <text x="565" y="130" class="label">Programming</text>
+    <text x="565" y="130" class="label">Programming: </text>
     <text x="635" y="130" class="value">...... {PROG_LANGS}</text>
     
-    <text x="565" y="155" class="label">Computer</text>
+    <text x="565" y="155" class="label">Computer: </text>
     <text x="635" y="155" class="value">...... {COMPUTER_LANGS}</text>
     
-    <text x="565" y="180" class="label">Real</text>
+    <text x="565" y="180" class="label">Real: </text>
     <text x="635" y="180" class="value">...... {REAL_LANGS}</text>
     
     <!-- خط جداکننده -->
@@ -148,10 +148,10 @@ def generate_svg(stats, theme='dark'):
         <tspan class="section-icon">■</tspan> HOBBIES
     </text>
     
-    <text x="50" y="320" class="label">Software</text>
+    <text x="50" y="320" class="label">Software: </text>
     <text x="190" y="320" class="value">...... {SOFTWARE_HOBBIES}</text>
     
-    <text x="50" y="345" class="label">Hardware</text>
+    <text x="50" y="345" class="label">Hardware: </text>
     <text x="190" y="345" class="value">...... {HARDWARE_HOBBIES}</text>
     
     <!-- ===== CONTACT ===== -->
@@ -159,23 +159,23 @@ def generate_svg(stats, theme='dark'):
         <tspan class="section-icon">■</tspan> CONTACT
     </text>
     
-    <text x="565" y="320" class="label">Personal</text>
+    <text x="565" y="320" class="label">Personal: </text>
     <text x="635" y="320" class="value">...... {EMAIL_PERSONAL}</text>
     
-    <text x="565" y="345" class="label">Work</text>
+    <text x="565" y="345" class="label">Work: </text>
     <text x="635" y="345" class="value">...... {EMAIL_WORK}</text>
     
-    <text x="565" y="370" class="label">LinkedIn</text>
+    <text x="565" y="370" class="label">LinkedIn: </text>
     <text x="635" y="370" class="value">...... {LINKEDIN}</text>
     
-    <text x="565" y="395" class="label">Instagram</text>
+    <text x="565" y="395" class="label">Instagram: </text>
     <text x="635" y="395" class="value">...... {INSTAGRAM}</text>
     
     <!-- ===== FOOTER ===== -->
     <line x1="35" y1="450" x2="765" y2="450" class="separator"/>
     
     <text x="35" y="478" class="footer">
-        ╰─ updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} 
+        ╰─ Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} 
         <tspan class="accent-text">♥</tspan>
     </text>
     
