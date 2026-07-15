@@ -70,129 +70,124 @@
             opacity: 0.7;
             letter-spacing: 0.3px;
         }
+        .vertical-line {
+            stroke: #d0d7de;
+            stroke-width: 1;
+            stroke-dasharray: 4,4;
+        }
     </style>
 
     <!-- ===== HEADER ===== -->
-    <text x="35" y="52" class="header">╭─</text>
-    <text x="80" y="52" class="header">arshiaghobadi0</text>
-    <text x="316" y="52" class="header-sub">// Developer</text>
+    <text x="40" y="52" class="header">╭─</text>
+    <text x="85" y="52" class="header">arshiaghobadi0</text>
+    <text x="321" y="52" class="header-sub">// Developer</text>
     
-    <!-- خط جداکننده -->
-    <line x1="35" y1="66" x2="1060" y2="66" class="solid-separator"/>
+    <!-- خط جداکننده بالایی -->
+    <line x1="40" y1="66" x2="1060" y2="66" class="solid-separator"/>
     
-    <!-- ===== SYSTEM (ستون چپ) ===== -->
-    <text x="35" y="100" class="section-title">
+    <!-- ===== ASCII ART (سمت چپ، فول سایز) ===== -->
+    <text x="40" y="95" class="ascii-art" font-size="8">    ππππππ√√√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≈≈≈≈≈≈≈≈∞∞∞∞∞∞∞≈≈≈≈≈≈≈≈∞</text>
+    <text x="40" y="107" class="ascii-art" font-size="8">    πππππ√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≈≈≈∞∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="119" class="ascii-art" font-size="8">    πππππ√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="131" class="ascii-art" font-size="8">    πππππ√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞√π       ππ∞≈≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="143" class="ascii-art" font-size="8">    πππππ√√√√√√√√∞∞∞∞∞∞∞∞∞√π              πππ√√∞≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="155" class="ascii-art" font-size="8">    πππππ√√√√√√√∞∞∞∞∞≈≈≈π                     π√√≠≠≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="167" class="ascii-art" font-size="8">    πππππ√√√√√√√∞∞∞∞∞∞                 π      πππ√≠≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="179" class="ascii-art" font-size="8">    πππππ√√√√√√√√√∞√π                          πππ√≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="191" class="ascii-art" font-size="8">    πππππ√√√√√√√∞∞π                                 √≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="203" class="ascii-art" font-size="8">    πππππ√√√√√√√√          π√√√∞∞∞∞∞∞∞∞∞∞∞∞√π        π∞≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="215" class="ascii-art" font-size="8">    πππππ√√√√√√√π        ππ√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞√        ∞≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="227" class="ascii-art" font-size="8">    πππππ√√√√∞∞∞√        ππ√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞√√       ππ≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="239" class="ascii-art" font-size="8">    πππππ√√∞∞∞∞∞∞         π√√√∞∞∞≈≈≈≈≈∞∞∞∞∞∞√π       π∞≈≈≈≈≈≈≈≠≠≠≠≠</text>
+    <text x="40" y="251" class="ascii-art" font-size="8">    πππππ√√∞∞∞∞∞∞π              √√∞∞∞∞√√√√π√√√ππ      √≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="263" class="ascii-art" font-size="8">    πππππ√√∞∞∞∞∞∞∞                π√ππ         √     π≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="275" class="ascii-art" font-size="8">    πππππ√√∞∞∞∞∞∞√             π  √∞√   π     π√π    π≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="287" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞   πππ   ππ√ππ∞∞√√√√πππ  π√√π  √ ∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
+    <text x="40" y="299" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞π  ππ√√√√√√√ππ∞∞√√√√∞∞∞√∞∞∞√√ √∞≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈</text>
+    <text x="40" y="311" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞√π  π√√√√√√π √∞≈∞√π√∞∞∞∞∞√√π√∞∞≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈=</text>
+    <text x="40" y="323" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞ π  π√√√√√π π√∞√ π√∞∞∞∞∞√√π√∞√≈≈∞∞∞≈≈≈∞≈≈≈≈≈≈≈</text>
+    <text x="40" y="335" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞∞  π√√√√√π      π√∞∞∞∞∞√ππ∞≈≈≈∞∞∞∞∞∞∞∞∞∞≈≈≈≈≈</text>
+    <text x="40" y="347" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈  ππππ      π    π√√√ππ  ∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="359" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈  ππ       πππ  π√πππ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="371" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈π    πππ ππ  π√√π  ππ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="383" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈√    ππππ   πππππ   ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="395" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈∞     ππ√√√√√πππ   π≈∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="407" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈         π       π√≈∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="419" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈∞ π             π√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="431" class="ascii-art" font-size="8">    πππππ√√∞∞∞∞∞∞∞∞∞∞∞≈≈√ππππ           π√√√√√≈√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="443" class="ascii-art" font-size="8">    πππππ√√∞∞∞∞∞∞∞∞∞√π √π πππππ      πππ√√√∞∞∞√∞≈√∞≈∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="455" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞√       ππππππππππππ√√√√√√√√∞∞∞∞π πππππ√∞∞∞∞∞∞∞≈≈≈≈</text>
+    <text x="40" y="467" class="ascii-art" font-size="8">    πππππ√∞∞√π           π√√ππ√√√√√√√√√√√√√∞∞∞∞    π   πππ√√√∞∞≈≈≈≈</text>
+    <text x="40" y="479" class="ascii-art" font-size="8">    ππ√√π                  π√√√√√√√√√√√√√√∞∞π              π πππ√≈≈</text>
+    <text x="40" y="491" class="ascii-art" font-size="8">    π                           π√√ππ√√√                         ππ</text>
+
+    
+    <!-- ===== خط جداکننده عمودی ===== -->
+    <line x1="420" y1="85" x2="420" y2="533" class="vertical-line"/>
+    
+    <!-- ===== اطلاعات (سمت راست) ===== -->
+    <!-- SYSTEM -->
+    <text x="450" y="100" class="section-title">
         <tspan class="section-icon">■</tspan> SYSTEM
     </text>
     
-    <text x="50" y="130" class="label">OS: </text>
-    <text x="160" y="130" class="value"> Windows 10, Android 14, Linux's</text>
+    <text x="470" y="130" class="label">OS: </text>
+    <text x="580" y="130" class="value"> Windows 10, Android 14, Linux's</text>
     
-    <text x="50" y="155" class="label">Uptime: </text>
-    <text x="160" y="155" class="value"> 18y 11m 15d 16:28:31</text>
+    <text x="470" y="155" class="label">Uptime: </text>
+    <text x="580" y="155" class="value"> 18y 11m 15d 16:32:33</text>
 
-    <text x="50" y="180" class="label">University: </text> 
-    <text x="160" y="180" class="value"> University of Lorestan</text>
+    <text x="470" y="180" class="label">University: </text> 
+    <text x="580" y="180" class="value"> University of Lorestan</text>
     
-    <text x="50" y="205" class="label">Host: </text>
-    <text x="160" y="205" class="value"> -</text>
+    <text x="470" y="205" class="label">Host: </text>
+    <text x="580" y="205" class="value"> -</text>
     
-    <text x="50" y="230" class="label">Kernel: </text>
-    <text x="160" y="230" class="value"> Software Engineering Student</text>
+    <text x="470" y="230" class="label">Kernel: </text>
+    <text x="580" y="230" class="value"> Software Engineering Student</text>
     
-    <text x="50" y="255" class="label">IDE: </text>
-    <text x="160" y="255" class="value"> VIM, VS Code, PyCharm</text>
+    <text x="470" y="255" class="label">IDE: </text>
+    <text x="580" y="255" class="value"> VIM, VS Code, PyCharm</text>
     
-    <!-- ===== LANGUAGES (ستون راست) ===== -->
-    <text x="500" y="100" class="section-title">
+    <!-- خط جداکننده افقی -->
+    <line x1="450" y1="280" x2="1060" y2="280" class="separator"/>
+    
+    <!-- LANGUAGES -->
+    <text x="450" y="310" class="section-title">
         <tspan class="section-icon">■</tspan> LANGUAGES
     </text>
     
-    <text x="515" y="130" class="label">Programming: </text>
-    <text x="635" y="130" class="value"> C, C++, C#, Python, JavaScript</text>
+    <text x="470" y="340" class="label">Programming: </text>
+    <text x="580" y="340" class="value"> C, C++, C#, Python, JavaScript</text>
     
-    <text x="515" y="155" class="label">Computer: </text>
-    <text x="635" y="155" class="value"> HTML, CSS, JSON, MARKDOWN, YAML</text>
+    <text x="470" y="365" class="label">Computer: </text>
+    <text x="580" y="365" class="value"> HTML, CSS, JSON, MARKDOWN, YAML</text>
     
-    <text x="515" y="180" class="label">Real: </text>
-    <text x="635" y="180" class="value"> English (A2), Persian</text>
+    <text x="470" y="390" class="label">Real: </text>
+    <text x="580" y="390" class="value"> English (A2), Persian</text>
     
-    <!-- خط جداکننده -->
-    <line x1="35" y1="280" x2="1060" y2="280" class="separator"/>
+    <!-- خط جداکننده افقی -->
+    <line x1="450" y1="410" x2="1060" y2="410" class="separator"/>
     
-    <!-- ===== HOBBIES ===== -->
-    <text x="35" y="310" class="section-title">
+    <!-- HOBBIES -->
+    <text x="450" y="435" class="section-title">
         <tspan class="section-icon">■</tspan> HOBBIES
     </text>
     
-    <text x="50" y="340" class="label">Software: </text>
-    <text x="160" y="340" class="value"> Operating System, CLI</text>
+    <text x="470" y="460" class="label">Software: </text>
+    <text x="580" y="460" class="value"> Operating System, CLI</text>
     
-    <text x="50" y="365" class="label">Hardware: </text>
-    <text x="160" y="365" class="value"> Make Stuff, Arduino, Raspberry Pi</text>
+    <text x="470" y="485" class="label">Hardware: </text>
+    <text x="580" y="485" class="value"> Make Stuff, Arduino, Raspberry Pi</text>
 
-    <text x="50" y="390" class="label">RealLife: </text>
-    <text x="160" y="390" class="value"> </text>
-    
-    <!-- ===== CONTACT ===== -->
-    <text x="500" y="310" class="section-title">
-        <tspan class="section-icon">■</tspan> CONTACT
-    </text>
-    
-    <text x="515" y="340" class="label">Personal: </text>
-    <text x="635" y="340" class="value"> arshiaghobadi0@gmail.com</text>
-    
-    <text x="515" y="365" class="label">Work: </text>
-    <text x="635" y="365" class="value"> arshiaghobadi0@gmail.com</text>
-    
-    <text x="515" y="390" class="label">LinkedIn: </text>
-    <text x="635" y="390" class="value"> arshiaghobadi</text>
-    
-    <text x="515" y="415" class="label">Instagram: </text>
-    <text x="635" y="415" class="value"> arshiaghobadi0</text>
-    
-    <!-- ===== ASCII ART (سمت راست) ===== -->
-    <text x="750" y="95" class="ascii-art" font-size="8">    ππππππ√√√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≈≈≈≈≈≈≈≈∞∞∞∞∞∞∞≈≈≈≈≈≈≈≈∞</text>
-    <text x="750" y="108" class="ascii-art" font-size="8">    πππππ√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≈≈≈∞∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="750" y="121" class="ascii-art" font-size="8">    πππππ√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="750" y="134" class="ascii-art" font-size="8">    πππππ√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞√π       ππ∞≈≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="750" y="147" class="ascii-art" font-size="8">    πππππ√√√√√√√√∞∞∞∞∞∞∞∞∞√π              πππ√√∞≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="750" y="160" class="ascii-art" font-size="8">    πππππ√√√√√√√∞∞∞∞∞≈≈≈π                     π√√≠≠≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="750" y="173" class="ascii-art" font-size="8">    πππππ√√√√√√√∞∞∞∞∞∞                 π      πππ√≠≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="750" y="186" class="ascii-art" font-size="8">    πππππ√√√√√√√√√∞√π                          πππ√≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="750" y="199" class="ascii-art" font-size="8">    πππππ√√√√√√√∞∞π                                 √≈≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="750" y="212" class="ascii-art" font-size="8">    πππππ√√√√√√√√          π√√√∞∞∞∞∞∞∞∞∞∞∞∞√π        π∞≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="750" y="225" class="ascii-art" font-size="8">    πππππ√√√√√√√π        ππ√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞√        ∞≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="750" y="238" class="ascii-art" font-size="8">    πππππ√√√√∞∞∞√        ππ√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞√√       ππ≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="750" y="251" class="ascii-art" font-size="8">    πππππ√√∞∞∞∞∞∞         π√√√∞∞∞≈≈≈≈≈∞∞∞∞∞∞√π       π∞≈≈≈≈≈≈≈≠≠≠≠≠</text>
-    <text x="750" y="264" class="ascii-art" font-size="8">    πππππ√√∞∞∞∞∞∞π              √√∞∞∞∞√√√√π√√√ππ      √≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="750" y="277" class="ascii-art" font-size="8">    πππππ√√∞∞∞∞∞∞∞                π√ππ         √     π≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="750" y="290" class="ascii-art" font-size="8">    πππππ√√∞∞∞∞∞∞√             π  √∞√   π     π√π    π≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="750" y="303" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞   πππ   ππ√ππ∞∞√√√√πππ  π√√π  √ ∞≈≈≈≈≈≈≈≈≈≠≠≠≠</text>
-    <text x="750" y="316" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞π  ππ√√√√√√√ππ∞∞√√√√∞∞∞√∞∞∞√√ √∞≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈</text>
-    <text x="750" y="329" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞√π  π√√√√√√π √∞≈∞√π√∞∞∞∞∞√√π√∞∞≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈=</text>
-    <text x="750" y="342" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞ π  π√√√√√π π√∞√ π√∞∞∞∞∞√√π√∞√≈≈∞∞∞≈≈≈∞≈≈≈≈≈≈≈</text>
-    <text x="750" y="355" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞∞  π√√√√√π      π√∞∞∞∞∞√ππ∞≈≈≈∞∞∞∞∞∞∞∞∞∞≈≈≈≈≈</text>
-    <text x="750" y="368" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈  ππππ      π    π√√√ππ  ∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="750" y="381" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈  ππ       πππ  π√πππ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="750" y="394" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈π    πππ ππ  π√√π  ππ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="750" y="407" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈√    ππππ   πππππ   ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="750" y="420" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈∞     ππ√√√√√πππ   π≈∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="750" y="433" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈         π       π√≈∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="750" y="446" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈∞ π             π√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="750" y="459" class="ascii-art" font-size="8">    πππππ√√∞∞∞∞∞∞∞∞∞∞∞≈≈√ππππ           π√√√√√≈√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="750" y="472" class="ascii-art" font-size="8">    πππππ√√∞∞∞∞∞∞∞∞∞√π √π πππππ      πππ√√√∞∞∞√∞≈√∞≈∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="750" y="485" class="ascii-art" font-size="8">    πππππ√∞∞∞∞∞∞√       ππππππππππππ√√√√√√√√∞∞∞∞π πππππ√∞∞∞∞∞∞∞≈≈≈≈</text>
-    <text x="750" y="498" class="ascii-art" font-size="8">    πππππ√∞∞√π           π√√ππ√√√√√√√√√√√√√∞∞∞∞    π   πππ√√√∞∞≈≈≈≈</text>
-    <text x="750" y="511" class="ascii-art" font-size="8">    ππ√√π                  π√√√√√√√√√√√√√√∞∞π              π πππ√≈≈</text>
-    <text x="750" y="524" class="ascii-art" font-size="8">    π                           π√√ππ√√√                         ππ</text>
-
+    <text x="470" y="510" class="label">RealLife: </text>
+    <text x="580" y="510" class="value"> </text>
     
     <!-- ===== FOOTER ===== -->
-    <line x1="35" y1="500" x2="1060" y2="500" class="separator"/>
+    <line x1="40" y1="520" x2="1060" y2="520" class="separator"/>
     
-    <text x="35" y="528" class="footer">
-        ╰─ Last Updated: 2026-07-15 16:28 
+    <text x="40" y="540" class="footer">
+        ╰─ Last Updated: 2026-07-15 16:32 
         <tspan class="accent-text">♥</tspan>
     </text>
     
