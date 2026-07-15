@@ -99,7 +99,7 @@ def generate_svg(stats, theme='dark'):
     
     # موقعیت عکس در سمت چپ
     ascii_start_x = 40      # فاصله از لبه چپ
-    ascii_start_y = 95      # شروع از پایین هدر
+    ascii_start_y = 150      # شروع از پایین هدر
     line_height = 12        # فاصله بین خطوط
     font_size = 12           # سایز فونت
     
