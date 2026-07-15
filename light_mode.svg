@@ -73,10 +73,10 @@
     <text x="190" y="155" class="value">...... 18y 11m 15d</text>
     
     <text x="50" y="180" class="label">Host: </text>
-    <text x="190" y="180" class="value">...... Your Company Name</text>
+    <text x="190" y="180" class="value">...... -</text>
     
     <text x="50" y="205" class="label">Kernel: </text>
-    <text x="190" y="205" class="value">...... Your Job Title</text>
+    <text x="190" y="205" class="value">...... Software Engineering Student</text>
     
     <text x="50" y="230" class="label">IDE: </text>
     <text x="190" y="230" class="value">...... VIM, VS Code, PyCharm</text>
@@ -104,7 +104,7 @@
     </text>
     
     <text x="50" y="320" class="label">Software: </text>
-    <text x="190" y="320" class="value">...... Operating System, CLI, Bypassing restrictions</text>
+    <text x="190" y="320" class="value">...... Operating System, CLI</text>
     
     <text x="50" y="345" class="label">Hardware: </text>
     <text x="190" y="345" class="value">...... Make Stuff, Arduino, Raspberry Pi</text>
@@ -130,7 +130,7 @@
     <line x1="35" y1="450" x2="765" y2="450" class="separator"/>
     
     <text x="35" y="478" class="footer">
-        ╰─ Last Updated: 2026-07-15 15:17 
+        ╰─ Last Updated: 2026-07-15 15:29 
         <tspan class="accent-text">♥</tspan>
     </text>
     
