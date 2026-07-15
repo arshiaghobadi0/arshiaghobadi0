@@ -59,7 +59,7 @@
     <text x="316" y="52" class="header-sub">// Developer</text>
     
     <!-- خط جداکننده -->
-    <line x1="35" y1="65" x2="765" y2="65" class="solid-separator"/>
+    <line x1="35" y1="67" x2="765" y2="67" class="solid-separator"/>
     
     <!-- ===== SYSTEM (ستون چپ) ===== -->
     <text x="35" y="100" class="section-title">
@@ -70,19 +70,19 @@
     <text x="190" y="130" class="value">...... Windows 10, Android 14, Linux's</text>
     
     <text x="50" y="155" class="label">Uptime: </text>
-    <text x="190" y="155" class="value">...... 18y 11m 15d 15:30:19</text>
+    <text x="190" y="155" class="value">...... 18y 11m 15d 15:34:28</text>
 
     <text x="50" y="180" class="label">University: </text> 
     <text x="190" y="180" class="value">...... University of Lorestan</text>
     
-    <text x="50" y="180" class="label">Host: </text>
-    <text x="190" y="180" class="value">...... -</text>
+    <text x="50" y="205" class="label">Host: </text>
+    <text x="190" y="205" class="value">...... -</text>
     
-    <text x="50" y="205" class="label">Kernel: </text>
-    <text x="190" y="205" class="value">...... Software Engineering Student</text>
+    <text x="50" y="230" class="label">Kernel: </text>
+    <text x="190" y="230" class="value">...... Software Engineering Student</text>
     
-    <text x="50" y="230" class="label">IDE: </text>
-    <text x="190" y="230" class="value">...... VIM, VS Code, PyCharm</text>
+    <text x="50" y="255" class="label">IDE: </text>
+    <text x="190" y="255" class="value">...... VIM, VS Code, PyCharm</text>
     
     <!-- ===== LANGUAGES (ستون راست) ===== -->
     <text x="550" y="100" class="section-title">
@@ -133,7 +133,7 @@
     <line x1="35" y1="450" x2="765" y2="450" class="separator"/>
     
     <text x="35" y="478" class="footer">
-        ╰─ Last Updated: 2026-07-15 15:30 
+        ╰─ Last Updated: 2026-07-15 15:34 
         <tspan class="accent-text">♥</tspan>
     </text>
     
