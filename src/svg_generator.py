@@ -101,7 +101,7 @@ def generate_svg(stats, theme='dark'):
     <!-- ===== HEADER ===== -->
     <text x="35" y="52" class="header">╭─</text>
     <text x="80" y="52" class="header">{USERNAME}</text>
-    <text x="{len(USERNAME)*14 + 130}" y="52" class="header-sub">// Developer</text>
+    <text x="{len(USERNAME)*14 + 120}" y="52" class="header-sub">// Developer</text>
     
     <!-- خط جداکننده -->
     <line x1="35" y1="65" x2="765" y2="65" class="solid-separator"/>
@@ -127,7 +127,7 @@ def generate_svg(stats, theme='dark'):
     <text x="190" y="230" class="value">...... {IDE}</text>
     
     <!-- ===== LANGUAGES (ستون راست) ===== -->
-    <text x="430" y="100" class="section-title">
+    <text x="500" y="100" class="section-title">
         <tspan class="section-icon">■</tspan> LANGUAGES
     </text>
     
