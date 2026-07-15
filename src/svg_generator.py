@@ -38,7 +38,7 @@ def generate_svg(stats, theme='dark'):
             'grid': '#d0d7de',
             'ascii': '#57606a'
         }
-        grid_opacity = '0.25'
+        grid_opacity = '0.35'
     else:  # dark (پیش‌فرض)
         colors = {
             'bg': '#0d1117',
@@ -54,14 +54,14 @@ def generate_svg(stats, theme='dark'):
             'grid': '#30363d',
             'ascii': '#58a6ff'
         }
-        grid_opacity = '0.12'
+        grid_opacity = '0.30'
     
     # ===== عکس ASCII شما =====
     ascii_art = r'''
     ππππππ√√√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≈≈≈≈≈≈≈≈∞∞∞∞∞∞∞≈≈≈≈≈≈≈≈∞   
     πππππ√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≈≈≈∞∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
     πππππ√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
-    πππππ√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞√π       ππ∞≈≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞√π       ππ∞≈≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠≠   
     πππππ√√√√√√√√∞∞∞∞∞∞∞∞∞√π              πππ√√∞≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
     πππππ√√√√√√√∞∞∞∞∞≈≈≈π                     π√√≠≠≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠   
     πππππ√√√√√√√∞∞∞∞∞∞                 π      πππ√≠≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠   
@@ -264,10 +264,27 @@ def generate_svg(stats, theme='dark'):
     <text x="470" y="510" class="label">RealLife: </text>
     <text x="580" y="510" class="value"> {REALLIFE_HOBBIES}</text>
     
-    <!-- ===== FOOTER ===== -->
-    <line x1="40" y1="520" x2="1060" y2="520" class="separator"/>
+    <!-- ===== CONTACT ===== -->
+    <text x="500" y="300" class="section-title">
+        <tspan class="section-icon">■</tspan> CONTACT
+    </text>
     
-    <text x="40" y="540" class="footer">
+    <text x="515" y="330" class="label">Personal: </text>
+    <text x="635" y="330" class="value"> {EMAIL_PERSONAL}</text>
+    
+    <text x="515" y="355" class="label">Work: </text>
+    <text x="635" y="355" class="value"> {EMAIL_WORK}</text>
+    
+    <text x="515" y="380" class="label">LinkedIn: </text>
+    <text x="635" y="380" class="value"> {LINKEDIN}</text>
+    
+    <text x="515" y="405" class="label">Instagram: </text>
+    <text x="635" y="405" class="value"> {INSTAGRAM}</text>
+    
+    <!-- ===== FOOTER ===== -->
+    <line x1="35" y1="450" x2="960" y2="450" class="separator"/>
+    
+    <text x="35" y="478" class="footer">
         ╰─ Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} 
         <tspan class="accent-text">♥</tspan>
     </text>
