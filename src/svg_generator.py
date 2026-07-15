@@ -45,34 +45,34 @@ def generate_svg(stats, theme='dark'):
     
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
     <!-- پس‌زمینه اصلی -->
-    <rect width="680" height="480" fill="{colors['bg']}" rx="14" ry="14"/>
-    <rect width="680" height="480" fill="none" stroke="{colors['border']}" stroke-width="1.5" rx="14" ry="14"/>
+    <rect width="800" height="500" fill="{colors['bg']}" rx="14" ry="14"/>
+    <rect width="800" height="500" fill="none" stroke="{colors['border']}" stroke-width="1.5" rx="14" ry="14"/>
     
     <style>
         text {{ 
             font-family: 'Cascadia Code', 'Fira Code', 'JetBrains Mono', monospace;
         }}
         .header {{ 
-            font-size: 26px; 
+            font-size: 28px; 
             fill: {colors['header']}; 
             font-weight: 700;
             letter-spacing: 0.5px;
         }}
         .header-sub {{ 
-            font-size: 14px; 
+            font-size: 15px; 
             fill: {colors['section']}; 
         }}
         .label {{ 
-            font-size: 14px; 
+            font-size: 15px; 
             fill: {colors['label']}; 
             font-weight: 500;
         }}
         .value {{ 
-            font-size: 14px; 
+            font-size: 15px; 
             fill: {colors['value']}; 
         }}
         .section-title {{ 
-            font-size: 16px; 
+            font-size: 18px; 
             fill: {colors['section']}; 
             font-weight: 700;
             letter-spacing: 0.3px;
@@ -90,7 +90,7 @@ def generate_svg(stats, theme='dark'):
             stroke-width: 1.5;
         }}
         .footer {{
-            font-size: 11px;
+            font-size: 12px;
             fill: {colors['section']};
         }}
         .accent-text {{
@@ -99,82 +99,82 @@ def generate_svg(stats, theme='dark'):
     </style>
     
     <!-- ===== HEADER ===== -->
-    <text x="28" y="45" class="header">╭─</text>
-    <text x="70" y="45" class="header">{USERNAME}</text>
-    <text x="{len(USERNAME)*12 + 85}" y="45" class="header-sub">// Developer</text>
+    <text x="35" y="52" class="header">╭─</text>
+    <text x="80" y="52" class="header">{USERNAME}</text>
+    <text x="{len(USERNAME)*14 + 100}" y="52" class="header-sub">// Developer</text>
     
     <!-- خط جداکننده -->
-    <line x1="28" y1="55" x2="652" y2="55" class="solid-separator"/>
+    <line x1="35" y1="65" x2="765" y2="65" class="solid-separator"/>
     
     <!-- ===== SYSTEM (ستون چپ) ===== -->
-    <text x="28" y="85" class="section-title">
+    <text x="35" y="100" class="section-title">
         <tspan class="section-icon">■</tspan> SYSTEM
     </text>
     
-    <text x="42" y="112" class="label">OS</text>
-    <text x="170" y="112" class="value">...... {OS}</text>
+    <text x="50" y="130" class="label">OS</text>
+    <text x="190" y="130" class="value">...... {OS}</text>
     
-    <text x="42" y="134" class="label">Uptime</text>
-    <text x="170" y="134" class="value">...... {age}</text>
+    <text x="50" y="155" class="label">Uptime</text>
+    <text x="190" y="155" class="value">...... {age}</text>
     
-    <text x="42" y="156" class="label">Host</text>
-    <text x="170" y="156" class="value">...... {HOST}</text>
+    <text x="50" y="180" class="label">Host</text>
+    <text x="190" y="180" class="value">...... {HOST}</text>
     
-    <text x="42" y="178" class="label">Kernel</text>
-    <text x="170" y="178" class="value">...... {KERNEL}</text>
+    <text x="50" y="205" class="label">Kernel</text>
+    <text x="190" y="205" class="value">...... {KERNEL}</text>
     
-    <text x="42" y="200" class="label">IDE</text>
-    <text x="170" y="200" class="value">...... {IDE}</text>
+    <text x="50" y="230" class="label">IDE</text>
+    <text x="190" y="230" class="value">...... {IDE}</text>
     
     <!-- ===== LANGUAGES (ستون راست) ===== -->
-    <text x="370" y="85" class="section-title">
+    <text x="430" y="100" class="section-title">
         <tspan class="section-icon">■</tspan> LANGUAGES
     </text>
     
-    <text x="384" y="112" class="label">Programming</text>
-    <text x="510" y="112" class="value">...... {PROG_LANGS}</text>
+    <text x="445" y="130" class="label">Programming</text>
+    <text x="590" y="130" class="value">...... {PROG_LANGS}</text>
     
-    <text x="384" y="134" class="label">Computer</text>
-    <text x="510" y="134" class="value">...... {COMPUTER_LANGS}</text>
+    <text x="445" y="155" class="label">Computer</text>
+    <text x="590" y="155" class="value">...... {COMPUTER_LANGS}</text>
     
-    <text x="384" y="156" class="label">Real</text>
-    <text x="510" y="156" class="value">...... {REAL_LANGS}</text>
+    <text x="445" y="180" class="label">Real</text>
+    <text x="590" y="180" class="value">...... {REAL_LANGS}</text>
     
     <!-- خط جداکننده -->
-    <line x1="28" y1="222" x2="652" y2="222" class="separator"/>
+    <line x1="35" y1="255" x2="765" y2="255" class="separator"/>
     
     <!-- ===== HOBBIES ===== -->
-    <text x="28" y="255" class="section-title">
+    <text x="35" y="290" class="section-title">
         <tspan class="section-icon">■</tspan> HOBBIES
     </text>
     
-    <text x="42" y="282" class="label">Software</text>
-    <text x="170" y="282" class="value">...... {SOFTWARE_HOBBIES}</text>
+    <text x="50" y="320" class="label">Software</text>
+    <text x="190" y="320" class="value">...... {SOFTWARE_HOBBIES}</text>
     
-    <text x="42" y="304" class="label">Hardware</text>
-    <text x="170" y="304" class="value">...... {HARDWARE_HOBBIES}</text>
+    <text x="50" y="345" class="label">Hardware</text>
+    <text x="190" y="345" class="value">...... {HARDWARE_HOBBIES}</text>
     
     <!-- ===== CONTACT ===== -->
-    <text x="370" y="255" class="section-title">
+    <text x="430" y="290" class="section-title">
         <tspan class="section-icon">■</tspan> CONTACT
     </text>
     
-    <text x="384" y="282" class="label">Personal</text>
-    <text x="510" y="282" class="value">...... {EMAIL_PERSONAL}</text>
+    <text x="445" y="320" class="label">Personal</text>
+    <text x="590" y="320" class="value">...... {EMAIL_PERSONAL}</text>
     
-    <text x="384" y="304" class="label">Work</text>
-    <text x="510" y="304" class="value">...... {EMAIL_WORK}</text>
+    <text x="445" y="345" class="label">Work</text>
+    <text x="590" y="345" class="value">...... {EMAIL_WORK}</text>
     
-    <text x="384" y="326" class="label">LinkedIn</text>
-    <text x="510" y="326" class="value">...... {LINKEDIN}</text>
+    <text x="445" y="370" class="label">LinkedIn</text>
+    <text x="590" y="370" class="value">...... {LINKEDIN}</text>
     
-    <text x="384" y="348" class="label">Discord</text>
-    <text x="510" y="348" class="value">...... {DISCORD}</text>
+    <text x="445" y="395" class="label">Discord</text>
+    <text x="590" y="395" class="value">...... {DISCORD}</text>
     
     <!-- ===== FOOTER ===== -->
-    <line x1="28" y1="440" x2="652" y2="440" class="separator"/>
+    <line x1="35" y1="450" x2="765" y2="450" class="separator"/>
     
-    <text x="28" y="462" class="footer">
+    <text x="35" y="478" class="footer">
         ╰─ updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} 
         <tspan class="accent-text">♥</tspan>
     </text>
