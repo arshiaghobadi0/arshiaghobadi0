@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420">
+    <rect width="600" height="420" fill="#0d1117" rx="10"/>
+    
+    <style>
+        text { font-family: 'Cascadia Code', 'Fira Code', monospace; }
+        .header { font-size: 24px; fill: #58a6ff; font-weight: bold; }
+        .label { font-size: 14px; fill: #8b949e; }
+        .value { font-size: 14px; fill: #c9d1d9; }
+        .section-title { font-size: 16px; fill: #f0883e; font-weight: bold; }
+    </style>
+    
+    <!-- Header -->
+    <text x="20" y="40" class="header">arshiaghobadi0</text>
+    
+    <!-- OS & System Info -->
+    <text x="20" y="70" class="label">OS:</text>
+    <text x="140" y="70" class="value">...... Windows 10, Android 14, Linux's</text>
+    
+    <text x="20" y="90" class="label">Uptime:</text>
+    <text x="140" y="90" class="value">...... 18 years, 11 months, 15 days</text>
+    
+    <text x="20" y="110" class="label">Host:</text>
+    <text x="140" y="110" class="value">...... Your Company Name</text>
+    
+    <text x="20" y="130" class="label">Kernel:</text>
+    <text x="140" y="130" class="value">...... Your Job Title</text>
+    
+    <text x="20" y="150" class="label">IDE:</text>
+    <text x="140" y="150" class="value">...... VIM, VS Code, PyCharm</text>
+    
+    <!-- Languages -->
+    <text x="20" y="190" class="section-title">Languages.Programming:</text>
+    <text x="230" y="190" class="value">...... C, C++, C#, Python, JavaScript</text>
+    
+    <text x="20" y="210" class="section-title">Languages.Computer:</text>
+    <text x="230" y="210" class="value">...... HTML, CSS, JSON, MARKDOWN, YAML</text>
+    
+    <text x="20" y="230" class="section-title">Languages.Real:</text>
+    <text x="230" y="230" class="value">...... English(A2), Persian</text>
+    
+    <!-- Hobbies -->
+    <text x="20" y="270" class="section-title">Hobbies.Software:</text>
+    <text x="230" y="270" class="value">...... Operating System, CLI, Bypassing restrictions</text>
+    
+    <text x="20" y="290" class="section-title">Hobbies.Hardware:</text>
+    <text x="230" y="290" class="value">...... Make Stuff, Arduino, Raspberry Pi</text>
+    
+    <!-- Contact -->
+    <text x="20" y="330" class="section-title">Contact</text>
+    
+    <text x="20" y="350" class="label">Email.Personal:</text>
+    <text x="180" y="350" class="value">...... arshiaghobadi0@gmail.com</text>
+    
+    <text x="20" y="370" class="label">Email.Work:</text>
+    <text x="180" y="370" class="value">...... arshiaghobadi0@gmail.com</text>
+    
+    <text x="20" y="390" class="label">LinkedIn:</text>
+    <text x="180" y="390" class="value">...... arshiaghobadi</text>
+    
+    <text x="20" y="410" class="label">Discord:</text>
+    <text x="180" y="410" class="value">...... arshiaghobadi0</text>
+    
+</svg>
