@@ -8,23 +8,19 @@ from src.config import USERNAME
 def main():
     print(f"🔄 Generating profile for {USERNAME}...")
     
-    # اطلاعات گیت‌هاب دیگه دریافت نمیشه
     stats = {
         'user': {'followers': 0},
         'repos': {'total': 0, 'stars': 0, 'commits': 0},
         'lines': {'total': 0, 'added': 0, 'deleted': 0}
     }
     
-    # تولید SVG
-    print("🎨 Generating SVG...")
-    svg_content = generate_svg(stats)
-    
-    # ذخیره فایل‌ها
+    print("🌙 Generating dark mode...")
+    dark_svg = generate_svg(stats, theme='dark')
     with open('dark_mode.svg', 'w', encoding='utf-8') as f:
-        f.write(svg_content)
+        f.write(dark_svg)
     
-    # نسخه تم روشن
-    light_svg = svg_content.replace('#0d1117', '#ffffff').replace('#58a6ff', '#0366d6').replace('#c9d1d9', '#24292e')
+    print("☀️ Generating light mode...")
+    light_svg = generate_svg(stats, theme='light')
     with open('light_mode.svg', 'w', encoding='utf-8') as f:
         f.write(light_svg)
     
