@@ -19,49 +19,7 @@ def generate_svg(stats, theme='dark'):
     تولید فایل SVG با اطلاعات و تم دلخواه
     theme: 'dark' یا 'light'
     """
-    ascii_art = '''
-
-
-ππππππ√√√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≈≈≈≈≈≈≈≈∞∞∞∞∞∞∞≈≈≈≈≈≈≈≈∞   
-πππππ√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≈≈≈∞∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
-πππππ√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
-πππππ√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞√π       ππ∞≈≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
-πππππ√√√√√√√√∞∞∞∞∞∞∞∞∞√π              πππ√√∞≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
-πππππ√√√√√√√∞∞∞∞∞≈≈≈π                     π√√≠≠≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠   
-πππππ√√√√√√√∞∞∞∞∞∞                 π      πππ√≠≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠   
-πππππ√√√√√√√√√∞√π                          πππ√≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠   
-πππππ√√√√√√√∞∞π                                 √≈≈≈≈≈≈≈≈≈≈≠≠≠≠   
-πππππ√√√√√√√√          π√√√∞∞∞∞∞∞∞∞∞∞∞∞√π        π∞≈≈≈≈≈≈≈≈≠≠≠≠   
-πππππ√√√√√√√π        ππ√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞√        ∞≈≈≈≈≈≈≈≈≠≠≠≠   
-πππππ√√√√∞∞∞√        ππ√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞√√       ππ≈≈≈≈≈≈≈≈≠≠≠≠   
-πππππ√√∞∞∞∞∞∞         π√√√∞∞∞≈≈≈≈≈∞∞∞∞∞∞√π       π∞≈≈≈≈≈≈≈≠≠≠≠≠   
-πππππ√√∞∞∞∞∞∞π              √√∞∞∞∞√√√√π√√√ππ      √≈≈≈≈≈≈≈≈≠≠≠≠   
-πππππ√√∞∞∞∞∞∞∞                π√ππ         √     π≈≈≈≈≈≈≈≈≈≠≠≠≠   
-πππππ√√∞∞∞∞∞∞√             π  √∞√   π     π√π    π≈≈≈≈≈≈≈≈≈≠≠≠≠   
-πππππ√∞∞∞∞∞∞∞∞∞∞   πππ   ππ√ππ∞∞√√√√πππ  π√√π  √ ∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
-πππππ√∞∞∞∞∞∞∞∞∞∞π  ππ√√√√√√√ππ∞∞√√√√∞∞∞√∞∞∞√√ √∞≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈   
-πππππ√∞∞∞∞∞∞∞∞∞∞√π  π√√√√√√π √∞≈∞√π√∞∞∞∞∞√√π√∞∞≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈=   
-πππππ√∞∞∞∞∞∞∞∞∞∞∞ π  π√√√√√π π√∞√ π√∞∞∞∞∞√√π√∞√≈≈∞∞∞≈≈≈∞≈≈≈≈≈≈≈   
-πππππ√∞∞∞∞∞∞∞∞∞∞∞∞∞  π√√√√√π      π√∞∞∞∞∞√ππ∞≈≈≈∞∞∞∞∞∞∞∞∞∞≈≈≈≈≈   
-πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈  ππππ      π    π√√√ππ  ∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
-πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈  ππ       πππ  π√πππ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
-πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈π    πππ ππ  π√√π  ππ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
-πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈√    ππππ   πππππ   ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
-πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈∞     ππ√√√√√πππ   π≈∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
-πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈         π       π√≈∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
-πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈∞ π             π√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
-πππππ√√∞∞∞∞∞∞∞∞∞∞∞≈≈√ππππ           π√√√√√≈√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
-πππππ√√∞∞∞∞∞∞∞∞∞√π √π πππππ      πππ√√√∞∞∞√∞≈√∞≈∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
-πππππ√∞∞∞∞∞∞√       ππππππππππππ√√√√√√√√∞∞∞∞π πππππ√∞∞∞∞∞∞∞≈≈≈≈   
-πππππ√∞∞√π           π√√ππ√√√√√√√√√√√√√∞∞∞∞    π   πππ√√√∞∞≈≈≈≈   
-ππ√√π                  π√√√√√√√√√√√√√√∞∞π              π πππ√≈≈   
-π                           π√√ππ√√√                         ππ   
-                                                                  
-                                                                  
-                                                                  
-                                                                   
     
-    '''
     age = calculate_age()
     
     # ===== تنظیم رنگ‌ها بر اساس تم =====
@@ -77,9 +35,10 @@ def generate_svg(stats, theme='dark'):
             'separator': '#d0d7de',
             'border': '#d0d7de',
             'card_bg': '#f6f8fa',
-            'grid': '#d0d7de'
+            'grid': '#d0d7de',
+            'ascii': '#57606a'
         }
-        grid_opacity = '0.35'
+        grid_opacity = '0.25'
     else:  # dark (پیش‌فرض)
         colors = {
             'bg': '#0d1117',
@@ -92,18 +51,71 @@ def generate_svg(stats, theme='dark'):
             'separator': '#30363d',
             'border': '#30363d',
             'card_bg': '#161b22',
-            'grid': '#30363d'
+            'grid': '#30363d',
+            'ascii': '#58a6ff'
         }
-        grid_opacity = '0.35'
+        grid_opacity = '0.12'
     
-    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
+    # ===== عکس ASCII شما =====
+    ascii_art = r'''
+    ππππππ√√√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≈≈≈≈≈≈≈≈∞∞∞∞∞∞∞≈≈≈≈≈≈≈≈∞   
+    πππππ√√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≈≈≈∞∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≠≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√√√√√√√√√∞∞∞∞∞∞∞∞∞∞∞√π       ππ∞≈≠≠≠≠≠≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√√√√√√√√∞∞∞∞∞∞∞∞∞√π              πππ√√∞≠≠≠≈≈∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√√√√√√√∞∞∞∞∞≈≈≈π                     π√√≠≠≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√√√√√√√∞∞∞∞∞∞                 π      πππ√≠≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√√√√√√√√√∞√π                          πππ√≈≈≈≈≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√√√√√√√∞∞π                                 √≈≈≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√√√√√√√√          π√√√∞∞∞∞∞∞∞∞∞∞∞∞√π        π∞≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√√√√√√√π        ππ√√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞√        ∞≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√√√√∞∞∞√        ππ√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞√√       ππ≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√√∞∞∞∞∞∞         π√√√∞∞∞≈≈≈≈≈∞∞∞∞∞∞√π       π∞≈≈≈≈≈≈≈≠≠≠≠≠   
+    πππππ√√∞∞∞∞∞∞π              √√∞∞∞∞√√√√π√√√ππ      √≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√√∞∞∞∞∞∞∞                π√ππ         √     π≈≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√√∞∞∞∞∞∞√             π  √∞√   π     π√π    π≈≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√∞∞∞∞∞∞∞∞∞∞   πππ   ππ√ππ∞∞√√√√πππ  π√√π  √ ∞≈≈≈≈≈≈≈≈≈≠≠≠≠   
+    πππππ√∞∞∞∞∞∞∞∞∞∞π  ππ√√√√√√√ππ∞∞√√√√∞∞∞√∞∞∞√√ √∞≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈   
+    πππππ√∞∞∞∞∞∞∞∞∞∞√π  π√√√√√√π √∞≈∞√π√∞∞∞∞∞√√π√∞∞≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈=   
+    πππππ√∞∞∞∞∞∞∞∞∞∞∞ π  π√√√√√π π√∞√ π√∞∞∞∞∞√√π√∞√≈≈∞∞∞≈≈≈∞≈≈≈≈≈≈≈   
+    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞∞  π√√√√√π      π√∞∞∞∞∞√ππ∞≈≈≈∞∞∞∞∞∞∞∞∞∞≈≈≈≈≈   
+    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈  ππππ      π    π√√√ππ  ∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
+    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈  ππ       πππ  π√πππ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
+    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈π    πππ ππ  π√√π  ππ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
+    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈√    ππππ   πππππ   ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
+    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈∞     ππ√√√√√πππ   π≈∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
+    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈         π       π√≈∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
+    πππππ√∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈∞ π             π√√√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
+    πππππ√√∞∞∞∞∞∞∞∞∞∞∞≈≈√ππππ           π√√√√√≈√∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
+    πππππ√√∞∞∞∞∞∞∞∞∞√π √π πππππ      πππ√√√∞∞∞√∞≈√∞≈∞∞∞∞∞∞∞∞∞∞∞≈≈≈≈   
+    πππππ√∞∞∞∞∞∞√       ππππππππππππ√√√√√√√√∞∞∞∞π πππππ√∞∞∞∞∞∞∞≈≈≈≈   
+    πππππ√∞∞√π           π√√ππ√√√√√√√√√√√√√∞∞∞∞    π   πππ√√√∞∞≈≈≈≈   
+    ππ√√π                  π√√√√√√√√√√√√√√∞∞π              π πππ√≈≈   
+    π                           π√√ππ√√√                         ππ   
+    '''
+    
+    # ===== تبدیل ASCII به خطوط SVG =====
+    ascii_lines = ascii_art.strip('\n').split('\n')
+    
+    # تنظیم موقعیت عکس (با توجه به اینکه عکس بزرگه)
+    ascii_start_x = 750
+    ascii_start_y = 95
+    line_height = 13  # فاصله بین خطوط (کمتر برای عکس بزرگ)
+    font_size = 8     # فونت کوچکتر برای عکس بزرگ
+    
+    ascii_elements = ""
+    for i, line in enumerate(ascii_lines):
+        if line.strip():  # اگر خط خالی نبود
+            # حذف فاصله‌های اضافی آخر خط
+            clean_line = line.rstrip()
+            ascii_elements += f'    <text x="{ascii_start_x}" y="{ascii_start_y + i*line_height}" class="ascii-art" font-size="{font_size}">{clean_line}</text>\n'
+    
+    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="550" viewBox="0 0 1100 550">
     <!-- ===== تعریف الگوی گرید ===== -->
     <defs>
-        <!-- گرید ریز (۲۰×۲۰) -->
         <pattern id="grid-small" width="20" height="20" patternUnits="userSpaceOnUse">
             <path d="M 20 0 L 0 0 0 20" fill="none" stroke="{colors['grid']}" stroke-width="0.5" stroke-opacity="{grid_opacity}"/>
         </pattern>
-        <!-- گرید درشت (۱۰۰×۱۰۰) با خطوط پررنگ‌تر -->
         <pattern id="grid-large" width="100" height="100" patternUnits="userSpaceOnUse">
             <rect width="100" height="100" fill="url(#grid-small)"/>
             <path d="M 100 0 L 0 0 0 100" fill="none" stroke="{colors['grid']}" stroke-width="1.2" stroke-opacity="{grid_opacity}"/>
@@ -111,9 +123,9 @@ def generate_svg(stats, theme='dark'):
     </defs>
     
     <!-- ===== پس‌زمینه با گرید ===== -->
-    <rect width="1000" height="500" fill="{colors['bg']}" rx="14" ry="14"/>
-    <rect width="1000" height="500" fill="url(#grid-large)" rx="14" ry="14"/>
-    <rect width="1000" height="500" fill="none" stroke="{colors['border']}" stroke-width="1.5" rx="14" ry="14"/>
+    <rect width="1100" height="550" fill="{colors['bg']}" rx="14" ry="14"/>
+    <rect width="1100" height="550" fill="url(#grid-large)" rx="14" ry="14"/>
+    <rect width="1100" height="550" fill="none" stroke="{colors['border']}" stroke-width="1.5" rx="14" ry="14"/>
     
     <style>
         text {{ 
@@ -163,17 +175,22 @@ def generate_svg(stats, theme='dark'):
         .accent-text {{
             fill: {colors['accent']};
         }}
+        .ascii-art {{
+            fill: {colors['ascii']};
+            font-family: 'Cascadia Code', 'Fira Code', monospace;
+            white-space: pre;
+            opacity: 0.7;
+            letter-spacing: 0.3px;
+        }}
     </style>
 
-    {ascii_art}
-    
     <!-- ===== HEADER ===== -->
     <text x="35" y="52" class="header">╭─</text>
     <text x="80" y="52" class="header">{USERNAME}</text>
     <text x="{len(USERNAME)*14 + 120}" y="52" class="header-sub">// Developer</text>
     
     <!-- خط جداکننده -->
-    <line x1="35" y1="66" x2="960" y2="66" class="solid-separator"/>
+    <line x1="35" y1="66" x2="1060" y2="66" class="solid-separator"/>
     
     <!-- ===== SYSTEM (ستون چپ) ===== -->
     <text x="35" y="100" class="section-title">
@@ -213,43 +230,46 @@ def generate_svg(stats, theme='dark'):
     <text x="635" y="180" class="value"> {REAL_LANGS}</text>
     
     <!-- خط جداکننده -->
-    <line x1="35" y1="270" x2="960" y2="270" class="separator"/>
+    <line x1="35" y1="280" x2="1060" y2="280" class="separator"/>
     
     <!-- ===== HOBBIES ===== -->
-    <text x="35" y="300" class="section-title">
+    <text x="35" y="310" class="section-title">
         <tspan class="section-icon">■</tspan> HOBBIES
     </text>
     
-    <text x="50" y="330" class="label">Software: </text>
-    <text x="160" y="330" class="value"> {SOFTWARE_HOBBIES}</text>
+    <text x="50" y="340" class="label">Software: </text>
+    <text x="160" y="340" class="value"> {SOFTWARE_HOBBIES}</text>
     
-    <text x="50" y="355" class="label">Hardware: </text>
-    <text x="160" y="355" class="value"> {HARDWARE_HOBBIES}</text>
+    <text x="50" y="365" class="label">Hardware: </text>
+    <text x="160" y="365" class="value"> {HARDWARE_HOBBIES}</text>
 
-    <text x="50" y="380" class="label">RealLife: </text>
-    <text x="160" y="380" class="value"> {REALLIFE_HOBBIES}</text>
+    <text x="50" y="390" class="label">RealLife: </text>
+    <text x="160" y="390" class="value"> {REALLIFE_HOBBIES}</text>
     
     <!-- ===== CONTACT ===== -->
-    <text x="500" y="300" class="section-title">
+    <text x="500" y="310" class="section-title">
         <tspan class="section-icon">■</tspan> CONTACT
     </text>
     
-    <text x="515" y="330" class="label">Personal: </text>
-    <text x="635" y="330" class="value"> {EMAIL_PERSONAL}</text>
+    <text x="515" y="340" class="label">Personal: </text>
+    <text x="635" y="340" class="value"> {EMAIL_PERSONAL}</text>
     
-    <text x="515" y="355" class="label">Work: </text>
-    <text x="635" y="355" class="value"> {EMAIL_WORK}</text>
+    <text x="515" y="365" class="label">Work: </text>
+    <text x="635" y="365" class="value"> {EMAIL_WORK}</text>
     
-    <text x="515" y="380" class="label">LinkedIn: </text>
-    <text x="635" y="380" class="value"> {LINKEDIN}</text>
+    <text x="515" y="390" class="label">LinkedIn: </text>
+    <text x="635" y="390" class="value"> {LINKEDIN}</text>
     
-    <text x="515" y="405" class="label">Instagram: </text>
-    <text x="635" y="405" class="value"> {INSTAGRAM}</text>
+    <text x="515" y="415" class="label">Instagram: </text>
+    <text x="635" y="415" class="value"> {INSTAGRAM}</text>
+    
+    <!-- ===== ASCII ART (سمت راست) ===== -->
+{ascii_elements}
     
     <!-- ===== FOOTER ===== -->
-    <line x1="35" y1="450" x2="960" y2="450" class="separator"/>
+    <line x1="35" y1="500" x2="1060" y2="500" class="separator"/>
     
-    <text x="35" y="478" class="footer">
+    <text x="35" y="528" class="footer">
         ╰─ Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} 
         <tspan class="accent-text">♥</tspan>
     </text>
