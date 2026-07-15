@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="550" viewBox="0 0 1100 550">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="750" viewBox="0 0 1100 750">
     <!-- ===== تعریف الگوی گرید ===== -->
     <defs>
         <pattern id="grid-small" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -11,9 +11,9 @@
     </defs>
     
     <!-- ===== پس‌زمینه با گرید ===== -->
-    <rect width="1100" height="550" fill="#ffffff" rx="14" ry="14"/>
-    <rect width="1100" height="550" fill="url(#grid-large)" rx="14" ry="14"/>
-    <rect width="1100" height="550" fill="none" stroke="#d0d7de" stroke-width="1.5" rx="14" ry="14"/>
+    <rect width="1100" height="750" fill="#ffffff" rx="14" ry="14"/>
+    <rect width="1100" height="750" fill="url(#grid-large)" rx="14" ry="14"/>
+    <rect width="1100" height="750" fill="none" stroke="#d0d7de" stroke-width="1.5" rx="14" ry="14"/>
     
     <style>
         text { 
@@ -135,7 +135,7 @@
     <text x="580" y="130" class="value"> Windows 10, Android 14, Linux's</text>
     
     <text x="470" y="155" class="label">Uptime: </text>
-    <text x="580" y="155" class="value"> 18y 11m 15d 16:39:35</text>
+    <text x="580" y="155" class="value"> 18y 11m 15d 16:43:20</text>
 
     <text x="470" y="180" class="label">University: </text> 
     <text x="580" y="180" class="value"> University of Lorestan</text>
@@ -184,7 +184,7 @@
     <text x="580" y="510" class="value"> </text>
 
         <!-- خط جداکننده افقی -->
-    <line x1="450" y1="530" x2="1060" y2="410" class="separator"/>
+    <line x1="450" y1="530" x2="1060" y2="530" class="separator"/>
     
     <!-- ===== CONTACT ===== -->
     <text x="500" y="555" class="section-title">
@@ -204,10 +204,10 @@
     <text x="635" y="655" class="value"> arshiaghobadi0</text>
     
     <!-- ===== FOOTER ===== -->
-    <line x1="35" y1="450" x2="960" y2="450" class="separator"/>
+    <line x1="35" y1="700" x2="960" y2="700" class="separator"/>
     
-    <text x="35" y="478" class="footer">
-        ╰─ Last Updated: 2026-07-15 16:39 
+    <text x="35" y="715" class="footer">
+        ╰─ Last Updated: 2026-07-15 16:43 
         <tspan class="accent-text">♥</tspan>
     </text>
     
