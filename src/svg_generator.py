@@ -164,8 +164,8 @@ def generate_svg(stats, theme='dark'):
     <text x="50" y="355" class="label">Hardware: </text>
     <text x="160" y="355" class="value"> {HARDWARE_HOBBIES}</text>
 
-    <text x="50" y="370" class="label">RealLife: </text>
-    <text x="160" y="370" class="value"> {REALLIFE_HOBBIES}</text>
+    <text x="50" y="385" class="label">RealLife: </text>
+    <text x="160" y="385" class="value"> {REALLIFE_HOBBIES}</text>
     
     <!-- ===== CONTACT ===== -->
     <text x="500" y="300" class="section-title">
@@ -178,11 +178,11 @@ def generate_svg(stats, theme='dark'):
     <text x="515" y="355" class="label">Work: </text>
     <text x="635" y="355" class="value"> {EMAIL_WORK}</text>
     
-    <text x="515" y="370" class="label">LinkedIn: </text>
-    <text x="635" y="370" class="value"> {LINKEDIN}</text>
+    <text x="515" y="385" class="label">LinkedIn: </text>
+    <text x="635" y="385" class="value"> {LINKEDIN}</text>
     
-    <text x="515" y="395" class="label">Instagram: </text>
-    <text x="635" y="395" class="value"> {INSTAGRAM}</text>
+    <text x="515" y="410" class="label">Instagram: </text>
+    <text x="635" y="410" class="value"> {INSTAGRAM}</text>
     
     <!-- ===== FOOTER ===== -->
     <line x1="35" y1="450" x2="765" y2="450" class="separator"/>
