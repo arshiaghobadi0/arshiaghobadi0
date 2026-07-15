@@ -37,7 +37,7 @@ def generate_svg(stats, theme='dark'):
             'card_bg': '#f6f8fa',
             'grid': '#d0d7de'
         }
-        grid_opacity = '0.25'
+        grid_opacity = '0.35'
     else:  # dark (پیش‌فرض)
         colors = {
             'bg': '#0d1117',
@@ -52,7 +52,7 @@ def generate_svg(stats, theme='dark'):
             'card_bg': '#161b22',
             'grid': '#30363d'
         }
-        grid_opacity = '0.12'
+        grid_opacity = '0.35'
     
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
     <!-- ===== تعریف الگوی گرید ===== -->
