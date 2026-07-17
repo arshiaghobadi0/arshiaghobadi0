@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="916" viewBox="0 0 1100 916">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="980" viewBox="0 0 1100 980">
     <!-- ===== تعریف الگوی گرید ===== -->
     <defs>
         <pattern id="grid-small" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -11,9 +11,9 @@
     </defs>
     
     <!-- ===== پس‌زمینه با گرید ===== -->
-    <rect width="1100" height="916" fill="#0d1117" rx="14" ry="14"/>
-    <rect width="1100" height="916" fill="url(#grid-large)" rx="14" ry="14"/>
-    <rect width="1100" height="916" fill="none" stroke="#30363d" stroke-width="1.5" rx="14" ry="14"/>
+    <rect width="1100" height="980" fill="#0d1117" rx="14" ry="14"/>
+    <rect width="1100" height="980" fill="url(#grid-large)" rx="14" ry="14"/>
+    <rect width="1100" height="980" fill="none" stroke="#30363d" stroke-width="1.5" rx="14" ry="14"/>
     
     <style>
         text { 
@@ -86,102 +86,110 @@
     <line x1="40" y1="66" x2="1060" y2="66" class="solid-separator"/>
     
     <!-- ===== ASCII ART (سمت چپ، فول سایز) ===== -->
-    <text x="20" y="85" class="ascii-art" font-size="5.5">+++++++++++xxXXX88888888888888888888888888888888888888888000000000000000000000000000000SS#@@@@@@@@@#####SSSSSSSSSSSS000SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</text>
-    <text x="20" y="93" class="ascii-art" font-size="5.5">x++++++++++xxXXX88888888888888888888888888888888888888800000000000000000000000000000000SS#@@@@@@@@@@@@######SSSSSSSS00SSSSSSSSSSSSSSSSSSSSSSS#########</text>
-    <text x="20" y="101" class="ascii-art" font-size="5.5">++++++++++xxxXXX88888888888888888888888888888888888888800000000000000000000000000000000SS#@@@@@@@@@@@@@@@@#####SSSSSSSSSSSSSSSSSSSSSSSSSSSS###@@@@@@@@</text>
-    <text x="20" y="109" class="ascii-art" font-size="5.5">xx+++++++xxxxXX88888888888888888888888888888888888888880000000000000000000000000000SSSSSS#@@@@@@@@@@@@@@@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@</text>
-    <text x="20" y="117" class="ascii-art" font-size="5.5">xxxxxxxxxxxxxXX888888888888888888888888888888888888880000000000000000000000000000SSSSSSSS#@@@@@@@@@@@@@@@@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSSS#@@@@@@@@@@</text>
-    <text x="20" y="125" class="ascii-art" font-size="5.5">xxxxxxxxxxxxxXX888888888888888888888888888888888888000000000000000000000088888880SSSSSSSS#@@@@@@@@@@@@@@@@@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSS#@@@@@@@@@@</text>
-    <text x="20" y="133" class="ascii-art" font-size="5.5">xxxxxxxxxxxxxXX8888888888888888888888888888888880000000000000000008x++-=+==+++++xxxx80SS##@@@@@@@@@@@@@@@@@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSS#@@@@@@@@@@</text>
-    <text x="20" y="141" class="ascii-art" font-size="5.5">xxxxxxxxxxxxxXX888888888888888888888888888888000000000000000008++---;;;;:::;;;;;;;-+++=+8000S#@@@@@@@@@@@@@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSS#@@@@@@@@@@</text>
-    <text x="20" y="149" class="ascii-art" font-size="5.5">xxxxxxxxxxxxxXX888888888888888888888888888880000000008xXX8888x-;---:,::::::,,::;-=---=++++xxxxXX88000#@@@@@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSS#@@@@@@@@@@</text>
-    <text x="20" y="157" class="ascii-art" font-size="5.5">xxxxxxxxxxxxxXX8888888888888888888888888800000000008808xx=-=;;;;-:,,::,:::::,,:;;-==++=-=+++XXxxx=+X0SX0#@@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSS#@@@@@@@@@@</text>
-    <text x="20" y="165" class="ascii-art" font-size="5.5">xxxxxxxxxxxxxXX888888888888888888888888800SSSSSS0088+-;;;;-;;--;:,:;;:;;;-;::::::,:::;;-=-===-=XX08x=xxXXS@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSS#@@@@@@@@@@</text>
-    <text x="20" y="173" class="ascii-art" font-size="5.5">xxxxxxxxxxxxxX888888888888888888888888800SS###SS0x;::::;----;;;-;;----=-;------;;,,,:,::;;;---::-+++X8Xxx80@@@@@##SSSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
-    <text x="20" y="181" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX88888888888888888888888880SS###S0=;::,,:,:;--;:,,-;-----==;-=-=++x==;,,::,,.,,,,;-==---;=xX8X0@@@###SSSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
-    <text x="20" y="189" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX88888888888888888888888880SS#0+-;:,,,,,,::;;;;::.::;;::::-;:---+---=-===-;:;;;;:::--:;+=+==xX8S@@###SSSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
-    <text x="20" y="197" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX88888888888888888888888880S0+x-::,,...,,,:;;---;,,,,,,,,,:,,:;::::;=++==++=-;;:,:,,:::;+Xxxx+xXS@@##SSSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
-    <text x="20" y="205" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX888888888888888888888888808=;,,......,,:::;;:;:::::,..,,,,,,,,,,:,;-;:,:::;+-+=-:,..,:::+xXXxXxX0S##SSSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
-    <text x="20" y="213" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX888888888888888888888888X+:,,.......,;;;;:,,,,,,::;;:,,,,,,,,,,,::::,,,,,,:::;-===+=;,.:;+xxxx8xx0###SSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
-    <text x="20" y="221" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888888888888888888X-:,,,.......:;::,.,,,,,:;;;=;-;;:;::::::::::,,,,,,,,,,:,:;;;;;;;:;;===+x8xxX8SSSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
-    <text x="20" y="229" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX88888888888888888888+-;;,..........,,:,,,.,:;-==+++=+===----;;;;;;:::;;:;;;;;;::::,::;;;-;;;--+++-=-=xSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
-    <text x="20" y="237" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX888888888888888888x--=:,............,,,::-=+xxxXXXXXXX8XXxx++x++=+======++xx+++==-;;;;:;;---;;;-=-====x8S##SSSSSSSSSSSSSSSS###@@@@@@@@@@</text>
-    <text x="20" y="245" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX88888888888888888+;=-::........  ...,:;-+xXxXXX888888000000000000088888888000088Xx+=;-;,;=--::::-=---+==xS##SSSSSSSS##SSS#####@@@@@@@@@@</text>
-    <text x="20" y="253" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888888888888x-x-;,...... .  ..,:--=+xXXXXX8888888000000000S0S000SSS0000000008888x-;:;=;::,,,:;;;--=Xxx0SSSSSSSSSSS#S##S###@@@@@@@@@@</text>
-    <text x="20" y="261" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888888888888===;.......    ..,;-=++xXXXXXX888880000000000SSS0000S000000000000888Xx-:;;::::,,,:;;-==+x8SSSSSSSSSSSS########@@@@@@@@@@</text>
-    <text x="20" y="269" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX888888888888888X;+:,....  ......,;===+xxXXXXXXX8888000000000SSSSSS0S00000000000000888X+-::,,,::.,,,:---=+8SSSSSSSSSSS########@@@@@@@@@@@</text>
-    <text x="20" y="277" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888888888888+-:....   .. ...;-==++xxxXXXXX8888800000000000SSS00000000000000000888Xx-:,,..,,,,,,:;-===XxSSSSSSSSS#########@@@@@@@@@@@</text>
-    <text x="20" y="285" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX88888888888888888=,....... ....,:-==+++xxXXXX888800000000000S0SSSSS000000000000888888Xx-,,.,,..,,,:;-=++++xxSSSSSSSS#########@@@@@@@@@@@</text>
-    <text x="20" y="293" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX88888888888888888+,............,:-===++xxXXX88888000000000SSSSSSSSSSSSSSS000000008888XXx-,,,,,,,,,,:;;;;==+x0SSSSSSS#########@@@@@@@@@@@</text>
-    <text x="20" y="301" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX88888888888888888x,............,:-===++xXXX8888808000SSSSSSSSSSSSSSSSSSSS000000000088XXxx+;,,,::-;;;-=-=+=x00SSSSS###########@@@@@@@@@@@</text>
-    <text x="20" y="309" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX88888888888888888x;.............:-====+xxxxxXXX8888880000SSSSSSSSSSSS0000000000000008XXXXx-:,.,:::;-==-;;=xSSSSSSSS#SSSS#####@@@@@@@@@@@</text>
-    <text x="20" y="317" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX888888888888888888=,...........,;=====---;-;;;-===+xXX888000000000080888888XXXX888888XxXXx=:,.......,,::;x8SSSSSSSSSSSS#######@@@@@@@@@@</text>
-    <text x="20" y="325" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888888888888888=,..........,-==-::;;::,,:,:,,::;=+xXX8888888888XXXxx+==-----+++++xxxxx+;,,.,:::...,;=8SSSSSSSSSSSS####SS##@@@@@@@@@@</text>
-    <text x="20" y="333" class="ascii-art" font-size="5.5">xxxxxxxxxxxXXX88888888888888888888-,.........:===::;;::::::::::,:::-=++xxxXXXXXxx+=-::,:,::::;;--==--+xXx=:..;::::;-:+XSSSSSSSSSSSSSSS#SSS##@@@@@@@@@@</text>
-    <text x="20" y="341" class="ascii-art" font-size="5.5">xxxxxxxxxxxXXX88888888888888888888+,.........-==-;;;-;;;;;;;;;:,,:;;;=++xxXxXXx+=-;;;;:::;;----;;-----xXXx;..,,,,:;;=x0SSSSSSSSSSSSSSSSSS###@@@@@@@@@@</text>
-    <text x="20" y="349" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX88888888888888888888+:........,-==-----;:-==;,;;,;;;;;;;=x80008Xx=--;:::;;:;-==-;-====-=xXXX-,.,,,:,:;=X8SSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
-    <text x="20" y="357" class="ascii-art" font-size="5.5">xxxxxxxxxxxXXX8888888888888888888+:,,,......:=+==-=-;-;,;+;:::;xXx=---=x80SS08+=---;=xX-:,,:=;;=-=++++xXXX=:,.,:,,:;--8SSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
-    <text x="20" y="365" class="ascii-art" font-size="5.5">xxxxxxxxxxxXXX88888888888888888888888x-;:,.,;=++++==-::-=xXXxXXXXx+++++X800008xx++xXXXXXx==X8+-:;++xxxxXXX+:,::;;;;-=+0SSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
-    <text x="20" y="373" class="ascii-art" font-size="5.5">xxxxxxxxxxxXXX8888888888888888888888888--;,,-+++xxx+=---==+++++xxXxxxxxX000088XXXxXXXxxxxxx+++=-=++xXXXXXX+-:,:=xX8;-XSSSSSSSSSSSSSSSSSSSS###@@@@@@@@#</text>
-    <text x="20" y="381" class="ascii-art" font-size="5.5">xxxxxxxxxxxXXX8888888888888888888888000X;-;:=+++xxxxx++=+++xxXXXXXxxxxX800S088XXXXXX8888Xx++++++xXX8888XXXx;;-=xxX-+SSSSSSSSSSSSSSSSSSSSSSS###@@@@####</text>
-    <text x="20" y="389" class="ascii-art" font-size="5.5">xxxxxxxxxxxXXX88888888888888080080000008+=-:=++xxXXXXXXXXXXXXXX8XXxxx+x80SS088XXXXXX888888888888888888888XX;-+XX8S#SSSSSSSSSSSSSSSSSSSSSSSSS##########</text>
-    <text x="20" y="397" class="ascii-art" font-size="5.5">xxxxxxxxxxxXXX8888888888888800000000000=++=-=+++xxXXX888XXXX888XXXx+++xX0SS08XXxXxxX8880888008800080888888X-x88S0S#SSSSSSSSSSSSSSSSSSSSSSSSSS#########</text>
-    <text x="20" y="405" class="ascii-art" font-size="5.5">xxxxxxxxxxxXXX8888888888880000000000000xx+=-==+++xXX88X888888888Xx+++xX80SS008XxxxxX8800080000000000888XXXx+X800XSSSSSSSSSSSSSSSSSSSSSSSSSSSS#########</text>
-    <text x="20" y="413" class="ascii-art" font-size="5.5">xxxxxxxxxxxXXX88888888888800000000000008+x+=-==++xXXX8X888888888XX+=xX80SSSS0088Xx+X880000000000000888XXXXx880SX8SSSSSSSSSSSSSSSSSSSSSSSSSSSSS########</text>
-    <text x="20" y="421" class="ascii-art" font-size="5.5">xxxxxxxxxxxXXX88888888808000000000000000+=x=--==+xxxXXX888888888XXxxxX800SSS0088XXXX88000000080088888XXxxxx88SS#SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS########</text>
-    <text x="20" y="429" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX888888888800000000000000008:=Xx-==++xxXXXXXX8888888x++=+x888088Xx++xxx80000000000888888XXxx=XS0X+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS########</text>
-    <text x="20" y="437" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX888888800800000000000000000+:+=-===+xxXXXXXX888888Xx=-;:;=xXXX+=:,;==x8808000088888888XXxx+X000SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS#######</text>
-    <text x="20" y="445" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888880000000000000000000000S0x+--=+xxxXXXXX888X88Xx=-;:;::---;;-;;-+X888888888888888XXxxx+88#SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS#######</text>
-    <text x="20" y="453" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888800000000000000000000S##x====++xxXXXXXXXXXXXXx++-;;;;;;---=xXX888888888888888Xxxx+X0S#SSSSSSSSS0SSSSSSSSSSSSSSSSSSSSSSSSS######SS</text>
-    <text x="20" y="461" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX888888888000000000000000000SS###x===+++xxxXXxXXxx+===;--;-----------===+xX8XX88888XXXxxx+=x8XSSSSSSSSS00SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</text>
-    <text x="20" y="469" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX888888888800000000000000000SS###@#x===+xxxXxxx+=====+++xxxxxxxXXXxxx++--;;=xXX888XXXxxxX=;=-8SSSSSSSSS00000000SSSSSSSSSSSSSSSSSSSSSSSSSS</text>
-    <text x="20" y="477" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX888800000000000000000000000SS#####S+==+++xxxx==-=======+++++xXx+++==-=-;;-=+xXXXXXXXxxXXS0SSSSSSSSSS0000000000000S00S0SSSSSSSSSSSSSSSS#S</text>
-    <text x="20" y="485" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX888800008080000000000000000SS######8===++++++==++=========-----==xxXxx++xx++xXXxxxxxxxXSSSSSSSSSSSSS000000000000000000000SSSSSSSSSSS#S#S</text>
-    <text x="20" y="493" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX888088888880000000000000000SS#######X======++==++xxxxxxxX88888888XXXXxxXXXX+xxxx+xxx+x0SSSSSSSSSSSSS000000000000000000000000SSSSSSS#####</text>
-    <text x="20" y="501" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888008888000000000000000000S########=-----===+++xxx+++++xxXxxxxx++++xXXXXxxx++++++++SSSSSSSSS0SSS000000000000000000000000000SSSSS######</text>
-    <text x="20" y="509" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888880800000000000000000000S########x;:;---====++++++==-;;;;:;---=+xxxxxxx+=======-8SSSSSSSSSSSSS000000000000000000000000000SSSSS######</text>
-    <text x="20" y="517" class="ascii-art" font-size="5.5">xxxxxxxxxxxXXX8888888800000000000000000000SS#######X-;::----==+++xx+++==-----==+xxxxxxxxxx==---;-x00SSSSSSSSSSS0000000000000000000000000000SSSSS######</text>
-    <text x="20" y="525" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888000000000000000000000SS#######X=-:,::;-=+xxxxxxxxXXxxXxXXXxXXXXXXXX+=-=;-;-+XS000000S0SSS00000000000000000000000000000SSSSSS#####</text>
-    <text x="20" y="533" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888888888800000000000000SS#######8=--;,,:-==+xxxxXXX88888888XXXXXXXXx+=-::::-+xXS0000000000000000000000000000000000000000SSSSS######</text>
-    <text x="20" y="541" class="ascii-art" font-size="5.5">xxxxxxxxxxxXXX8888888888880000000000000000SS#######0+=--;:,:;-==++x+xxxX8888888Xxx++++==-:,,;=+xxX#00000000000000000000000000000000000000000SSSSSS####</text>
-    <text x="20" y="549" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888888888888800000000000SS#######S+==--;:,,:;---=-=+xxXXXXXXxxx++==--;:.:-=+xxXX#0000000000000000000000000000000000000000SSSSSSS####</text>
-    <text x="20" y="557" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888888888888888000000000SS#######Sx====--;:,,:;;;;;--==+x++=====---:,,,;-++xXXXX#00000000000000000000000000000000000000000SSSSSSSSSS</text>
-    <text x="20" y="565" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888888888888888888000000S########S+++++=--;::,.,,:::;;;;;---;;;;;:,,:;;=+xxXXXX8S00000000000000000000000000000000000000000SSSSSSSSSS</text>
-    <text x="20" y="573" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888888888888888888000000SS#######S++++++==-;::::,,.....,,,,,....,::;;-=+xXXX88880#0000000000000000000000000000000000000000SSSSSSSSSS</text>
-    <text x="20" y="581" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888888888888888888800000SS#######8+++++++==-;;;::::::::::::::::::;;-==+xXX8888888#0000000000000000000000000000000000000000SSSSSSSSSS</text>
-    <text x="20" y="589" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888888888888888888800000SS######Sx+++xxx+++==-;;;;:;;:;;;;;;;;;;;--=++xXX888888880#SS0000000000000000000000000000000000000SSSSSSSSSS</text>
-    <text x="20" y="597" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888888888888888888800000SS#S=:x8++++xxxxx+++===---;;;;;;;-;;----===+xxXXX8888888888S#X;=SS00000000000000000000000000000000SSSSSSSSSS</text>
-    <text x="20" y="605" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX8888888888888888888888800000S0X+0Xx+++++xxxxxxx+++======------=======++xxxX88888888888880S#SX0S#S00000000000000000000000000000SSSSSSSSSS</text>
-    <text x="20" y="613" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX888888888888888888888000XX++=--xXx+++++xxxxxxxxxxx++====+=====++++++xxxxX8888888888888880SS#Sx+X800S#0000000000000000000000000SSSSSSSSSS</text>
-    <text x="20" y="621" class="ascii-art" font-size="5.5">xxxxxxxxxxxxXX88888888888888888888x==+-=--;;;+Xxx++++xxxxxxxxxxxxx++++++xxxxxxxxxx+xxXX88888888888888000SS8==+xxxxX8XX8000000000000000000000SSSSSSSSSS</text>
-    <text x="20" y="629" class="ascii-art" font-size="5.5">xxxxxxxxxxxXX888888888888888008+=--==---;;;::;xxx+xxxxxxxxxxxxXxxxxxxx++xxxxxxxxXXXXX888888888880000000SS8===+++x+xxxxxxxx8SS000000000000000SSSSSSSSSS</text>
-    <text x="20" y="637" class="ascii-art" font-size="5.5">xxxxxxxxxxxXX88888888888088x===--------;;::::::+xxxxxxxxxxxxxxXXXXXxxxxxxxxXxxXXXXXX888888888880000000SSX---===+++++++++xxxxxX080S0000000000SSSSSSSSSS</text>
-    <text x="20" y="645" class="ascii-art" font-size="5.5">xxxxxxxxxxxXX88800808x+X+===------;;;;;;;;::::::=XXxxXXXXxxxxxXXXXXXXXXXXxXXXXXXXXX8888888X888000000SS0=---=====+++++++++++++++x8XXXX0S00000SSSSSSSSSS</text>
-    <text x="20" y="653" class="ascii-art" font-size="5.5">xxxxxxxxxxxXX8800++xx=---------;;;;;;;;;;;::::::::+xXXXXXXXXxxxXXXXXXXXXXXXXXXXXXX88XX8XXXX8800000SS0-;;;----===++=++++++++++++++xxxxxxxX8#SSSSSSSSSSS</text>
-    <text x="20" y="661" class="ascii-art" font-size="5.5">xxxxxxxxxxX00x+=++=----------;;;;;;;;;:;;;::,::::,,:-xXX88XXXXxXXXXXXXXXXXXXXXXXXXXXXXXXXX88800S00X-;;;;;---=-================+++++++++++x+xX8###SSSSS</text>
-    <text x="20" y="669" class="ascii-art" font-size="5.5">xxxXXX800x====----------;;;;;;;;;;;:::::::::::::::,,,::-X88XXXXXXXXXXXXXXxxxxxxXXXXXXX8XXX88000x;;;;;;;;;;-----==================++++++++++++++xxx8###</text>
-    <text x="20" y="677" class="ascii-art" font-size="5.5">XXXX8x=--------------;;;;;;;;;;;;:::::::::::::::::::,,:::::;xXXXXXX8XXXXxxxxxxxxXXX888XXX88+;;;::;;;;;;;-;------------===============+++++++++++++++xx</text>
-    <text x="20" y="685" class="ascii-art" font-size="5.5">X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXXXX88x=;:::::::::;;;;;;;;;;;;;-----------================++++++++++++++</text>
-    <text x="20" y="693" class="ascii-art" font-size="5.5">-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;;;;;;;;;;;;;;---------------================+==++=++++</text>
-    <text x="20" y="701" class="ascii-art" font-size="5.5">;;;;;;;;;;;;;;;;;;;:;;;;;;:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;;;;;;;;;;;;;;;--------------===-======================</text>
-    <text x="20" y="709" class="ascii-art" font-size="5.5">;;;;;;;;;;::::::::;:;;;:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;:;;;;;;;;;;;;;;;;;;;;;---------------=-----================</text>
-    <text x="20" y="717" class="ascii-art" font-size="5.5">;;;;:;;;;:::::::::::;:::::::::::::::::::::::::::::::::::::::::::::::::::;:::::;::::::::;;;::::;;;;;;;;;;;;;;;;;;;;;;;------------------=-=============</text>
-    <text x="20" y="725" class="ascii-art" font-size="5.5">::;:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-----------------==--==========</text>
-    <text x="20" y="733" class="ascii-art" font-size="5.5">:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:::;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-----;;;----==-------------</text>
-    <text x="20" y="741" class="ascii-art" font-size="5.5">::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;------------------</text>
-    <text x="20" y="749" class="ascii-art" font-size="5.5">::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-----------------;-</text>
-    <text x="20" y="757" class="ascii-art" font-size="5.5">::::::::::,::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:::;:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-;-;;;;;;;;;--;;;;</text>
-    <text x="20" y="765" class="ascii-art" font-size="5.5">::::::::::,::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;;;;;;;;;;;;;;;;;;;;;;;;;;--;;;;;;;;;;;;;;;;;</text>
-    <text x="20" y="773" class="ascii-art" font-size="5.5">::::::::::,::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:;;;;;;;;;;;;;;;;;;;;;:;;;;;;;;;;;;;;;;;;;;;;;</text>
-    <text x="20" y="781" class="ascii-art" font-size="5.5">::::::::::,,::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;::::;:;::;;;::;;;;;;;;;;;;;;:;;;;;;;;;;;;;;;;;;;;;;;;</text>
-    <text x="20" y="789" class="ascii-art" font-size="5.5">::::::::,,,,:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:::::;::::;;::;;;;;;;:;;;;;;;;;;;:;;:;;;;:;;;;</text>
-    <text x="20" y="797" class="ascii-art" font-size="5.5">::::::::,:,,:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;:;;;;::;;;;;;;;;;;;;::;;;::::::</text>
-    <text x="20" y="805" class="ascii-art" font-size="5.5">:::::::::,,::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;::::::::;:;:::;;;;;;;;;;;;:::;;:::::::</text>
-    <text x="20" y="813" class="ascii-art" font-size="5.5">,::::::,,,,:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;;:;;;;;;;;:::;;::::::::</text>
+    <text x="20" y="85" class="ascii-art" font-size="7.5">+++++++++++xxXXXXXXXXXXX8888888888888888888888888888888888888000000000000000000000000000SS#####SSSSSSSSSSSSSSSSSSSS00000SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</text>
+    <text x="20" y="93" class="ascii-art" font-size="7.5">+++++++++++xxXXXXXXX8888888888888888888888888888888888888888000000000000000000000000000SS##@@@@###SSSSSSSSSSSSSSSSS00000SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</text>
+    <text x="20" y="101" class="ascii-art" font-size="7.5">+++++++++++xxXXXXX888888888888888888888888888888888888888800000000000000000000000000000SS#@@@@@@@####SSSSSSSSSSSSSSS000SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</text>
+    <text x="20" y="109" class="ascii-art" font-size="7.5">+++++++++++xxXXX88888888888888888888888888888888888888888000000000000000000000000000000SS#@@@@@@@@@#####SSSSSSSSSSSS000SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</text>
+    <text x="20" y="117" class="ascii-art" font-size="7.5">x++++++++++xxXXX88888888888888888888888888888888888888800000000000000000000000000000000SS#@@@@@@@@@@@@######SSSSSSSS00SSSSSSSSSSSSSSSSSSSSSSS#########</text>
+    <text x="20" y="125" class="ascii-art" font-size="7.5">++++++++++xxxXXX88888888888888888888888888888888888888800000000000000000000000000000000SS#@@@@@@@@@@@@@@@@#####SSSSSSSSSSSSSSSSSSSSSSSSSSSS###@@@@@@@@</text>
+    <text x="20" y="133" class="ascii-art" font-size="7.5">xx+++++++xxxxXX88888888888888888888888888888888888888880000000000000000000000000000SSSSSS#@@@@@@@@@@@@@@@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@</text>
+    <text x="20" y="141" class="ascii-art" font-size="7.5">xxxxxxxxxxxxxXX888888888888888888888888888888888888880000000000000000000000000000SSSSSSSS#@@@@@@@@@@@@@@@@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSSS#@@@@@@@@@@</text>
+    <text x="20" y="149" class="ascii-art" font-size="7.5">xxxxxxxxxxxxxXX888888888888888888888888888888888888000000000000000000000088888880SSSSSSSS#@@@@@@@@@@@@@@@@@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSS#@@@@@@@@@@</text>
+    <text x="20" y="157" class="ascii-art" font-size="7.5">xxxxxxxxxxxxxXX8888888888888888888888888888888880000000000000000008x++-=+==+++++xxxx80SS##@@@@@@@@@@@@@@@@@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSS#@@@@@@@@@@</text>
+    <text x="20" y="165" class="ascii-art" font-size="7.5">xxxxxxxxxxxxxXX888888888888888888888888888888000000000000000008++---;;;;:::;;;;;;;-+++=+8000S#@@@@@@@@@@@@@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSS#@@@@@@@@@@</text>
+    <text x="20" y="173" class="ascii-art" font-size="7.5">xxxxxxxxxxxxxXX888888888888888888888888888880000000008xXX8888x-;---:,::::::,,::;-=---=++++xxxxXX88000#@@@@@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSS#@@@@@@@@@@</text>
+    <text x="20" y="181" class="ascii-art" font-size="7.5">xxxxxxxxxxxxxXX8888888888888888888888888800000000008808xx=-=;;;;-:,,::,:::::,,:;;-==++=-=+++XXxxx=+X0SX0#@@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSS#@@@@@@@@@@</text>
+    <text x="20" y="189" class="ascii-art" font-size="7.5">xxxxxxxxxxxxxXX888888888888888888888888800SSSSSS0088+-;;;;-;;--;:,:;;:;;;-;::::::,:::;;-=-===-=XX08x=xxXXS@@@@@@##SSSSSSSSSSSSSSSSSSSSSSSSS#@@@@@@@@@@</text>
+    <text x="20" y="197" class="ascii-art" font-size="7.5">xxxxxxxxxxxxxX888888888888888888888888800SS###SS0x;::::;----;;;-;;----=-;------;;,,,:,::;;;---::-+++X8Xxx80@@@@@##SSSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
+    <text x="20" y="205" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX88888888888888888888888880SS###S0=;::,,:,:;--;:,,-;-----==;-=-=++x==;,,::,,.,,,,;-==---;=xX8X0@@@###SSSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
+    <text x="20" y="213" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX88888888888888888888888880SS#0+-;:,,,,,,::;;;;::.::;;::::-;:---+---=-===-;:;;;;:::--:;+=+==xX8S@@###SSSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
+    <text x="20" y="221" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX88888888888888888888888880S0+x-::,,...,,,:;;---;,,,,,,,,,:,,:;::::;=++==++=-;;:,:,,:::;+Xxxx+xXS@@##SSSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
+    <text x="20" y="229" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX888888888888888888888888808=;,,......,,:::;;:;:::::,..,,,,,,,,,,:,;-;:,:::;+-+=-:,..,:::+xXXxXxX0S##SSSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
+    <text x="20" y="237" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX888888888888888888888888X+:,,.......,;;;;:,,,,,,::;;:,,,,,,,,,,,::::,,,,,,:::;-===+=;,.:;+xxxx8xx0###SSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
+    <text x="20" y="245" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888888888888888888X-:,,,.......:;::,.,,,,,:;;;=;-;;:;::::::::::,,,,,,,,,,:,:;;;;;;;:;;===+x8xxX8SSSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
+    <text x="20" y="253" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX88888888888888888888+-;;,..........,,:,,,.,:;-==+++=+===----;;;;;;:::;;:;;;;;;::::,::;;;-;;;--+++-=-=xSSSSSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
+    <text x="20" y="261" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX888888888888888888x--=:,............,,,::-=+xxxXXXXXXX8XXxx++x++=+======++xx+++==-;;;;:;;---;;;-=-====x8S##SSSSSSSSSSSSSSSS###@@@@@@@@@@</text>
+    <text x="20" y="269" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX88888888888888888+;=-::........  ...,:;-+xXxXXX888888000000000000088888888000088Xx+=;-;,;=--::::-=---+==xS##SSSSSSSS##SSS#####@@@@@@@@@@</text>
+    <text x="20" y="277" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888888888888x-x-;,...... .  ..,:--=+xXXXXX8888888000000000S0S000SSS0000000008888x-;:;=;::,,,:;;;--=Xxx0SSSSSSSSSSS#S##S###@@@@@@@@@@</text>
+    <text x="20" y="285" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888888888888===;.......    ..,;-=++xXXXXXX888880000000000SSS0000S000000000000888Xx-:;;::::,,,:;;-==+x8SSSSSSSSSSSS########@@@@@@@@@@</text>
+    <text x="20" y="293" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX888888888888888X;+:,....  ......,;===+xxXXXXXXX8888000000000SSSSSS0S00000000000000888X+-::,,,::.,,,:---=+8SSSSSSSSSSS########@@@@@@@@@@@</text>
+    <text x="20" y="301" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888888888888+-:....   .. ...;-==++xxxXXXXX8888800000000000SSS00000000000000000888Xx-:,,..,,,,,,:;-===XxSSSSSSSSS#########@@@@@@@@@@@</text>
+    <text x="20" y="309" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX88888888888888888=,....... ....,:-==+++xxXXXX888800000000000S0SSSSS000000000000888888Xx-,,.,,..,,,:;-=++++xxSSSSSSSS#########@@@@@@@@@@@</text>
+    <text x="20" y="317" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX88888888888888888+,............,:-===++xxXXX88888000000000SSSSSSSSSSSSSSS000000008888XXx-,,,,,,,,,,:;;;;==+x0SSSSSSS#########@@@@@@@@@@@</text>
+    <text x="20" y="325" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX88888888888888888x,............,:-===++xXXX8888808000SSSSSSSSSSSSSSSSSSSS000000000088XXxx+;,,,::-;;;-=-=+=x00SSSSS###########@@@@@@@@@@@</text>
+    <text x="20" y="333" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX88888888888888888x;.............:-====+xxxxxXXX8888880000SSSSSSSSSSSS0000000000000008XXXXx-:,.,:::;-==-;;=xSSSSSSSS#SSSS#####@@@@@@@@@@@</text>
+    <text x="20" y="341" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX888888888888888888=,...........,;=====---;-;;;-===+xXX888000000000080888888XXXX888888XxXXx=:,.......,,::;x8SSSSSSSSSSSS#######@@@@@@@@@@</text>
+    <text x="20" y="349" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888888888888888=,..........,-==-::;;::,,:,:,,::;=+xXX8888888888XXXxx+==-----+++++xxxxx+;,,.,:::...,;=8SSSSSSSSSSSS####SS##@@@@@@@@@@</text>
+    <text x="20" y="357" class="ascii-art" font-size="7.5">xxxxxxxxxxxXXX88888888888888888888-,.........:===::;;::::::::::,:::-=++xxxXXXXXxx+=-::,:,::::;;--==--+xXx=:..;::::;-:+XSSSSSSSSSSSSSSS#SSS##@@@@@@@@@@</text>
+    <text x="20" y="365" class="ascii-art" font-size="7.5">xxxxxxxxxxxXXX88888888888888888888+,.........-==-;;;-;;;;;;;;;:,,:;;;=++xxXxXXx+=-;;;;:::;;----;;-----xXXx;..,,,,:;;=x0SSSSSSSSSSSSSSSSSS###@@@@@@@@@@</text>
+    <text x="20" y="373" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX88888888888888888888+:........,-==-----;:-==;,;;,;;;;;;;=x80008Xx=--;:::;;:;-==-;-====-=xXXX-,.,,,:,:;=X8SSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
+    <text x="20" y="381" class="ascii-art" font-size="7.5">xxxxxxxxxxxXXX8888888888888888888+:,,,......:=+==-=-;-;,;+;:::;xXx=---=x80SS08+=---;=xX-:,,:=;;=-=++++xXXX=:,.,:,,:;--8SSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
+    <text x="20" y="389" class="ascii-art" font-size="7.5">xxxxxxxxxxxXXX88888888888888888888888x-;:,.,;=++++==-::-=xXXxXXXXx+++++X800008xx++xXXXXXx==X8+-:;++xxxxXXX+:,::;;;;-=+0SSSSSSSSSSSSSSSSSSS##@@@@@@@@@@</text>
+    <text x="20" y="397" class="ascii-art" font-size="7.5">xxxxxxxxxxxXXX8888888888888888888888888--;,,-+++xxx+=---==+++++xxXxxxxxX000088XXXxXXXxxxxxx+++=-=++xXXXXXX+-:,:=xX8;-XSSSSSSSSSSSSSSSSSSSS###@@@@@@@@#</text>
+    <text x="20" y="405" class="ascii-art" font-size="7.5">xxxxxxxxxxxXXX8888888888888888888888000X;-;:=+++xxxxx++=+++xxXXXXXxxxxX800S088XXXXXX8888Xx++++++xXX8888XXXx;;-=xxX-+SSSSSSSSSSSSSSSSSSSSSSS###@@@@####</text>
+    <text x="20" y="413" class="ascii-art" font-size="7.5">xxxxxxxxxxxXXX88888888888888080080000008+=-:=++xxXXXXXXXXXXXXXX8XXxxx+x80SS088XXXXXX888888888888888888888XX;-+XX8S#SSSSSSSSSSSSSSSSSSSSSSSSS##########</text>
+    <text x="20" y="421" class="ascii-art" font-size="7.5">xxxxxxxxxxxXXX8888888888888800000000000=++=-=+++xxXXX888XXXX888XXXx+++xX0SS08XXxXxxX8880888008800080888888X-x88S0S#SSSSSSSSSSSSSSSSSSSSSSSSSS#########</text>
+    <text x="20" y="429" class="ascii-art" font-size="7.5">xxxxxxxxxxxXXX8888888888880000000000000xx+=-==+++xXX88X888888888Xx+++xX80SS008XxxxxX8800080000000000888XXXx+X800XSSSSSSSSSSSSSSSSSSSSSSSSSSSS#########</text>
+    <text x="20" y="437" class="ascii-art" font-size="7.5">xxxxxxxxxxxXXX88888888888800000000000008+x+=-==++xXXX8X888888888XX+=xX80SSSS0088Xx+X880000000000000888XXXXx880SX8SSSSSSSSSSSSSSSSSSSSSSSSSSSSS########</text>
+    <text x="20" y="445" class="ascii-art" font-size="7.5">xxxxxxxxxxxXXX88888888808000000000000000+=x=--==+xxxXXX888888888XXxxxX800SSS0088XXXX88000000080088888XXxxxx88SS#SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS########</text>
+    <text x="20" y="453" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX888888888800000000000000008:=Xx-==++xxXXXXXX8888888x++=+x888088Xx++xxx80000000000888888XXxx=XS0X+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS########</text>
+    <text x="20" y="461" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX888888800800000000000000000+:+=-===+xxXXXXXX888888Xx=-;:;=xXXX+=:,;==x8808000088888888XXxx+X000SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS#######</text>
+    <text x="20" y="469" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888880000000000000000000000S0x+--=+xxxXXXXX888X88Xx=-;:;::---;;-;;-+X888888888888888XXxxx+88#SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS#######</text>
+    <text x="20" y="477" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888800000000000000000000S##x====++xxXXXXXXXXXXXXx++-;;;;;;---=xXX888888888888888Xxxx+X0S#SSSSSSSSS0SSSSSSSSSSSSSSSSSSSSSSSSS######SS</text>
+    <text x="20" y="485" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX888888888000000000000000000SS###x===+++xxxXXxXXxx+===;--;-----------===+xX8XX88888XXXxxx+=x8XSSSSSSSSS00SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</text>
+    <text x="20" y="493" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX888888888800000000000000000SS###@#x===+xxxXxxx+=====+++xxxxxxxXXXxxx++--;;=xXX888XXXxxxX=;=-8SSSSSSSSS00000000SSSSSSSSSSSSSSSSSSSSSSSSSS</text>
+    <text x="20" y="501" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX888800000000000000000000000SS#####S+==+++xxxx==-=======+++++xXx+++==-=-;;-=+xXXXXXXXxxXXS0SSSSSSSSSS0000000000000S00S0SSSSSSSSSSSSSSSS#S</text>
+    <text x="20" y="509" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX888800008080000000000000000SS######8===++++++==++=========-----==xxXxx++xx++xXXxxxxxxxXSSSSSSSSSSSSS000000000000000000000SSSSSSSSSSS#S#S</text>
+    <text x="20" y="517" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX888088888880000000000000000SS#######X======++==++xxxxxxxX88888888XXXXxxXXXX+xxxx+xxx+x0SSSSSSSSSSSSS000000000000000000000000SSSSSSS#####</text>
+    <text x="20" y="525" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888008888000000000000000000S########=-----===+++xxx+++++xxXxxxxx++++xXXXXxxx++++++++SSSSSSSSS0SSS000000000000000000000000000SSSSS######</text>
+    <text x="20" y="533" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888880800000000000000000000S########x;:;---====++++++==-;;;;:;---=+xxxxxxx+=======-8SSSSSSSSSSSSS000000000000000000000000000SSSSS######</text>
+    <text x="20" y="541" class="ascii-art" font-size="7.5">xxxxxxxxxxxXXX8888888800000000000000000000SS#######X-;::----==+++xx+++==-----==+xxxxxxxxxx==---;-x00SSSSSSSSSSS0000000000000000000000000000SSSSS######</text>
+    <text x="20" y="549" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888000000000000000000000SS#######X=-:,::;-=+xxxxxxxxXXxxXxXXXxXXXXXXXX+=-=;-;-+XS000000S0SSS00000000000000000000000000000SSSSSS#####</text>
+    <text x="20" y="557" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888888888800000000000000SS#######8=--;,,:-==+xxxxXXX88888888XXXXXXXXx+=-::::-+xXS0000000000000000000000000000000000000000SSSSS######</text>
+    <text x="20" y="565" class="ascii-art" font-size="7.5">xxxxxxxxxxxXXX8888888888880000000000000000SS#######0+=--;:,:;-==++x+xxxX8888888Xxx++++==-:,,;=+xxX#00000000000000000000000000000000000000000SSSSSS####</text>
+    <text x="20" y="573" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888888888888800000000000SS#######S+==--;:,,:;---=-=+xxXXXXXXxxx++==--;:.:-=+xxXX#0000000000000000000000000000000000000000SSSSSSS####</text>
+    <text x="20" y="581" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888888888888888000000000SS#######Sx====--;:,,:;;;;;--==+x++=====---:,,,;-++xXXXX#00000000000000000000000000000000000000000SSSSSSSSSS</text>
+    <text x="20" y="589" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888888888888888888000000S########S+++++=--;::,.,,:::;;;;;---;;;;;:,,:;;=+xxXXXX8S00000000000000000000000000000000000000000SSSSSSSSSS</text>
+    <text x="20" y="597" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888888888888888888000000SS#######S++++++==-;::::,,.....,,,,,....,::;;-=+xXXX88880#0000000000000000000000000000000000000000SSSSSSSSSS</text>
+    <text x="20" y="605" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888888888888888888800000SS#######8+++++++==-;;;::::::::::::::::::;;-==+xXX8888888#0000000000000000000000000000000000000000SSSSSSSSSS</text>
+    <text x="20" y="613" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888888888888888888800000SS######Sx+++xxx+++==-;;;;:;;:;;;;;;;;;;;--=++xXX888888880#SS0000000000000000000000000000000000000SSSSSSSSSS</text>
+    <text x="20" y="621" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888888888888888888800000SS#S=:x8++++xxxxx+++===---;;;;;;;-;;----===+xxXXX8888888888S#X;=SS00000000000000000000000000000000SSSSSSSSSS</text>
+    <text x="20" y="629" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX8888888888888888888888800000S0X+0Xx+++++xxxxxxx+++======------=======++xxxX88888888888880S#SX0S#S00000000000000000000000000000SSSSSSSSSS</text>
+    <text x="20" y="637" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX888888888888888888888000XX++=--xXx+++++xxxxxxxxxxx++====+=====++++++xxxxX8888888888888880SS#Sx+X800S#0000000000000000000000000SSSSSSSSSS</text>
+    <text x="20" y="645" class="ascii-art" font-size="7.5">xxxxxxxxxxxxXX88888888888888888888x==+-=--;;;+Xxx++++xxxxxxxxxxxxx++++++xxxxxxxxxx+xxXX88888888888888000SS8==+xxxxX8XX8000000000000000000000SSSSSSSSSS</text>
+    <text x="20" y="653" class="ascii-art" font-size="7.5">xxxxxxxxxxxXX888888888888888008+=--==---;;;::;xxx+xxxxxxxxxxxxXxxxxxxx++xxxxxxxxXXXXX888888888880000000SS8===+++x+xxxxxxxx8SS000000000000000SSSSSSSSSS</text>
+    <text x="20" y="661" class="ascii-art" font-size="7.5">xxxxxxxxxxxXX88888888888088x===--------;;::::::+xxxxxxxxxxxxxxXXXXXxxxxxxxxXxxXXXXXX888888888880000000SSX---===+++++++++xxxxxX080S0000000000SSSSSSSSSS</text>
+    <text x="20" y="669" class="ascii-art" font-size="7.5">xxxxxxxxxxxXX88800808x+X+===------;;;;;;;;::::::=XXxxXXXXxxxxxXXXXXXXXXXXxXXXXXXXXX8888888X888000000SS0=---=====+++++++++++++++x8XXXX0S00000SSSSSSSSSS</text>
+    <text x="20" y="677" class="ascii-art" font-size="7.5">xxxxxxxxxxxXX8800++xx=---------;;;;;;;;;;;::::::::+xXXXXXXXXxxxXXXXXXXXXXXXXXXXXXX88XX8XXXX8800000SS0-;;;----===++=++++++++++++++xxxxxxxX8#SSSSSSSSSSS</text>
+    <text x="20" y="685" class="ascii-art" font-size="7.5">xxxxxxxxxxX00x+=++=----------;;;;;;;;;:;;;::,::::,,:-xXX88XXXXxXXXXXXXXXXXXXXXXXXXXXXXXXXX88800S00X-;;;;;---=-================+++++++++++x+xX8###SSSSS</text>
+    <text x="20" y="693" class="ascii-art" font-size="7.5">xxxXXX800x====----------;;;;;;;;;;;:::::::::::::::,,,::-X88XXXXXXXXXXXXXXxxxxxxXXXXXXX8XXX88000x;;;;;;;;;;-----==================++++++++++++++xxx8###</text>
+    <text x="20" y="701" class="ascii-art" font-size="7.5">XXXX8x=--------------;;;;;;;;;;;;:::::::::::::::::::,,:::::;xXXXXXX8XXXXxxxxxxxxXXX888XXX88+;;;::;;;;;;;-;------------===============+++++++++++++++xx</text>
+    <text x="20" y="709" class="ascii-art" font-size="7.5">X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXXXX88x=;:::::::::;;;;;;;;;;;;;-----------================++++++++++++++</text>
+    <text x="20" y="717" class="ascii-art" font-size="7.5">-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;;;;;;;;;;;;;;---------------================+==++=++++</text>
+    <text x="20" y="725" class="ascii-art" font-size="7.5">;;;;;;;;;;;;;;;;;;;:;;;;;;:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;;;;;;;;;;;;;;;--------------===-======================</text>
+    <text x="20" y="733" class="ascii-art" font-size="7.5">;;;;;;;;;;::::::::;:;;;:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;:;;;;;;;;;;;;;;;;;;;;;---------------=-----================</text>
+    <text x="20" y="741" class="ascii-art" font-size="7.5">;;;;:;;;;:::::::::::;:::::::::::::::::::::::::::::::::::::::::::::::::::;:::::;::::::::;;;::::;;;;;;;;;;;;;;;;;;;;;;;------------------=-=============</text>
+    <text x="20" y="749" class="ascii-art" font-size="7.5">::;:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-----------------==--==========</text>
+    <text x="20" y="757" class="ascii-art" font-size="7.5">:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:::;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-----;;;----==-------------</text>
+    <text x="20" y="765" class="ascii-art" font-size="7.5">::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;------------------</text>
+    <text x="20" y="773" class="ascii-art" font-size="7.5">::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-----------------;-</text>
+    <text x="20" y="781" class="ascii-art" font-size="7.5">::::::::::,::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:::;:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-;-;;;;;;;;;--;;;;</text>
+    <text x="20" y="789" class="ascii-art" font-size="7.5">::::::::::,::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;;;;;;;;;;;;;;;;;;;;;;;;;;--;;;;;;;;;;;;;;;;;</text>
+    <text x="20" y="797" class="ascii-art" font-size="7.5">::::::::::,::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:;;;;;;;;;;;;;;;;;;;;;:;;;;;;;;;;;;;;;;;;;;;;;</text>
+    <text x="20" y="805" class="ascii-art" font-size="7.5">::::::::::,,::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;::::;:;::;;;::;;;;;;;;;;;;;;:;;;;;;;;;;;;;;;;;;;;;;;;</text>
+    <text x="20" y="813" class="ascii-art" font-size="7.5">::::::::,,,,:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:::::;::::;;::;;;;;;;:;;;;;;;;;;;:;;:;;;;:;;;;</text>
+    <text x="20" y="821" class="ascii-art" font-size="7.5">::::::::,:,,:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;:;;;;::;;;;;;;;;;;;;::;;;::::::</text>
+    <text x="20" y="829" class="ascii-art" font-size="7.5">:::::::::,,::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;::::::::;:;:::;;;;;;;;;;;;:::;;:::::::</text>
+    <text x="20" y="837" class="ascii-art" font-size="7.5">,::::::,,,,:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;;:;;;;;;;;:::;;::::::::</text>
+    <text x="20" y="845" class="ascii-art" font-size="7.5">,::::::::,,::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;::::::::::::::::::::;;;;:;;;;:::::::::::::::</text>
+    <text x="20" y="853" class="ascii-art" font-size="7.5">,,::,,,,,,,:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;;;;;:;;:;;;::::::::::::</text>
+    <text x="20" y="861" class="ascii-art" font-size="7.5">,,,,,:,,,,,:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;;;::::;::::::::::::</text>
+    <text x="20" y="869" class="ascii-art" font-size="7.5">,.,,,,,,,,::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::,:::</text>
+    <text x="20" y="877" class="ascii-art" font-size="7.5">,.,,,,,,,,:,::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::,,,,,,,,</text>
 
     
     <!-- ===== خط جداکننده عمودی ===== -->
-    <line x1="420" y1="85" x2="420" y2="836" class="vertical-line"/>
+    <line x1="420" y1="85" x2="420" y2="900" class="vertical-line"/>
     
     <!-- ===== اطلاعات (سمت راست) ===== -->
     <!-- SYSTEM -->
@@ -193,7 +201,7 @@
     <text x="580" y="130" class="value"> Windows 10, Android 14, Linux's</text>
     
     <text x="470" y="155" class="label">Uptime: </text>
-    <text x="580" y="155" class="value"> 18y 11m 17d 10:10:02</text>
+    <text x="580" y="155" class="value"> 18y 11m 17d 10:39:10</text>
 
     <text x="470" y="180" class="label">University: </text> 
     <text x="580" y="180" class="value"> University of Lorestan</text>
@@ -262,10 +270,10 @@
     <text x="580" y="655" class="value"> arshiaghobadi0</text>
     
     <!-- ===== FOOTER ===== -->
-    <line x1="35" y1="876" x2="1060" y2="876" class="separator"/>
+    <line x1="35" y1="940" x2="1060" y2="940" class="separator"/>
     
-    <text x="35" y="901" class="footer">
-        ╰─ Last Updated: 2026-07-17 10:10 
+    <text x="35" y="965" class="footer">
+        ╰─ Last Updated: 2026-07-17 10:39 
         <tspan class="accent-text">♥</tspan>
     </text>
     
