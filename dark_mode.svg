@@ -75,6 +75,11 @@
             stroke-width: 1;
             stroke-dasharray: 4,4;
         }
+        .timezone-tag {
+            font-size: 11px;
+            fill: #8b949e;
+            opacity: 0.6;
+        }
     </style>
 
     <!-- ===== HEADER ===== -->
@@ -181,7 +186,7 @@
 
     
     <!-- ===== خط جداکننده عمودی ===== -->
-    <line x1="540" y1="80" x2="540" y2="836" class="vertical-line"/>
+    <line x1="540" y1="80" x2="540" y2="830" class="vertical-line"/>
     
     <!-- ===== اطلاعات (سمت راست) ===== -->
     <!-- SYSTEM -->
@@ -192,81 +197,86 @@
     <text x="570" y="130" class="label">OS: </text>
     <text x="680" y="130" class="value"> Windows 10, Android 14, Linux's</text>
     
-    <text x="570" y="155" class="label">Uptime: </text>
-    <text x="680" y="155" class="value"> 18y 11m 17d 11:20:48</text>
+    <text x="570" y="155" class="label">Uptime (IRST): </text>
+    <text x="680" y="155" class="value"> 18y 11m 17d 15:02:58</text>
 
-    <text x="570" y="180" class="label">University: </text> 
-    <text x="680" y="180" class="value"> University of Lorestan</text>
+    <text x="570" y="180" class="label">Uptime (UTC): </text>
+    <text x="680" y="180" class="value"> 18y 11m 17d 11:32:58</text>
+
+    <text x="570" y="205" class="label">University: </text> 
+    <text x="680" y="205" class="value"> University of Lorestan</text>
     
-    <text x="570" y="205" class="label">Host: </text>
-    <text x="680" y="205" class="value"> -</text>
+    <text x="570" y="230" class="label">Host: </text>
+    <text x="680" y="230" class="value"> -</text>
     
-    <text x="570" y="230" class="label">Kernel: </text>
-    <text x="680" y="230" class="value"> Software Engineering Student</text>
+    <text x="570" y="255" class="label">Kernel: </text>
+    <text x="680" y="255" class="value"> Software Engineering Student</text>
     
-    <text x="570" y="255" class="label">IDE: </text>
-    <text x="680" y="255" class="value"> VIM, VS Code, PyCharm</text>
+    <text x="570" y="280" class="label">IDE: </text>
+    <text x="680" y="280" class="value"> VIM, VS Code, PyCharm</text>
     
     <!-- خط جداکننده افقی -->
-    <line x1="550" y1="280" x2="960" y2="280" class="separator"/>
+    <line x1="550" y1="305" x2="960" y2="305" class="separator"/>
     
     <!-- LANGUAGES -->
-    <text x="550" y="310" class="section-title">
+    <text x="550" y="330" class="section-title">
         <tspan class="section-icon">■</tspan> LANGUAGES
     </text>
     
-    <text x="570" y="340" class="label">Programming: </text>
-    <text x="680" y="340" class="value"> C, C++, C#, Python, JavaScript</text>
+    <text x="570" y="360" class="label">Programming: </text>
+    <text x="680" y="360" class="value"> C, C++, C#, Python, JavaScript</text>
     
-    <text x="570" y="365" class="label">Computer: </text>
-    <text x="680" y="365" class="value"> HTML, CSS, JSON, MARKDOWN, YAML</text>
+    <text x="570" y="385" class="label">Computer: </text>
+    <text x="680" y="385" class="value"> HTML, CSS, JSON, MARKDOWN, YAML</text>
     
-    <text x="570" y="390" class="label">Real: </text>
-    <text x="680" y="390" class="value"> English (A2), Persian</text>
+    <text x="570" y="410" class="label">Real: </text>
+    <text x="680" y="410" class="value"> English (A2), Persian</text>
     
     <!-- خط جداکننده افقی -->
-    <line x1="550" y1="410" x2="960" y2="410" class="separator"/>
+    <line x1="550" y1="435" x2="960" y2="435" class="separator"/>
     
     <!-- HOBBIES -->
-    <text x="550" y="435" class="section-title">
+    <text x="550" y="460" class="section-title">
         <tspan class="section-icon">■</tspan> HOBBIES
     </text>
     
-    <text x="570" y="460" class="label">Software: </text>
-    <text x="680" y="460" class="value"> Operating System, CLI</text>
+    <text x="570" y="485" class="label">Software: </text>
+    <text x="680" y="485" class="value"> Operating System, CLI</text>
     
-    <text x="570" y="485" class="label">Hardware: </text>
-    <text x="680" y="485" class="value"> Make Stuff, Arduino, Raspberry Pi</text>
+    <text x="570" y="510" class="label">Hardware: </text>
+    <text x="680" y="510" class="value"> Make Stuff, Arduino, Raspberry Pi</text>
 
-    <text x="570" y="510" class="label">RealLife: </text>
-    <text x="680" y="510" class="value"> </text>
+    <text x="570" y="535" class="label">RealLife: </text>
+    <text x="680" y="535" class="value"> </text>
 
     <!-- خط جداکننده افقی -->
-    <line x1="550" y1="530" x2="960" y2="530" class="separator"/>
+    <line x1="550" y1="560" x2="960" y2="560" class="separator"/>
     
     <!-- ===== CONTACT ===== -->
-    <text x="550" y="555" class="section-title">
+    <text x="550" y="585" class="section-title">
         <tspan class="section-icon">■</tspan> CONTACT
     </text>
     
-    <text x="570" y="580" class="label">Personal: </text>
-    <text x="680" y="580" class="value"> arshiaghobadi0@gmail.com</text>
+    <text x="570" y="610" class="label">Personal: </text>
+    <text x="680" y="610" class="value"> arshiaghobadi0@gmail.com</text>
     
-    <text x="570" y="605" class="label">Work: </text>
-    <text x="680" y="605" class="value"> arshiaghobadi0@gmail.com</text>
+    <text x="570" y="635" class="label">Work: </text>
+    <text x="680" y="635" class="value"> arshiaghobadi0@gmail.com</text>
     
-    <text x="570" y="630" class="label">LinkedIn: </text>
-    <text x="680" y="630" class="value"> arshiaghobadi</text>
+    <text x="570" y="660" class="label">LinkedIn: </text>
+    <text x="680" y="660" class="value"> arshiaghobadi</text>
     
-    <text x="570" y="655" class="label">Instagram: </text>
-    <text x="680" y="655" class="value"> arshiaghobadi0</text>
+    <text x="570" y="685" class="label">Instagram: </text>
+    <text x="680" y="685" class="value"> arshiaghobadi0</text>
     
-    <!-- ===== FOOTER ===== -->
+    <!-- ===== FOOTER با دو تایم‌زون ===== -->
     <line x1="30" y1="830" x2="960" y2="830" class="separator"/>
     
     <text x="30" y="850" class="footer">
-        ╰─ Last Updated: 2026-07-17 11:20 
-        <tspan class="accent-text">By Arshia Ghobadi ♥</tspan>
+        ╰─ Last Updated: 2026-07-17 15:02 IRST (Local)
+        <tspan class="accent-text"> | </tspan>
+        2026-07-17 11:32 UTC (Global)
+        <tspan class="accent-text"> | By Arshia Ghobadi ♥</tspan>
     </text>
     
 </svg>
