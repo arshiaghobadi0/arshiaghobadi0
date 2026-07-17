@@ -258,7 +258,7 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     <!-- ===== HEADER ===== -->
     <text x="30" y="52" class="header">╭─</text>
     <text x="75" y="52" class="header">{USERNAME}</text>
-    <text x="{75 + len(USERNAME)*14 + 20}" y="52" class="header-sub">// Developer</text>
+    <text x="{75 + len(USERNAME)*14 + 44}" y="52" class="header-sub">// Developer</text>
     
     <!-- خط جداکننده بالایی -->
     <line x1="38" y1="66" x2="960" y2="66" class="solid-separator"/>
@@ -348,9 +348,9 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     <text x="680" y="655" class="value"> {INSTAGRAM}</text>
     
     <!-- ===== FOOTER ===== -->
-    <line x1="30" y1="{svg_height - 45}" x2="960" y2="{svg_height - 45}" class="separator"/>
+    <line x1="30" y1="830" x2="960" y2="830" class="separator"/>
     
-    <text x="30" y="{svg_height - 25}" class="footer">
+    <text x="30" y="850" class="footer">
         ╰─ Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} 
         <tspan class="accent-text">By Arshia Ghobadi ♥</tspan>
     </text>
