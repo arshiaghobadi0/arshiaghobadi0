@@ -17,7 +17,7 @@ REAL_LANGS = "English (A2), Persian"
 
 SOFTWARE_HOBBIES = "Operating System, CLI"
 HARDWARE_HOBBIES = "Make Stuff, Arduino, Raspberry Pi"
-REALLIFE_HOBBIES = ""
+REALLIFE_HOBBIES = "-"
 
 EMAIL_PERSONAL = "arshiaghobadi0@gmail.com"
 EMAIL_WORK = "arshiaghobadi0@gmail.com"
