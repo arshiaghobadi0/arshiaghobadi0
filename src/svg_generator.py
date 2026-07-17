@@ -317,25 +317,25 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     </text>
     
     <text x="570" y="130" class="label">OS: </text>
-    <text x="680" y="130" class="value"> {OS}</text>
+    <text x="700" y="130" class="value"> {OS}</text>
     
     <text x="570" y="155" class="label">Uptime (IRST): </text>
-    <text x="680" y="155" class="value"> {age_local}</text>
+    <text x="700" y="155" class="value"> {age_local}</text>
 
     <text x="570" y="180" class="label">Uptime (UTC): </text>
-    <text x="680" y="180" class="value"> {age_utc}</text>
+    <text x="700" y="180" class="value"> {age_utc}</text>
 
     <text x="570" y="205" class="label">University: </text> 
-    <text x="680" y="205" class="value"> {UNIVERSITY}</text>
+    <text x="700" y="205" class="value"> {UNIVERSITY}</text>
     
     <text x="570" y="230" class="label">Host: </text>
-    <text x="680" y="230" class="value"> {HOST}</text>
+    <text x="700" y="230" class="value"> {HOST}</text>
     
     <text x="570" y="255" class="label">Kernel: </text>
-    <text x="680" y="255" class="value"> {KERNEL}</text>
+    <text x="700" y="255" class="value"> {KERNEL}</text>
     
     <text x="570" y="280" class="label">IDE: </text>
-    <text x="680" y="280" class="value"> {IDE}</text>
+    <text x="700" y="280" class="value"> {IDE}</text>
     
     <!-- خط جداکننده افقی -->
     <line x1="550" y1="305" x2="960" y2="305" class="separator"/>
@@ -346,13 +346,13 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     </text>
     
     <text x="570" y="360" class="label">Programming: </text>
-    <text x="680" y="360" class="value"> {PROG_LANGS}</text>
+    <text x="700" y="360" class="value"> {PROG_LANGS}</text>
     
     <text x="570" y="385" class="label">Computer: </text>
-    <text x="680" y="385" class="value"> {COMPUTER_LANGS}</text>
+    <text x="700" y="385" class="value"> {COMPUTER_LANGS}</text>
     
     <text x="570" y="410" class="label">Real: </text>
-    <text x="680" y="410" class="value"> {REAL_LANGS}</text>
+    <text x="700" y="410" class="value"> {REAL_LANGS}</text>
     
     <!-- خط جداکننده افقی -->
     <line x1="550" y1="435" x2="960" y2="435" class="separator"/>
@@ -363,13 +363,13 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     </text>
     
     <text x="570" y="485" class="label">Software: </text>
-    <text x="680" y="485" class="value"> {SOFTWARE_HOBBIES}</text>
+    <text x="700" y="485" class="value"> {SOFTWARE_HOBBIES}</text>
     
     <text x="570" y="510" class="label">Hardware: </text>
-    <text x="680" y="510" class="value"> {HARDWARE_HOBBIES}</text>
+    <text x="700" y="510" class="value"> {HARDWARE_HOBBIES}</text>
 
     <text x="570" y="535" class="label">RealLife: </text>
-    <text x="680" y="535" class="value"> {REALLIFE_HOBBIES}</text>
+    <text x="700" y="535" class="value"> {REALLIFE_HOBBIES}</text>
 
     <!-- خط جداکننده افقی -->
     <line x1="550" y1="560" x2="960" y2="560" class="separator"/>
@@ -380,16 +380,16 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     </text>
     
     <text x="570" y="610" class="label">Personal: </text>
-    <text x="680" y="610" class="value"> {EMAIL_PERSONAL}</text>
+    <text x="700" y="610" class="value"> {EMAIL_PERSONAL}</text>
     
     <text x="570" y="635" class="label">Work: </text>
-    <text x="680" y="635" class="value"> {EMAIL_WORK}</text>
+    <text x="700" y="635" class="value"> {EMAIL_WORK}</text>
     
     <text x="570" y="660" class="label">LinkedIn: </text>
-    <text x="680" y="660" class="value"> {LINKEDIN}</text>
+    <text x="700" y="660" class="value"> {LINKEDIN}</text>
     
     <text x="570" y="685" class="label">Instagram: </text>
-    <text x="680" y="685" class="value"> {INSTAGRAM}</text>
+    <text x="700" y="685" class="value"> {INSTAGRAM}</text>
     
     <!-- ===== FOOTER با دو تایم‌زون ===== -->
     <line x1="30" y1="830" x2="960" y2="830" class="separator"/>
