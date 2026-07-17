@@ -107,7 +107,7 @@ xxxxxxxxxxxXXX88888888808000000000000000+=x=--==+xxxXXX888888888XXxxxX800SSS0088
 xxxxxxxxxxxxXX888888888800000000000000008:=Xx-==++xxXXXXXX8888888x++=+x888088Xx++xxx80000000000888888XXxx=XS0X+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS########
 xxxxxxxxxxxxXX888888800800000000000000000+:+=-===+xxXXXXXX888888Xx=-;:;=xXXX+=:,;==x8808000088888888XXxx+X000SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS#######
 xxxxxxxxxxxxXX8888880000000000000000000000S0x+--=+xxxXXXXX888X88Xx=-;:;::---;;-;;-+X888888888888888XXxxx+88#SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS#######
-xxxxxxxxxxxxXX8888888800000000000000000000S##x====++xxXXXXXXXXXXXXx++-;;;;;;---=xXX888888888888888Xxxx+X0S#SSSSSSSSS0SSSSSSSSSSSSSSSSSSSSSSSSS######S
+xxxxxxxxxxxxXX8888888800000000000000000000S##x====++xxXXXXXXXXXXXXx++-;;;;;;---=xXX888888888888888Xxxx+X0S#SSSSSSSSS0SSSSSSSSSSSSSSSSSSSSSSSSS######SS
 xxxxxxxxxxxxXX888888888000000000000000000SS###x===+++xxxXXxXXxx+===;--;-----------===+xX8XX88888XXXxxx+=x8XSSSSSSSSS00SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
 xxxxxxxxxxxxXX888888888800000000000000000SS###@#x===+xxxXxxx+=====+++xxxxxxxXXXxxx++--;;=xXX888XXXxxxX=;=-8SSSSSSSSS00000000SSSSSSSSSSSSSSSSSSSSSSSSSS
 xxxxxxxxxxxxXX888800000000000000000000000SS#####S+==+++xxxx==-=======+++++xXx+++==-=-;;-=+xXXXXXXXxxXXS0SSSSSSSSSS0000000000000S00S0SSSSSSSSSSSSSSSS#S
@@ -167,7 +167,7 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     ascii_start_x = 20       # فاصله از لبه چپ (کمتر)
     ascii_start_y = 85       # شروع از بالاتر
     line_height = 8          # فاصله کمتر بین خطوط
-    font_size = 4.5          # سایز فونت کوچکتر
+    font_size = 7.5          # سایز فونت کوچکتر
     
     ascii_elements = ""
     for i, line in enumerate(ascii_lines):
