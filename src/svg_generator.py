@@ -258,7 +258,7 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     <!-- ===== HEADER ===== -->
     <text x="30" y="52" class="header">╭─</text>
     <text x="75" y="52" class="header">{USERNAME}</text>
-    <text x="{len(USERNAME)+ 240}" y="52" class="header-sub">// Developer</text>
+    <text x="{75 + len(USERNAME)*14 + 20}" y="52" class="header-sub">// Developer</text>
     
     <!-- خط جداکننده بالایی -->
     <line x1="38" y1="66" x2="960" y2="66" class="solid-separator"/>
