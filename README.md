@@ -1,4 +1,3 @@
-## Hi there 👋
 <a href="https://github.com/arshiaghobadi0/arshiaghobadi0/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/arshiaghobadi0/arshiaghobadi0/blob/main/dark_mode.svg">
