@@ -174,7 +174,7 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     # ===== تنظیم عرض و ارتفاع SVG بر اساس خروجی مورد نظر =====
     svg_width = 1000
     # محاسبه ارتفاع: آخرین خط ASCII + فاصله + فوتر
-    svg_height = max(875)
+    svg_height = max(875, separator_y + 60)
     
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{svg_width}" height="{svg_height}" viewBox="0 0 {svg_width} {svg_height}">
     <!-- ===== تعریف الگوی گرید ===== -->
