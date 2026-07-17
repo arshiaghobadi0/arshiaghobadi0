@@ -193,7 +193,7 @@
     <text x="680" y="130" class="value"> Windows 10, Android 14, Linux's</text>
     
     <text x="570" y="155" class="label">Uptime: </text>
-    <text x="680" y="155" class="value"> 18y 11m 17d 10:59:53</text>
+    <text x="680" y="155" class="value"> 18y 11m 17d 11:12:24</text>
 
     <text x="570" y="180" class="label">University: </text> 
     <text x="680" y="180" class="value"> University of Lorestan</text>
@@ -262,10 +262,10 @@
     <text x="680" y="655" class="value"> arshiaghobadi0</text>
     
     <!-- ===== FOOTER ===== -->
-    <line x1="30" y1="856" x2="960" y2="856" class="separator"/>
+    <line x1="30" y1="851" x2="960" y2="851" class="separator"/>
     
-    <text x="30" y="881" class="footer">
-        ╰─ Last Updated: 2026-07-17 10:59 
+    <text x="30" y="871" class="footer">
+        ╰─ Last Updated: 2026-07-17 11:12 
         <tspan class="accent-text">By Arshia Ghobadi ♥</tspan>
     </text>
     
