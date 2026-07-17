@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="916" viewBox="0 0 1100 916">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="896" viewBox="0 0 1000 896">
     <!-- ===== تعریف الگوی گرید ===== -->
     <defs>
         <pattern id="grid-small" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -11,9 +11,9 @@
     </defs>
     
     <!-- ===== پس‌زمینه با گرید ===== -->
-    <rect width="1100" height="916" fill="#ffffff" rx="14" ry="14"/>
-    <rect width="1100" height="916" fill="url(#grid-large)" rx="14" ry="14"/>
-    <rect width="1100" height="916" fill="none" stroke="#d0d7de" stroke-width="1.5" rx="14" ry="14"/>
+    <rect width="1000" height="896" fill="#ffffff" rx="20" ry="20"/>
+    <rect width="1000" height="896" fill="url(#grid-large)" rx="20" ry="20"/>
+    <rect width="1000" height="896" fill="none" stroke="#d0d7de" stroke-width="1.5" rx="20" ry="20"/>
     
     <style>
         text { 
@@ -78,12 +78,12 @@
     </style>
 
     <!-- ===== HEADER ===== -->
-    <text x="40" y="52" class="header">╭─</text>
-    <text x="85" y="52" class="header">arshiaghobadi0</text>
-    <text x="321" y="52" class="header-sub">// Developer</text>
+    <text x="30" y="52" class="header">╭─</text>
+    <text x="75" y="52" class="header">arshiaghobadi0</text>
+    <text x="291" y="52" class="header-sub">// Developer</text>
     
     <!-- خط جداکننده بالایی -->
-    <line x1="40" y1="66" x2="1060" y2="66" class="solid-separator"/>
+    <line x1="38" y1="66" x2="960" y2="66" class="solid-separator"/>
     
     <!-- ===== ASCII ART (سمت چپ، فول سایز) ===== -->
     <text x="20" y="85" class="ascii-art" font-size="5.5">+++++++++++xxXXX88888888888888888888888888888888888888888000000000000000000000000000000SS#@@@@@@@@@#####SSSSSSSSSSSS000SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</text>
@@ -181,92 +181,92 @@
 
     
     <!-- ===== خط جداکننده عمودی ===== -->
-    <line x1="420" y1="85" x2="420" y2="836" class="vertical-line"/>
+    <line x1="540" y1="80" x2="540" y2="836" class="vertical-line"/>
     
     <!-- ===== اطلاعات (سمت راست) ===== -->
     <!-- SYSTEM -->
-    <text x="450" y="100" class="section-title">
+    <text x="550" y="100" class="section-title">
         <tspan class="section-icon">■</tspan> SYSTEM
     </text>
     
-    <text x="470" y="130" class="label">OS: </text>
-    <text x="580" y="130" class="value"> Windows 10, Android 14, Linux's</text>
+    <text x="570" y="130" class="label">OS: </text>
+    <text x="680" y="130" class="value"> Windows 10, Android 14, Linux's</text>
     
-    <text x="470" y="155" class="label">Uptime: </text>
-    <text x="580" y="155" class="value"> 18y 11m 17d 10:41:42</text>
+    <text x="570" y="155" class="label">Uptime: </text>
+    <text x="680" y="155" class="value"> 18y 11m 17d 10:59:53</text>
 
-    <text x="470" y="180" class="label">University: </text> 
-    <text x="580" y="180" class="value"> University of Lorestan</text>
+    <text x="570" y="180" class="label">University: </text> 
+    <text x="680" y="180" class="value"> University of Lorestan</text>
     
-    <text x="470" y="205" class="label">Host: </text>
-    <text x="580" y="205" class="value"> -</text>
+    <text x="570" y="205" class="label">Host: </text>
+    <text x="680" y="205" class="value"> -</text>
     
-    <text x="470" y="230" class="label">Kernel: </text>
-    <text x="580" y="230" class="value"> Software Engineering Student</text>
+    <text x="570" y="230" class="label">Kernel: </text>
+    <text x="680" y="230" class="value"> Software Engineering Student</text>
     
-    <text x="470" y="255" class="label">IDE: </text>
-    <text x="580" y="255" class="value"> VIM, VS Code, PyCharm</text>
+    <text x="570" y="255" class="label">IDE: </text>
+    <text x="680" y="255" class="value"> VIM, VS Code, PyCharm</text>
     
     <!-- خط جداکننده افقی -->
-    <line x1="450" y1="280" x2="1060" y2="280" class="separator"/>
+    <line x1="550" y1="280" x2="960" y2="280" class="separator"/>
     
     <!-- LANGUAGES -->
-    <text x="450" y="310" class="section-title">
+    <text x="550" y="310" class="section-title">
         <tspan class="section-icon">■</tspan> LANGUAGES
     </text>
     
-    <text x="470" y="340" class="label">Programming: </text>
-    <text x="580" y="340" class="value"> C, C++, C#, Python, JavaScript</text>
+    <text x="570" y="340" class="label">Programming: </text>
+    <text x="680" y="340" class="value"> C, C++, C#, Python, JavaScript</text>
     
-    <text x="470" y="365" class="label">Computer: </text>
-    <text x="580" y="365" class="value"> HTML, CSS, JSON, MARKDOWN, YAML</text>
+    <text x="570" y="365" class="label">Computer: </text>
+    <text x="680" y="365" class="value"> HTML, CSS, JSON, MARKDOWN, YAML</text>
     
-    <text x="470" y="390" class="label">Real: </text>
-    <text x="580" y="390" class="value"> English (A2), Persian</text>
+    <text x="570" y="390" class="label">Real: </text>
+    <text x="680" y="390" class="value"> English (A2), Persian</text>
     
     <!-- خط جداکننده افقی -->
-    <line x1="450" y1="410" x2="1060" y2="410" class="separator"/>
+    <line x1="550" y1="410" x2="960" y2="410" class="separator"/>
     
     <!-- HOBBIES -->
-    <text x="450" y="435" class="section-title">
+    <text x="550" y="435" class="section-title">
         <tspan class="section-icon">■</tspan> HOBBIES
     </text>
     
-    <text x="470" y="460" class="label">Software: </text>
-    <text x="580" y="460" class="value"> Operating System, CLI</text>
+    <text x="570" y="460" class="label">Software: </text>
+    <text x="680" y="460" class="value"> Operating System, CLI</text>
     
-    <text x="470" y="485" class="label">Hardware: </text>
-    <text x="580" y="485" class="value"> Make Stuff, Arduino, Raspberry Pi</text>
+    <text x="570" y="485" class="label">Hardware: </text>
+    <text x="680" y="485" class="value"> Make Stuff, Arduino, Raspberry Pi</text>
 
-    <text x="470" y="510" class="label">RealLife: </text>
-    <text x="580" y="510" class="value"> </text>
+    <text x="570" y="510" class="label">RealLife: </text>
+    <text x="680" y="510" class="value"> </text>
 
     <!-- خط جداکننده افقی -->
-    <line x1="450" y1="530" x2="1060" y2="530" class="separator"/>
+    <line x1="550" y1="530" x2="960" y2="530" class="separator"/>
     
     <!-- ===== CONTACT ===== -->
-    <text x="450" y="555" class="section-title">
+    <text x="550" y="555" class="section-title">
         <tspan class="section-icon">■</tspan> CONTACT
     </text>
     
-    <text x="470" y="580" class="label">Personal: </text>
-    <text x="580" y="580" class="value"> arshiaghobadi0@gmail.com</text>
+    <text x="570" y="580" class="label">Personal: </text>
+    <text x="680" y="580" class="value"> arshiaghobadi0@gmail.com</text>
     
-    <text x="470" y="605" class="label">Work: </text>
-    <text x="580" y="605" class="value"> arshiaghobadi0@gmail.com</text>
+    <text x="570" y="605" class="label">Work: </text>
+    <text x="680" y="605" class="value"> arshiaghobadi0@gmail.com</text>
     
-    <text x="470" y="630" class="label">LinkedIn: </text>
-    <text x="580" y="630" class="value"> arshiaghobadi</text>
+    <text x="570" y="630" class="label">LinkedIn: </text>
+    <text x="680" y="630" class="value"> arshiaghobadi</text>
     
-    <text x="470" y="655" class="label">Instagram: </text>
-    <text x="580" y="655" class="value"> arshiaghobadi0</text>
+    <text x="570" y="655" class="label">Instagram: </text>
+    <text x="680" y="655" class="value"> arshiaghobadi0</text>
     
     <!-- ===== FOOTER ===== -->
-    <line x1="35" y1="876" x2="1060" y2="876" class="separator"/>
+    <line x1="30" y1="856" x2="960" y2="856" class="separator"/>
     
-    <text x="35" y="901" class="footer">
-        ╰─ Last Updated: 2026-07-17 10:41 
-        <tspan class="accent-text">♥</tspan>
+    <text x="30" y="881" class="footer">
+        ╰─ Last Updated: 2026-07-17 10:59 
+        <tspan class="accent-text">By Arshia Ghobadi ♥</tspan>
     </text>
     
 </svg>
