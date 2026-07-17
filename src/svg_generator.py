@@ -1,18 +1,49 @@
-from datetime import datetime
+from datetime import datetime, timezone
 from dateutil import relativedelta
 from src.config import *
+import pytz
 
-def calculate_age():
-    """محاسبه سن از تاریخ تولد با ساعت، دقیقه و ثانیه"""
-    now = datetime.now()
-    diff = relativedelta.relativedelta(now, BIRTHDAY)
+def calculate_age(timezone_mode='local'):
+    """
+    محاسبه سن از تاریخ تولد با ساعت، دقیقه و ثانیه
+    timezone_mode: 'local' (تهران) یا 'utc' (جهانی)
+    """
+    # تنظیم تایم‌زون
+    if timezone_mode == 'utc':
+        tz = pytz.UTC
+    else:  # local (تهران)
+        tz = pytz.timezone('Asia/Tehran')
     
-    total_seconds = int((now - BIRTHDAY).total_seconds())
+    now = datetime.now(tz)
+    
+    # تبدیل BIRTHDAY به تایم‌زون مورد نظر
+    birthday = BIRTHDAY
+    if birthday.tzinfo is None:
+        birthday = tz.localize(birthday)
+    
+    diff = relativedelta.relativedelta(now, birthday)
+    
+    total_seconds = int((now - birthday).total_seconds())
     seconds = total_seconds % 60
     minutes = (total_seconds // 60) % 60
     hours = (total_seconds // 3600) % 24
     
     return f"{diff.years}y {diff.months}m {diff.days}d {hours:02d}:{minutes:02d}:{seconds:02d}"
+
+def get_current_time(timezone_mode='local'):
+    """
+    دریافت زمان فعلی با تایم‌زون مشخص
+    timezone_mode: 'local' (تهران) یا 'utc' (جهانی)
+    """
+    if timezone_mode == 'utc':
+        tz = pytz.UTC
+        tz_name = 'UTC'
+    else:  # local (تهران)
+        tz = pytz.timezone('Asia/Tehran')
+        tz_name = 'IRST'
+    
+    now = datetime.now(tz)
+    return now, tz_name
 
 def generate_svg(stats, theme='dark'):
     """
@@ -20,7 +51,13 @@ def generate_svg(stats, theme='dark'):
     theme: 'dark' یا 'light'
     """
     
-    age = calculate_age()
+    # ===== محاسبه سن در دو تایم‌زون =====
+    age_local = calculate_age('local')
+    age_utc = calculate_age('utc')
+    
+    # ===== دریافت زمان فعلی در دو تایم‌زون =====
+    now_local, tz_local = get_current_time('local')
+    now_utc, tz_utc = get_current_time('utc')
     
     # ===== تنظیم رنگ‌ها بر اساس تم =====
     if theme == 'light':
@@ -169,11 +206,10 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     
     # ===== محاسبه ارتفاع برای تعیین خط جداکننده =====
     total_ascii_height = len([l for l in ascii_lines if l.strip()]) * line_height
-    separator_y = ascii_start_y + total_ascii_height + 15  # کمی فاصله بعد از آخرین خط
+    separator_y = ascii_start_y + total_ascii_height + 15
     
     # ===== تنظیم عرض و ارتفاع SVG بر اساس خروجی مورد نظر =====
     svg_width = 1000
-    # محاسبه ارتفاع: آخرین خط ASCII + فاصله + فوتر
     svg_height = max(875, separator_y + 60)
     
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{svg_width}" height="{svg_height}" viewBox="0 0 {svg_width} {svg_height}">
@@ -253,6 +289,11 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
             stroke-width: 1;
             stroke-dasharray: 4,4;
         }}
+        .timezone-tag {{
+            font-size: 11px;
+            fill: {colors['section']};
+            opacity: 0.6;
+        }}
     </style>
 
     <!-- ===== HEADER ===== -->
@@ -267,7 +308,7 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
 {ascii_elements}
     
     <!-- ===== خط جداکننده عمودی ===== -->
-    <line x1="540" y1="80" x2="540" y2="{separator_y}" class="vertical-line"/>
+    <line x1="540" y1="80" x2="540" y2="830" class="vertical-line"/>
     
     <!-- ===== اطلاعات (سمت راست) ===== -->
     <!-- SYSTEM -->
@@ -278,81 +319,86 @@ X+=-----;;;;-;;;;;;;;;;;;;;;;;;;;::::::::::::::::::::::::::::::::;-+X8XXXXXXXXXX
     <text x="570" y="130" class="label">OS: </text>
     <text x="680" y="130" class="value"> {OS}</text>
     
-    <text x="570" y="155" class="label">Uptime: </text>
-    <text x="680" y="155" class="value"> {age}</text>
+    <text x="570" y="155" class="label">Uptime (IRST): </text>
+    <text x="680" y="155" class="value"> {age_local}</text>
 
-    <text x="570" y="180" class="label">University: </text> 
-    <text x="680" y="180" class="value"> {UNIVERSITY}</text>
+    <text x="570" y="180" class="label">Uptime (UTC): </text>
+    <text x="680" y="180" class="value"> {age_utc}</text>
+
+    <text x="570" y="205" class="label">University: </text> 
+    <text x="680" y="205" class="value"> {UNIVERSITY}</text>
     
-    <text x="570" y="205" class="label">Host: </text>
-    <text x="680" y="205" class="value"> {HOST}</text>
+    <text x="570" y="230" class="label">Host: </text>
+    <text x="680" y="230" class="value"> {HOST}</text>
     
-    <text x="570" y="230" class="label">Kernel: </text>
-    <text x="680" y="230" class="value"> {KERNEL}</text>
+    <text x="570" y="255" class="label">Kernel: </text>
+    <text x="680" y="255" class="value"> {KERNEL}</text>
     
-    <text x="570" y="255" class="label">IDE: </text>
-    <text x="680" y="255" class="value"> {IDE}</text>
+    <text x="570" y="280" class="label">IDE: </text>
+    <text x="680" y="280" class="value"> {IDE}</text>
     
     <!-- خط جداکننده افقی -->
-    <line x1="550" y1="280" x2="960" y2="280" class="separator"/>
+    <line x1="550" y1="305" x2="960" y2="305" class="separator"/>
     
     <!-- LANGUAGES -->
-    <text x="550" y="310" class="section-title">
+    <text x="550" y="330" class="section-title">
         <tspan class="section-icon">■</tspan> LANGUAGES
     </text>
     
-    <text x="570" y="340" class="label">Programming: </text>
-    <text x="680" y="340" class="value"> {PROG_LANGS}</text>
+    <text x="570" y="360" class="label">Programming: </text>
+    <text x="680" y="360" class="value"> {PROG_LANGS}</text>
     
-    <text x="570" y="365" class="label">Computer: </text>
-    <text x="680" y="365" class="value"> {COMPUTER_LANGS}</text>
+    <text x="570" y="385" class="label">Computer: </text>
+    <text x="680" y="385" class="value"> {COMPUTER_LANGS}</text>
     
-    <text x="570" y="390" class="label">Real: </text>
-    <text x="680" y="390" class="value"> {REAL_LANGS}</text>
+    <text x="570" y="410" class="label">Real: </text>
+    <text x="680" y="410" class="value"> {REAL_LANGS}</text>
     
     <!-- خط جداکننده افقی -->
-    <line x1="550" y1="410" x2="960" y2="410" class="separator"/>
+    <line x1="550" y1="435" x2="960" y2="435" class="separator"/>
     
     <!-- HOBBIES -->
-    <text x="550" y="435" class="section-title">
+    <text x="550" y="460" class="section-title">
         <tspan class="section-icon">■</tspan> HOBBIES
     </text>
     
-    <text x="570" y="460" class="label">Software: </text>
-    <text x="680" y="460" class="value"> {SOFTWARE_HOBBIES}</text>
+    <text x="570" y="485" class="label">Software: </text>
+    <text x="680" y="485" class="value"> {SOFTWARE_HOBBIES}</text>
     
-    <text x="570" y="485" class="label">Hardware: </text>
-    <text x="680" y="485" class="value"> {HARDWARE_HOBBIES}</text>
+    <text x="570" y="510" class="label">Hardware: </text>
+    <text x="680" y="510" class="value"> {HARDWARE_HOBBIES}</text>
 
-    <text x="570" y="510" class="label">RealLife: </text>
-    <text x="680" y="510" class="value"> {REALLIFE_HOBBIES}</text>
+    <text x="570" y="535" class="label">RealLife: </text>
+    <text x="680" y="535" class="value"> {REALLIFE_HOBBIES}</text>
 
     <!-- خط جداکننده افقی -->
-    <line x1="550" y1="530" x2="960" y2="530" class="separator"/>
+    <line x1="550" y1="560" x2="960" y2="560" class="separator"/>
     
     <!-- ===== CONTACT ===== -->
-    <text x="550" y="555" class="section-title">
+    <text x="550" y="585" class="section-title">
         <tspan class="section-icon">■</tspan> CONTACT
     </text>
     
-    <text x="570" y="580" class="label">Personal: </text>
-    <text x="680" y="580" class="value"> {EMAIL_PERSONAL}</text>
+    <text x="570" y="610" class="label">Personal: </text>
+    <text x="680" y="610" class="value"> {EMAIL_PERSONAL}</text>
     
-    <text x="570" y="605" class="label">Work: </text>
-    <text x="680" y="605" class="value"> {EMAIL_WORK}</text>
+    <text x="570" y="635" class="label">Work: </text>
+    <text x="680" y="635" class="value"> {EMAIL_WORK}</text>
     
-    <text x="570" y="630" class="label">LinkedIn: </text>
-    <text x="680" y="630" class="value"> {LINKEDIN}</text>
+    <text x="570" y="660" class="label">LinkedIn: </text>
+    <text x="680" y="660" class="value"> {LINKEDIN}</text>
     
-    <text x="570" y="655" class="label">Instagram: </text>
-    <text x="680" y="655" class="value"> {INSTAGRAM}</text>
+    <text x="570" y="685" class="label">Instagram: </text>
+    <text x="680" y="685" class="value"> {INSTAGRAM}</text>
     
-    <!-- ===== FOOTER ===== -->
+    <!-- ===== FOOTER با دو تایم‌زون ===== -->
     <line x1="30" y1="830" x2="960" y2="830" class="separator"/>
     
     <text x="30" y="850" class="footer">
-        ╰─ Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} 
-        <tspan class="accent-text">By Arshia Ghobadi ♥</tspan>
+        ╰─ Last Updated: {now_local.strftime('%Y-%m-%d %H:%M')} IRST (Local)
+        <tspan class="accent-text"> | </tspan>
+        {now_utc.strftime('%Y-%m-%d %H:%M')} UTC (Global)
+        <tspan class="accent-text"> | By Arshia Ghobadi ♥</tspan>
     </text>
     
 </svg>'''
