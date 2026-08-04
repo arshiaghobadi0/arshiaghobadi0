@@ -198,10 +198,10 @@
     <text x="700" y="130" class="value"> Windows 10, Android 14, Linux's</text>
     
     <text x="570" y="155" class="label">Uptime (IRST): </text>
-    <text x="700" y="155" class="value"> 19y 0m 4d 07:10:25</text>
+    <text x="700" y="155" class="value"> 19y 0m 5d 06:55:11</text>
 
     <text x="570" y="180" class="label">Uptime (UTC): </text>
-    <text x="700" y="180" class="value"> 19y 0m 4d 03:40:25</text>
+    <text x="700" y="180" class="value"> 19y 0m 5d 03:25:11</text>
 
     <text x="570" y="205" class="label">University: </text> 
     <text x="700" y="205" class="value"> University of Lorestan</text>
@@ -273,9 +273,9 @@
     <line x1="30" y1="830" x2="960" y2="830" class="separator"/>
     
     <text x="30" y="850" class="footer">
-        ╰─ Last Updated: 2026-08-03 07:10 IRST (Local)
+        ╰─ Last Updated: 2026-08-04 06:55 IRST (Local)
         <tspan class="accent-text"> | </tspan>
-        2026-08-03 03:40 UTC (Global)
+        2026-08-04 03:25 UTC (Global)
         <tspan class="accent-text"> | By Arshia Ghobadi ♥</tspan>
     </text>
     
