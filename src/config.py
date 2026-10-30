@@ -5,7 +5,7 @@ GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
 USERNAME = os.environ.get('arshiaghobadi0', 'arshiaghobadi0')
 
 BIRTHDAY = datetime(2007, 7, 30)
-OS = "Windows 10, Android 14, Linux's"
+OS = "ParchLinux 7.2.11, Windows 10, Android 14"
 HOST = "-"
 UNIVERSITY = "University of Lorestan"
 KERNEL = "Software Engineering Student"
