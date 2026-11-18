@@ -198,10 +198,10 @@
     <text x="700" y="130" class="value"> ParchLinux 7.2.11, Windows 10, Android 14</text>
     
     <text x="570" y="155" class="label">Uptime (IRST): </text>
-    <text x="700" y="155" class="value"> 19y 3m 18d 11:09:21</text>
+    <text x="700" y="155" class="value"> 19y 3m 19d 10:31:32</text>
 
     <text x="570" y="180" class="label">Uptime (UTC): </text>
-    <text x="700" y="180" class="value"> 19y 3m 18d 07:39:21</text>
+    <text x="700" y="180" class="value"> 19y 3m 19d 07:01:32</text>
 
     <text x="570" y="205" class="label">University: </text> 
     <text x="700" y="205" class="value"> University of Lorestan</text>
@@ -273,9 +273,9 @@
     <line x1="30" y1="830" x2="960" y2="830" class="separator"/>
     
     <text x="30" y="850" class="footer">
-        ╰─ Last Updated: 2026-11-17 11:09 IRST (Local)
+        ╰─ Last Updated: 2026-11-18 10:31 IRST (Local)
         <tspan class="accent-text"> | </tspan>
-        2026-11-17 07:39 UTC (Global)
+        2026-11-18 07:01 UTC (Global)
         <tspan class="accent-text"> | By Arshia Ghobadi ♥</tspan>
     </text>
     
